@@ -1,0 +1,97 @@
+{"properties": [
+  {
+    "name": "node.script.folder",
+    "type": "java.lang.String",
+    "description": "A description for 'node.script.folder'"
+  },
+  {
+    "name": "node.script.name",
+    "type": "java.lang.String",
+    "description": "A description for 'node.script.name'"
+  },
+  {
+    "name": "node.output.folder",
+    "type": "java.lang.String",
+    "description": "A description for 'node.output.folder'"
+  },
+  {
+    "name": "node.output.folder1",
+    "type": "java.lang.String",
+    "description": "A description for 'node.output.folder1'"
+  },
+  {
+    "name": "node.output.folder2",
+    "type": "java.lang.String",
+    "description": "A description for 'node.output.folder2'"
+  },
+  {
+    "name": "api.url.cnom",
+    "type": "java.lang.String",
+    "description": "A description for 'api.url.cnom'"
+  },
+  {
+    "name": "node.script.path",
+    "type": "java.lang.String",
+    "description": "A description for 'node.script.path'"
+  },
+  {
+    "name": "node.data.folder",
+    "type": "java.lang.String",
+    "description": "A description for 'node.data.folder'"
+  },
+  {
+    "name": "node.backup.folder",
+    "type": "java.lang.String",
+    "description": "A description for 'node.backup.folder'"
+  },
+  {
+    "name": "node.api.url",
+    "type": "java.lang.String",
+    "description": "A description for 'node.api.url'"
+  },
+  {
+    "name": "node.changes.folder",
+    "type": "java.lang.String",
+    "description": "A description for 'node.changes.folder'"
+  },
+  {
+    "name": "python.script.path",
+    "type": "java.lang.String",
+    "description": "A description for 'python.script.path'"
+  },
+  {
+    "name": "python.clean.folder",
+    "type": "java.lang.String",
+    "description": "A description for 'python.clean.folder'"
+  },
+  {
+    "name": "jwt.secret-key",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.secret-key'"
+  },
+  {
+    "name": "jwt.expiration",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.expiration'"
+  },
+  {
+    "name": "backup.tables",
+    "type": "java.lang.String",
+    "description": "A description for 'backup.tables'"
+  },
+  {
+    "name": "database.name",
+    "type": "java.lang.String",
+    "description": "A description for 'database.name'"
+  },
+  {
+    "name": "mysql.dump.path",
+    "type": "java.lang.String",
+    "description": "A description for 'mysql.dump.path'"
+  },
+  {
+    "name": "mysql.restore.path",
+    "type": "java.lang.String",
+    "description": "A description for 'mysql.restore.path'"
+  }
+]}

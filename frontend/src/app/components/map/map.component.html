@@ -1,0 +1,15 @@
+
+<!-- map.component.html -->
+<div class="sticky top-20">
+  <div id="map" class="rounded-lg shadow-md" style="height: calc(100vh - 6rem);">
+    <!-- Loading state -->
+    <div *ngIf="isLoading" class="absolute inset-0 flex items-center justify-center bg-white bg-opacity-75">
+      <div class="text-gray-600">Loading map...</div>
+    </div>
+    
+    <!-- Error state -->
+    <div *ngIf="error" class="absolute inset-0 flex items-center justify-center bg-white bg-opacity-75">
+      <div class="text-red-500">{{ error }}</div>
+    </div>
+  </div>
+</div>

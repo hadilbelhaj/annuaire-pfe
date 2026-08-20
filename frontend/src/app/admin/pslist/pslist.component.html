@@ -1,0 +1,351 @@
+<div class="bg-gray-50 min-h-screen w-full">
+  <div class="container mx-auto px-2 sm:px-4 lg:px-6 w-full">
+    <div class="bg-white rounded-xl shadow-md p-6 mb-6">
+      <div class="mb-6">
+        <div class="flex justify-between items-center">
+          <div>
+            <h1 class="text-2xl font-bold text-gray-800">Healthcare Professionals</h1>
+            <p class="text-gray-500 mt-1">Manage your professional database</p>
+          </div>
+          <button (click)="openAddModal()" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+            </svg>
+            Add Professional
+          </button>
+        </div>
+      </div>
+      <div class="flex flex-col sm:flex-row items-center justify-between space-y-3 sm:space-y-0 mb-6">
+        <div class="flex flex-col sm:flex-row items-center space-y-3 sm:space-y-0 sm:space-x-3 w-full sm:w-auto">
+          <div class="relative w-full sm:w-40">
+            <select (change)="onPageSizeChange($event)" class="appearance-none w-full rounded-lg border border-gray-300 bg-white px-4 py-2 pr-8 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-700">
+              <option [selected]="pageSize === 5">5</option>
+              <option [selected]="pageSize === 10">10</option>
+              <option [selected]="pageSize === 20">20</option>
+            </select>
+            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+              <svg class="h-4 w-4 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </div>
+          </div>
+          
+          <div class="relative w-full sm:w-64">
+            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+              <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <input [(ngModel)]="searchTerm" (keyup)="onSearchInput()" placeholder="Search" class="block w-full pl-10 pr-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+          </div>
+          
+          <div class="relative w-full sm:w-40">
+            <select [(ngModel)]="statusFilter" (change)="onStatusFilterChange()" class="appearance-none w-full rounded-lg border border-gray-300 bg-white px-4 py-2 pr-8 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-700">
+              <option value="all">All<option>
+              <option value="active-only">Active</option>
+              <option value="deleted-only">Inactive</option>
+            </select>
+            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+              <svg class="h-4 w-4 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    
+      <div class="overflow-x-auto rounded-lg border border-gray-200 w-full">
+        <table class="w-full min-w-full divide-y divide-gray-200">
+          <thead class="bg-gray-50">
+            <tr>
+              <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Name</th>
+              <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Speciality</th>
+              <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Region</th>
+              <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">NumFiscal</th>
+              <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">PhoneNum1</th>
+              <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">PhoneNum2</th>
+              <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">NumOrdre</th>
+              <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Ref</th>
+              <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
+              <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Actions</th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-gray-200">
+            <tr *ngFor="let prof of professionals" class="hover:bg-gray-50 transition-colors">
+              <td (click)="onProfessionalClick(prof)" class="px-4 py-4 whitespace-nowrap cursor-pointer">
+                <div class="flex items-center">
+                  <div class="flex-shrink-0 h-8 w-8 bg-indigo-100 rounded-full flex items-center justify-center">
+                    <span class="text-indigo-600 font-medium">{{ prof.name.charAt(0) }}</span>
+                  </div>
+                  <div class="ml-3">
+                    <div class="text-sm font-medium text-gray-900">{{ prof.name }}</div>
+                  </div>
+                </div>
+              </td>
+              <td (click)="onProfessionalClick(prof)" class="px-4 py-4 whitespace-nowrap cursor-pointer">
+                <span class="px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                  {{ prof.medicalSpecialty }}
+                </span>
+              </td>
+              <td (click)="onProfessionalClick(prof)" class="px-4 py-4 whitespace-nowrap text-sm text-gray-500 cursor-pointer">{{ prof.region }}</td>
+              <td (click)="onProfessionalClick(prof)" class="px-4 py-4 whitespace-nowrap text-sm text-gray-500 cursor-pointer">{{ prof.numFiscal }}</td>
+              <td (click)="onProfessionalClick(prof)" class="px-4 py-4 whitespace-nowrap text-sm text-gray-500 cursor-pointer">{{ prof.number1 }}</td>
+              <td (click)="onProfessionalClick(prof)" class="px-4 py-4 whitespace-nowrap text-sm text-gray-500 cursor-pointer">{{ prof.number2 }}</td>
+              <td (click)="onProfessionalClick(prof)" class="px-4 py-4 whitespace-nowrap text-sm text-gray-500 cursor-pointer">{{ prof.NumeroOrdre }}</td>
+              <td (click)="onProfessionalClick(prof)" class="px-4 py-4 whitespace-nowrap text-sm text-gray-500 cursor-pointer">{{ prof.ref }}</td>
+              <td class="px-4 py-4 whitespace-nowrap">
+                <span class="px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full" 
+                      [ngClass]="prof.deleted === 1 ? 'bg-red-100 text-red-800' : 'bg-green-100 text-green-800'">
+                  {{ prof.deleted === 1 ? 'Inactive' : 'Active' }}
+                </span>
+              </td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm">
+                <div class="flex space-x-2">
+                  <button (click)="editProfessional(prof)" class="text-indigo-600 hover:text-indigo-900">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                    </svg>
+                  </button>
+                  <button *ngIf="prof.deleted === 0" (click)="deleteProfessional(prof)" class="text-red-600 hover:text-red-900">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                    </svg>
+                  </button>
+                  <button *ngIf="prof.deleted === 1" (click)="restoreProfessional(prof)" class="text-green-600 hover:text-green-900">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                    </svg>
+                  </button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      
+      <div class="flex justify-between items-center mt-4">
+        <div class="text-sm text-gray-700 hidden sm:block">
+          Showing <span class="font-medium">{{ (currentPage * pageSize) + 1 }}</span> to 
+          <span class="font-medium">{{ Math.min((currentPage + 1) * pageSize, totalItems) }}</span> of 
+          <span class="font-medium">{{ totalItems }}</span> results
+        </div>
+        <div class="flex items-center space-x-2">
+          <button (click)="previousPage()" 
+                  [disabled]="currentPage === 0" 
+                  [ngClass]="{'opacity-50 cursor-not-allowed': currentPage === 0}"
+                  class="px-4 py-2 bg-indigo-50 text-indigo-600 rounded-md border border-indigo-200 hover:bg-indigo-100 transition-colors">
+            Previous
+          </button>
+          
+          <span class="px-4 py-2 rounded-md bg-white border border-gray-300 text-gray-700">
+            Page {{ currentPage + 1 }} of {{ totalPages }}
+          </span>
+          
+          <button (click)="nextPage()" 
+                  [disabled]="currentPage + 1 >= totalPages" 
+                  [ngClass]="{'opacity-50 cursor-not-allowed': currentPage + 1 >= totalPages}"
+                  class="px-4 py-2 bg-indigo-50 text-indigo-600 rounded-md border border-indigo-200 hover:bg-indigo-100 transition-colors">
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- Professional Form Modal -->
+<div *ngIf="showModal" class="fixed inset-0 bg-gray-600 bg-opacity-70 overflow-y-auto h-full w-full flex items-center justify-center z-50 p-4 md:p-6">
+  <div class="relative bg-white rounded-xl shadow-xl max-w-3xl w-full p-6 mx-4 my-8">
+    <div class="flex justify-between items-center mb-6 pb-3 border-b border-gray-200">
+      <h3 class="text-xl font-semibold text-gray-800">{{ isEditing ? 'Edit' : 'Add' }} Healthcare Professional</h3>
+      <button (click)="closeModal()" class="text-gray-500 hover:text-gray-700 transition-colors">
+        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+    
+    <form [formGroup]="professionalForm" (ngSubmit)="saveProfessional()" class="max-h-[calc(100vh-200px)] overflow-y-auto px-1">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4">
+        <!-- Left Column -->
+        <div>
+          <div class="mb-4">
+            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name *</label>
+            <input formControlName="name" id="name" 
+                   class="block w-full px-4 py-2.5 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-800"
+                   [ngClass]="{'border-red-500': isFieldInvalid('name'), 'border-gray-300': !isFieldInvalid('name')}">
+            <div *ngIf="isFieldInvalid('name')" class="text-red-500 text-sm mt-1">
+              Name is required
+            </div>
+          </div>
+          
+          <div class="mb-4">
+            <label for="specialty" class="block text-sm font-medium text-gray-700 mb-1">Medical Specialty *</label>
+            <select formControlName="medicalSpecialty" id="specialty" 
+                   (change)="onSpecialtyChange($event)"
+                   class="block w-full px-4 py-2.5 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-800"
+                   [ngClass]="{'border-red-500': isFieldInvalid('medicalSpecialty'), 'border-gray-300': !isFieldInvalid('medicalSpecialty')}">
+              <option value="" disabled>Select a specialty</option>
+              <option *ngFor="let specialty of specialties" [value]="specialty">{{ specialty }}</option>
+            </select>
+            <div *ngIf="isFieldInvalid('medicalSpecialty')" class="text-red-500 text-sm mt-1">
+              Medical specialty is required
+            </div>
+          </div>
+          
+          <div class="mb-4">
+            <label for="region" class="block text-sm font-medium text-gray-700 mb-1">Region *</label>
+            <input formControlName="region" id="region" 
+                   class="block w-full px-4 py-2.5 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-800"
+                   [ngClass]="{'border-red-500': isFieldInvalid('region'), 'border-gray-300': !isFieldInvalid('region')}">
+            <div *ngIf="isFieldInvalid('region')" class="text-red-500 text-sm mt-1">
+              Region is required
+            </div>
+          </div>
+          
+          <div class="mb-4">
+            <label for="mail" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+            <input formControlName="mail" id="mail" type="email"
+                   class="block w-full px-4 py-2.5 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-800"
+                   [ngClass]="{'border-red-500': isFieldInvalid('mail'), 'border-gray-300': !isFieldInvalid('mail')}">
+            <div *ngIf="isFieldInvalid('mail')" class="text-red-500 text-sm mt-1">
+              Please enter a valid email address
+            </div>
+          </div>
+          
+          <div class="mb-4">
+            <label for="address" class="block text-sm font-medium text-gray-700 mb-1">Address</label>
+            <input formControlName="address" id="address" 
+                   class="block w-full px-4 py-2.5 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-800">
+          </div>
+        </div>
+        
+        <!-- Right Column -->
+        <div>
+          <div class="mb-4">
+            <label for="numFiscal" class="block text-sm font-medium text-gray-700 mb-1">Fiscal Number *</label>
+            <input formControlName="numFiscal" id="numFiscal" 
+                   class="block w-full px-4 py-2.5 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-800"
+                   [ngClass]="{'border-red-500': isFieldInvalid('numFiscal'), 'border-gray-300': !isFieldInvalid('numFiscal')}">
+            <div *ngIf="isFieldInvalid('numFiscal')" class="text-red-500 text-sm mt-1">
+              Fiscal number is required
+            </div>
+          </div>
+          
+          <div class="mb-4">
+            <label for="number1" class="block text-sm font-medium text-gray-700 mb-1">Phone Number 1</label>
+            <input formControlName="number1" id="number1" 
+                   class="block w-full px-4 py-2.5 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-800">
+          </div>
+          
+          <div class="mb-4">
+            <label for="number2" class="block text-sm font-medium text-gray-700 mb-1">Phone Number 2</label>
+            <input formControlName="number2" id="number2" 
+                   class="block w-full px-4 py-2.5 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-800">
+          </div>
+          
+          <div class="mb-4">
+            <label for="numOrdre" class="block text-sm font-medium text-gray-700 mb-1">Numero Ordre *</label>
+            <input formControlName="NumeroOrdre" id="numOrdre" 
+                  class="block w-full px-4 py-2.5 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-800"
+                  [ngClass]="{'border-red-500': isFieldInvalid('NumeroOrdre'), 'border-gray-300': !isFieldInvalid('NumeroOrdre')}">
+            <div *ngIf="isFieldInvalid('NumeroOrdre')" class="text-red-500 text-sm mt-1">
+              Numero Ordre is required
+            </div>
+          </div>
+          
+          <div class="mb-4">
+            <label for="ref" class="block text-sm font-medium text-gray-700 mb-1">Reference *</label>
+            <input formControlName="ref" id="ref" 
+                  class="block w-full px-4 py-2.5 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-800"
+                  [ngClass]="{'border-red-500': isFieldInvalid('ref'), 'border-gray-300': !isFieldInvalid('ref')}">
+            <div *ngIf="isFieldInvalid('ref')" class="text-red-500 text-sm mt-1">
+              Reference is required
+            </div>
+          </div>
+        </div>
+
+        <!-- Full Width - Convention -->
+        <div class="md:col-span-2">
+          <label for="conventionne" class="block text-sm font-medium text-gray-700 mb-1">Conventionné</label>
+          <select formControlName="conventionne" id="conventionne" 
+                 class="block w-full px-4 py-2.5 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-800">
+            <option [value]="0">No</option>
+            <option [value]="1">Yes</option>
+          </select>
+        </div>
+        
+        <!-- Full Width - Prestations -->
+        <div class="md:col-span-2">
+          <div class="border rounded-lg p-4 bg-gray-50">
+            <label class="block text-sm font-medium text-gray-700 mb-3">Available Prestations</label>
+            
+            <div *ngIf="loadingPrestations" class="flex justify-center items-center py-4">
+              <div class="animate-spin rounded-full h-6 w-6 border-b-2 border-indigo-600"></div>
+              <span class="ml-2 text-gray-600">Loading prestations...</span>
+            </div>
+            
+            <div *ngIf="!loadingPrestations && !availablePrestations.length && professionalForm.get('medicalSpecialty')?.value" class="text-gray-500 text-center py-3">
+              No prestations available for this specialty
+            </div>
+            
+            <div *ngIf="!loadingPrestations && !professionalForm.get('medicalSpecialty')?.value" class="text-gray-500 text-center py-3">
+              Select a medical specialty to see available prestations
+            </div>
+            
+            <div *ngIf="!loadingPrestations && availablePrestations.length" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+              <div *ngFor="let prestation of availablePrestations" class="flex items-center">
+                <input 
+                  type="checkbox" 
+                  [id]="'prestation-' + prestation"
+                  [value]="prestation"
+                  [checked]="selectedPrestations.includes(prestation)"
+                  (change)="togglePrestation(prestation, $event)"
+                  class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 rounded">
+                <label [for]="'prestation-' + prestation" class="ml-2 text-sm text-gray-700">
+                  {{ prestation }}
+                  <span *ngIf="selectedPrestations.includes(prestation) && isEditing" class="ml-1 text-xs text-green-600">(assigned)</span>
+                </label>
+              </div>
+            </div>
+            <div *ngIf="selectedPrestations.length > 0" class="mt-3 p-2 border-t border-gray-200">
+              <p class="text-sm font-medium text-gray-700">Selected prestations: {{ selectedPrestations.length }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="flex justify-end mt-8 pt-4 border-t border-gray-200">
+        <button type="button" (click)="closeModal()" 
+                class="mr-4 px-5 py-2.5 border border-gray-300 rounded-lg shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 transition-colors">
+          Cancel
+        </button>
+        <button type="submit" 
+                class="px-5 py-2.5 border border-transparent rounded-lg shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-colors">
+          {{ isEditing ? 'Update' : 'Add' }}
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div *ngIf="showConfirmationModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full flex items-center justify-center z-50">
+  <div class="relative bg-white rounded-lg shadow-xl max-w-md w-full p-6 mx-4">
+    <div class="mb-4">
+      <h3 class="text-lg font-medium text-gray-900">{{ confirmationTitle }}</h3>
+      <p class="mt-2 text-sm text-gray-500">{{ confirmationMessage }}</p>
+    </div>
+    <div class="flex justify-end">
+      <button (click)="cancelConfirmation()" class="mr-3 px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">
+        Cancel
+      </button>
+      <button (click)="confirmAction()" 
+              [ngClass]="{'bg-red-600 hover:bg-red-700': confirmationType === 'delete', 'bg-green-600 hover:bg-green-700': confirmationType === 'restore'}"
+              class="px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2">
+        {{ confirmationType === 'delete' ? 'Delete' : 'Restore' }}
+      </button>
+    </div>
+  </div>
+</div>

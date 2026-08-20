@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd"
+    name="TreatmentMovements"
+    pageWidth="842" pageHeight="595"
+    orientation="Landscape"
+    columnWidth="782"
+    leftMargin="30" rightMargin="30"
+    topMargin="20" bottomMargin="20">
+
+    <!-- Styles -->
+    <style name="Title" fontName="SansSerif" fontSize="24" isBold="true"/>
+    <style name="Subtitle" fontName="SansSerif" fontSize="12" forecolor="#555555"/>
+    <style name="ColumnHeader" fontName="SansSerif" fontSize="10" isBold="true" backcolor="#F0F4F8" mode="Opaque"/>
+    <style name="Detail" fontName="SansSerif" fontSize="9"/>
+
+    <!-- Fields -->
+    <field name="date" class="java.time.LocalDateTime"/>
+    <field name="total" class="java.math.BigDecimal"/>
+    <field name="adherant" class="com.example.Annuaire.Models.Adherant"/>
+    <field name="actePS" class="com.example.Annuaire.Models.ActePS"/>
+    <field name="healthcareProfessional" class="com.example.Annuaire.Models.HealthcareProfessional"/>
+
+    <!-- Title Band -->
+    <title>
+        <band height="60">
+            <staticText>
+                <reportElement x="0" y="0" width="782" height="30" style="Title"/>
+                <text><![CDATA[Treatment Movements]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="32" width="782" height="20" style="Subtitle"/>
+                <text><![CDATA[Recent medical transactions and activities]]></text>
+            </staticText>
+        </band>
+    </title>
+
+    <!-- Column Headers -->
+    <columnHeader>
+        <band height="25">
+            <!-- Transaction -->
+            <staticText><reportElement x="0" y="0" width="60" height="25" style="ColumnHeader"/><text><![CDATA[Date]]></text></staticText>
+            <staticText><reportElement x="60" y="0" width="40" height="25" style="ColumnHeader"/><text><![CDATA[Total]]></text></staticText>
+
+            <!-- Patient Details -->
+            <staticText><reportElement x="100" y="0" width="100" height="25" style="ColumnHeader"/><text><![CDATA[Patient]]></text></staticText>
+            <staticText><reportElement x="200" y="0" width="60" height="25" style="ColumnHeader"/><text><![CDATA[Region]]></text></staticText>
+            
+            <!-- Merged Column -->
+            <staticText><reportElement x="260" y="0" width="120" height="25" style="ColumnHeader"/><text><![CDATA[Deductible / Formula]]></text></staticText>
+            
+            <staticText><reportElement x="380" y="0" width="70" height="25" style="ColumnHeader"/><text><![CDATA[Contractant]]></text></staticText>
+
+            <!-- Medical Act -->
+            <staticText><reportElement x="450" y="0" width="60" height="25" style="ColumnHeader"/><text><![CDATA[ActePS]]></text></staticText>
+            <staticText><reportElement x="510" y="0" width="60" height="25" style="ColumnHeader"/><text><![CDATA[Prestation]]></text></staticText>
+
+            <!-- Merged Column -->
+            <staticText><reportElement x="570" y="0" width="160" height="25" style="ColumnHeader"/><text><![CDATA[Doctor / Specialty]]></text></staticText>
+        </band>
+    </columnHeader>
+
+    <!-- Detail Band -->
+    <detail>
+        <band height="40">
+            <!-- Transaction -->
+            <textField>
+                <reportElement x="0" y="0" width="60" height="20" style="Detail"/>
+                <textFieldExpression><![CDATA[$F{date}.format(java.time.format.DateTimeFormatter.ofPattern("dd/MM/yyyy"))]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="60" y="0" width="40" height="20" style="Detail"/>
+                <textFieldExpression><![CDATA[$F{total} + " DT"]]></textFieldExpression>
+            </textField>
+
+            <!-- Patient Details -->
+            <textField>
+                <reportElement x="100" y="0" width="100" height="20" style="Detail"/>
+                <textFieldExpression><![CDATA[$F{adherant}.getFirstName() + " " + $F{adherant}.getLastName()]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="200" y="0" width="60" height="20" style="Detail"/>
+                <textFieldExpression><![CDATA[$F{adherant}.getRegion()]]></textFieldExpression>
+            </textField>
+            
+            <!-- Merged Deductible + Formula -->
+            <textField isStretchWithOverflow="true">
+                <reportElement x="260" y="0" width="120" height="40" style="Detail"/>
+                <textFieldExpression>
+                    <![CDATA[
+                        "Deductible: " + $F{adherant}.getDeductible() + " DT\n" +
+                        "Formula: " + $F{adherant}.getContract().getFormule().getLibelle_formule()
+                    ]]>
+                </textFieldExpression>
+            </textField>
+            
+            <textField>
+                <reportElement x="380" y="0" width="70" height="20" style="Detail"/>
+                <textFieldExpression><![CDATA[$F{adherant}.getContract().getContractant().getLibelle()]]></textFieldExpression>
+            </textField>
+
+            <!-- Medical Act -->
+            <textField>
+                <reportElement x="450" y="0" width="60" height="20" style="Detail"/>
+                <textFieldExpression><![CDATA[$F{actePS}.getLibelle_actePs()]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="510" y="0" width="60" height="20" style="Detail"/>
+                <textFieldExpression><![CDATA[$F{actePS}.getPrestation().getPrestation_libelle()]]></textFieldExpression>
+            </textField>
+
+            <!-- Merged Doctor + Specialty -->
+            <textField isStretchWithOverflow="true">
+                <reportElement x="570" y="0" width="160" height="40" style="Detail"/>
+                <textFieldExpression>
+                    <![CDATA[
+                        "Dr. " + $F{actePS}.getHealthcareProfessional().getName() + "\n" +
+                        "Specialty: " + ($F{actePS}.getHealthcareProfessional().getmedicalSpecialty() != null ? 
+                            $F{actePS}.getHealthcareProfessional().getmedicalSpecialty() : "N/A")
+                    ]]>
+                </textFieldExpression>
+            </textField>
+        </band>
+    </detail>
+
+</jasperReport>

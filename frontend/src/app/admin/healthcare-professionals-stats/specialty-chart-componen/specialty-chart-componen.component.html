@@ -1,0 +1,11 @@
+<div *ngIf="data && data.length > 0" class="chart-container" style="position: relative; height: 300px; width: 100%;">
+    <canvas baseChart
+      [type]="doughnutChartType"
+      [data]="doughnutChartData"
+      [options]="doughnutChartOptions">
+    </canvas>
+  </div>
+  
+  <div *ngIf="!data || data.length === 0" class="flex justify-center items-center h-64">
+    <p class="text-gray-500">Aucune donnée disponible</p>
+  </div>

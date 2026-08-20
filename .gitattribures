@@ -1,0 +1,3 @@
+# Force LF for JSON and JavaScript files
+*.json text eol=lf
+*.js   text eol=lf

@@ -1,0 +1,6617 @@
+Data Changes Report - 17/02/2025
+=============================================
+New Entries:    1328
+Updated Entries: 5250
+Removed Entries: 32
+
+Sample Changes:
+[+] 29961: BEN AMOU Ahlem
+[+] 29778: DHOUIBI Ammar 
+[+] 30205: KALLEL Houcemeddine
+[+] 29809: GRASSA Mohamed Anis
+[+] 29890: FERJANI Emna
+[+] 30632: CHENNOUFI Amal
+[+] 29409: SAHRAOUI Hakim
+[+] 30147: GHARIANI Oussema
+[+] 30211: DHAFFAR ARAOUD Rim
+[+] 22714613: Gabsi Mayssem
+[+] 30172: THABET Yamina
+[+] 29870: TLILI Badis
+[+] 30206: BOUAZIZ Rawia
+[+] 29626: AFFES Houssem
+[+] 7682: OULED ELHAJ Mohamed
+[+] 30330: SAYARI Meriem
+[+] 29484: CHERNI Lamine
+[+] 29534: BEN AHMED Khawla
+[+] 29988: BEN ABASSIA Houssem
+[+] 29721: KARMANI Safa
+[+] 29390: ZIDI Wiem
+[+] 29550: AYARI Senda
+[+] 29551: WALHA Omar
+[+] 124142345: chaibi leila sarra
+[+] 30199: AYADI Rahma
+[+] 30289: SELMI Mohamed Amine
+[+] 30050: ABBES Maha
+[+] 29573: CHARFI Hanen
+[+] 30434: MBARKI Chaima
+[+] 29542: HAMDI Raja
+[+] 29466: BEN SASSI Sarra
+[+] 29666: KEBAIER Sarra
+[+] 29403: JMAL Mohamed Amine 
+[+] 29488: CHIHA Khadija
+[+] 29744: YENGUI Maroua 
+[+] 29957: BAROUNI Amal
+[+] 30626: ABIDELLAOUI Khaoula
+[+] 30294: GARCI Farah
+[+] 16154856: Maatallah Kais
+[+] 29394: MAHRSIA Chaima
+[+] 30078: GHARSALLAH Ines
+[+] 30311: BARKIA Nada
+[+] 29788: SOUILHI Jawher
+[+] 30549: AROUS Mohamed Khairi 
+[+] 30202: MARNISSI Alaa Eddine
+[+] 30517: BEN FLAH Wiem
+[+] 30305: BEN MOUSSA Abir
+[+] 30379: MESSAOUDI SLIMANI Ezzohra 
+[+] 30082: MAALOUL Nada
+[+] 29702: BENNOUR Amal
+[+] 29801: LAHMAR Syrine
+[+] 29866: RIAHI Sameh
+[+] 30471: CHELLY Sirine
+[+] 29571: KAMMOUN Mahmoud
+[+] 30244: ABBES Wejden
+[+] -92453: Marouf Bassel 
+[+] 29727: JEBABLI Hajer
+[+] 29861: KARABORNI Rym
+[+] 30129: SLIM Sahar
+[+] 29940: DAOUD Ahmed
+[+] 29410: DRINE Nour El Houda
+[+] 30115: MEJDOUB Ahmed
+[+] 29393: METHNANI Mohamed
+[+] 30060: KHARRAT SELMI Emna
+[+] 29791: AFLI Semah
+[+] 29700: BOUCHECH Rania 
+[+] 29982: KRICHENE Yessine
+[+] 29930: MERDASSI Amani
+[+] 30013: KHALFI Oussama
+[+] 30247: BEDOUI Ghassen
+[+] 29916: BESSROUR Habib
+[+] 29594: HAMZA Sahar
+[+] 29819: CHAABENI Amr
+[+] 29991: HADDAD Ahmed Mohanned 
+[+] 30045: BEN HAJ MBAREK Mohamed Ghassen
+[+] 30212: BEN SOUDA Hend
+[+] 29979: Rachdi Tarek 
+[+] 30555: LTIFI Rahma
+[+] 29882: HACHICHA Abir
+[+] 29980: BARHOUMI Atef
+[+] 29924: SMAOUI Rim
+[+] 29947: FATHI Marwa
+[+] 30171: OUESLATI Fatma
+[+] 30444: MABROUK Ghada
+[+] 29646: NEMSI Ella
+[+] 30423: AYADI Chedi
+[+] 30559: AGREBI Feriel
+[+] 30377: MALLEK Ines
+[+] 29938: ZIDI Hamza
+[+] 30576: ELLOUMI Walid
+[+] 29908: HACHANA Manel
+[+] 29652: RHIM Dorra
+[+] 29695: KHALDI Nesrine
+[+] 29512: MOHSEN Salma
+[+] 30528: MOUSSA Ameni
+[+] 29391: MAATOUK Iyed
+[+] 30594: NEJI Ameni
+[+] 29710: CHOURABI Sana
+[+] 29736: BOUASSIDA Sahar
+[+] 30337: MOKADDEM Omar
+[+] 30618: HAMZAOUI Seyma
+[+] 30360: HBAIEB Omar
+[+] 30088: SAID Wadia
+[+] 29879: MAATOUG Fares
+[+] 30378: BALTI Najla
+[+] 29728: MEHERZI Oussama
+[+] 30467: BENALI Nesrine 
+[+] 30017: KAMOUN Emna
+[+] 30186: NAUOILI Abdennour
+[+] 30375: NAOUAR Raouaa
+[+] 30572: SAOUDI Siwar
+[+] 29461: KACEM Chaima
+[+] 29682: BOUFARES Amine
+[+] 30185: HADJ MOHAMED SALAH Wissem
+[+] 29827: MASMOUDI Ahmed
+[+] 30476: YAAKOUBI Jasser
+[+] 29873: KOUKI Nesrine
+[+] 29862: JEBALI Wiem
+[+] 30353: HADDADI Abdallah
+[+] 30460: BEN SAAD Hamda 
+[+] 30142: DAOUD Molka
+[+] 30226: IJLALI Alaeddine
+[+] 30034: CHOUAIEB Abir
+[+] 30131: GHEDIRA Rachid
+[+] 30562: MRABET Alaa
+[+] 30599: BRAHMI Wala
+[+] 30474: BEN SADOK Mariem
+[+] 30012: SALEM Amal
+[+] 29632: SAIDANE Syrine
+[+] 30338: YAMOUN Rihab 
+[+] 30522: MISSAOUI Zine Elabidine
+[+] 29686: KETATA Amal
+[+] 30220: BRAHIM Houda
+[+] 30611: ELKAMEL Houssem
+[+] 29546: LAHBACHA Baha Eddine
+[+] 29616: MAHMOUDI Ilhem
+[+] 30413: BALTI Mejda
+[+] 30243: WALHA Sirine 
+[+] 30183: FEKIH Azza
+[+] 30113: MZIOU Nour
+[+] 30397: BEN ABDINE  Mohamed Abdelfattah 
+[+] 30650: BEN LAZREG Amira
+[+] 30269: BEN ARIF Fares
+[+] 29567: BAAZAOUI Maroua
+[+] 29477: BOUAFIA Salsabil
+[+] 30608: ZALILA Alia
+[+] 29491: BEN AMOR Mariem
+[+] 30326: CHERNI Tarek
+[+] 29761: FAZZENI Mariem
+[+] 29683: Baklouti Massara
+[+] 29599: BOUGACHA Marwa
+[+] 29976: BEN SALEM Ahmed
+[+] 29428: ZEMZEMI Mohamed Ali 
+[+] 30628: JENHANI Mariem
+[+] 30442: BEN  REGAYA Emna 
+[+] 30126: JABRI Rahma
+[+] 29416: HAFFANI Fatma
+[+] 30627: MARRAKCHI Rym
+[+] 30590: HAMDAOUI Amine
+[+] 29462: KRAIEM EP ZRIG Marwa
+[+] 29554: BEN RACHED Nesrine
+[+] 30304: SAHLI Asma
+[+] 29487: BEN ATITALLAH Marwa
+[+] 29489: LATROUS Alia
+[+] 29902: LAMLOUM Eya
+[+] 29950: ZARIAT Islem
+[+] 29569: BEJI Marwa
+[+] 29855: SAYAHI Mohamed Bilel
+[+] 30122: JOUINI Nabil
+[+] 29422: HAMROUN Nesrine
+[+] 30110: MANI Salma
+[+] 29505: BACCARI Mohamed Amine
+[+] 29375: JARRAY Cheker
+[+] 30008: SFAR Zahra 
+[+] 30229: KROUMA Marwen
+[+] 29639: BAYA CHATTI Amal 
+[+] 29765: BADER Mouna
+[+] 30253: AOUICHRI  Nawres
+[+] 29795: AMRI Marouan
+[+] 30458: BRIGUI Yassine
+[+] 29864: BRAHIM Oumeima
+[+] 30323: ARFAOUI Cyrine
+[+] 30445: OUALI Souhir
+[+] 29913: BELKHIRIA Amal
+[+] 11886: HAMDI Henda
+[+] 30405: ABBES Youssef
+[+] 30488: LARAYEDH Abir
+[+] 30139: BOUZID Mohamed El Mehdi
+[+] 29888: ABID Hayfa
+[+] 30239: MEKNI Emna
+[+] 30613: BEN MANSOUR Rawene
+[+] 30141: KEDISSA Rahma
+[+] 29513: BEN DHAFER Haithem
+[+] 29433: CHERIF Emna
+[+] 29836: SMAALI Mohamed Hichem 
+[+] 29935: KHADRAOUI Ghada
+[+] 29933: TESTOURI Emna
+[+] 29789: TOUMI Nisma
+[+] 29457: FESSI Rim
+[+] 29965: MOUELHI Mohamed Aziz
+[+] 30346: BELHADJ Nouha
+[+] 30056: SBAI Sameh
+[+] 30349: GORCHENE Zeineb
+[+] 29883: CHALBAOUI Amal
+[+] 29802: HAJJAMI Kmar
+[+] 30075: BOUBAKER Abdelaziz
+[+] 29430: MHAMDI Haifa
+[+] 30475: MOUELHI Marwa
+[+] 30568: FAHEM Omar
+[+] 29381: HADJI Sabrine
+[+] 30350: BEN ABDELAZIZ Nada
+[+] 30168: SELLAMI  Rahma
+[+] 29777: BOUGHATTAS Firas
+[+] 29699: JAMLI Nourhen
+[+] 29590: MISSAOUI Houssem Eddine
+[+] 29398: JERBI EP KHEMAKHEM Salma
+[+] 29373: AMRI Feriel
+[+] 29785: MANKAI Roua
+[+] 30105: MALLOULI Nouha
+[+] -92452: TEEMUL Muhammad Bassaam Bin Hasemi
+[+] 29557: CHAREF Ons
+[+] -92448: HAJJAJ Malik
+[+] 30567: CHAMMAKH Mhamed Amine
+[+] 29647: ZAOUGA Soumaya
+[+] 30135: BELGHITH Yosr
+[+] 30404: NASRI Ghada
+[+] 30193: OUERGHI Hind
+[+] 30151: NACERI Taghrid
+[+] 29607: BEN MEHREZ Cyrine
+[+] 30197: CHETIOUI Ghofrane
+[+] 30370: GARGOURI Hassen
+[+] 30173: DAGHFOUS Youssef
+[+] 30535: BEN SALEM Fares
+[+] 30644: HADDAD  Ines 
+[+] 29716: CHAHED Mehdi
+[+] 29511: BETBOUT Imen
+[+] 30489: CHALTOUT Fatma
+[+] 30028: AMMAR Sirine
+[+] 30376: BENAISSA Zeineb
+[+] 30354: BOUBAKER Malek
+[+] 30604: LABIDI Aymen
+[+] 29494: AYARI Selma
+[+] 30155: CHIKHA Asma
+[+] 30443: RINCHI Makrem
+[+] 29891: FATHALLAH Safa
+[+] 29654: FERJANI Ghada
+[+] 30642: HAMMAMI Rim
+[+] 30263: BELGACEM  Afef
+[+] 30451: MAATOUG Mohamed Mustapha
+[+] 29998: GHODBANE Rihab
+[+] 30222: SAHNOUN Imen
+[+] -92449: ZAKI Hanene
+[+] 29877: HALWENI Hayfa
+[+] 29714: MANSOUR Amal
+[+] 30283: YAHYAOUI Ichrak
+[+] 30366: JAMELEDDINE  Cyrine
+[+] 29911: MRAD Mouna
+[+] 30093: GHANJATI Fehmi
+[+] 30162: HAMMAMI Bouthaina 
+[+] 30156: NAGUEZ Dalel
+[+] 29496: MOUJAHED Lemiss
+[+] 29763: BACCOUCHI Sarra
+[+] 29558: BEN OTHMAN Mohamed Raouf
+[+] 29538: ABDELHEDI Omar
+[+] 30477: ABDELFATTEH Takoua
+[+] 29481: TRABELSI Salwa
+[+] 30494: SHILI Mohamed Hichem
+[+] 29559: BELKHIR Safa
+[+] 30291: HAMROUNI Nesrine
+[+] 29948: BERGAOUI Ghofrane
+[+] 30010: ISMAIL Altaf 
+[+] 29946: JAOUADI Nourchene
+[+] 29641: MOUSSA  Hela
+[+] 30374: FRADI Mohamed Khalil
+[+] 30485: HADRICH Wafa
+[+] 30469: BEN ABDESSALEM  Fatma
+[+] 30019: GAZZEH Habiba
+[+] 29556: OUNI Nour el Imen
+[+] 30647: BEN AHMED Narjess
+[+] 30457: GNABA Azer
+[+] 30039: HAJOUNI Eya
+[+] 29644: MESSAI Mohamed
+[+] 30318: MEGDICHE Mehdi
+[+] 29645: MELLITI Chiraz
+[+] 29593: ABBES Manel
+[+] 29693: CHARGUI Sondes
+[+] 29507: AOUADI Dorra
+[+] 30118: ROUABHIA Ramzi
+[+] 30351: FERJANI Mohamed Achraf
+[+] 29614: BEN HLOUA Khouloud
+[+] 12154030: Koubaa Cyrine
+[+] 29820: MEFTAH Nader
+[+] 30100: MSAAD Rim 
+[+] 30504: BACCOUCHE Dorra
+[+] 29471: AOUIDIDI Hamza
+[+] 30635: CHAMMAKH Atef
+[+] 30452: BEN ABDELFATTEH Yasmine
+[+] 30373: RAOUENE Salma
+[+] 29689: DAYA Abir
+[+] 30258: BONDKA Amal
+[+] 30132: BELKHIRIA Houda
+[+] 1139254: BELAGUIDE Wissale
+[+] 30524: HANNACHI Ines
+[+] 29925: JERBI Meriem
+[+] 30157: BEN FATMA Abderraouf
+[+] 29944: BAAZAOUI Samia
+[+] 29591: BEN ROMDHANE Sahar
+[+] 30228: HASSINE Meriem
+[+] 30201: HASSAD Sahar
+[+] 30297: HACHICHA Maissa
+[+] 30619: ZILI Asma
+[+] 30148: BEL MABROUK Yassin
+[+] 30004: HAFSA Haifa
+[+] -92457: ISMAIL Majdi
+[+] 30306: BALHI Imen
+[+] 30003: AMMAR Yosra
+[+] 30540: TRIQUI Chifaa
+[+] 30331: ROUATBI Habib
+[+] 29657: JELASSI Warda
+[+] 29951: Farhane Asma
+[+] 29515: KETATA Nouha
+[+] 30295: KAAOUENA Sabri
+[+] 30298: ABDELKAFI Sirine
+[+] 30322: LIMAM Rihab
+[+] 30296: CHEIKH Ryma
+[+] 29776: HKAIEM Amir
+[+] 29531: MOUSSA Nabil
+[+] 30213: SEGNI Amani
+[+] 30424: AYEDI Imen
+[+] 29383: OUHIBI Asma
+[+] 29815: ELKHELIFI Ahmed 
+[+] 30098: HAOUAS Wiem
+[+] 29852: MAHMOUD Bochra Rachida
+[+] 30221: DAYEGUE Sana
+[+] 29566: BEN LIMEM Iteb
+[+] 29586: BEN DHIAF Zeineb
+[+] 29597: NCIRI Alaaeddine
+[+] 30238: REZGUI Hela
+[+] 30490: TRABELSI WERCHFENI Bouthaina
+[+] 29771: NAJI Raouia
+[+] 29493: ABDELLATIF Maroua
+[+] 30262: GAMDOU Meniar
+[+] 30249: BOUKHILI Houssem
+[+] 29843: AYED Souha
+[+] 29497: BLAIECH Walid
+[+] 30009: GARRAOUI Emna
+[+] 29851: MNASSER Sirine
+[+] 29500: TRABELSI Inès 
+[+] 30207: ZAIER Wiem
+[+] 29413: JEDIDI Balsam
+[+] 30176: MAHFOUDH Khadija
+[+] 29999: SOULA Beya
+[+] 30230: SEBRI Aymen
+[+] 29672: HAMMOUDA Nouha 
+[+] 29805: GHARBI Abir 
+[+] 29897: ZARRAA Marwa
+[+] 29587: ZAYDI Ahlem
+[+] 30320: CHANNOUFI Arbia
+[+] 29987: WADA Rahma
+[+] 29622: MAHJOUB Zaineb
+[+] 29743: BALTI Mariam
+[+] 29486: HAMZA Zouhour
+[+] 30165: ZAYET Mariem
+[+] 30543: ZNAIDI Imen
+[+] 29408: KHELIFI Wiem
+[+] 29467: CHATTY Mohamed Wassim
+[+] 30560: JRAD Mohamed
+[+] 29450: KHEZAMI  Asma
+[+] 30466: SOUILAH Salma
+[+] 29399: ABBES Anwar
+[+] 30000: GHANNEM Yasmine
+[+] 30240: ALLAGUI Atef
+[+] 30080: TRIGUI Ahmed
+[+] 29523: BOUKSIR Chayma
+[+] 29803: MEDHIOUB Amal
+[+] 30403: MTIBAA Abdelaziz
+[+] 30334: SOMAI Wiem
+[+] 29426: MANSOUR Khadija
+[+] 29514: KESSENTINI Hana
+[+] 30001: SIDHOM Malek
+[+] 30503: IBN ELMECHRI Zohra
+[+] 29522: BEL HADJ SLIMAN Chayma
+[+] 29740: ZOUARI Houyem
+[+] 30309: BEN HAMIDA Mourad
+[+] 29958: SAOUD Imen
+[+] 30430: BEN AISSA Mayara
+[+] 29595: ZIDI GANDOUZ Oumayma
+[+] 29748: JAIED Rabeb
+[+] 30361: AZZI Aziz
+[+] 30159: SFAR Haifa
+[+] 30641: ABDELMOULA Rowaida 
+[+] 29568: BOUKADIDA Ela
+[+] 30250: SLITI Alyssa
+[+] 30593: MEGDICH Zeineb
+[+] 29772: FERCHIOU Emna
+[+] 29832: LAJIMI Fehmi
+[+] 30402: HAMZA Amal
+[+] 29485: SIALA Nour Elhouda
+[+] 30145: NOURI Dorra
+[+] 30271: ZAIDI Nour Elhouda
+[+] 29936: HARZALLI Amal
+[+] 29570: GHRAB Aiman
+[+] 30640: MNIF Maha
+[+] 30609: TOUNSI Mohamed Karim
+[+] 30327: ABCHA Yousri
+[+] 29432: LANGAR Eya
+[+] 30359: SELLAMI  Sahar
+[+] 6434: KHARROUBI KHELIFA Ali
+[+] 29603: BOUGUERRA Salma
+[+] 30505: SOUISSI Ramzi
+[+] 30596: WERGHI Sabri
+[+] 29876: CHTOUROU Ameni
+[+] 29853: BELGACEM Hatem
+[+] 29608: MEZGHANI Molka
+[+] 30348: SASSI Amel
+[+] 30514: HAMMAMI Mohamed
+[+] 29668: BEN HASSINE Rayene
+[+] 30399: BEN BRAHIM Emna
+[+] 30447: CHERIF Emna
+[+] 29955: FATNASSI Ayoub
+[+] 29975: HACHICHA Hazem
+[+] 30440: GUEMGUEMI  Ines
+[+] 30029: WALHA Rim
+[+] 30257: HARBAOUI Wiem
+[+] 12485250: DALDOUL Inès
+[+] 30597: KHLIF Tayssir
+[+] 29745: LIMAM Houda
+[+] 29405: ABDELJABBAR Amani
+[+] 29757: EL MENIF KHADIJA
+[+] 29694: BEHI Maryem
+[+] 29842: SOLTANA Farah
+[+] 30160: BEN ARBIA Houda
+[+] 29986: NEMLAGHI Meriem
+[+] 30190: CHAYEB Bessem
+[+] 30179: BEN YAHMED Tarek Skander
+[+] 29823: MAKHLOUF Nour
+[+] 29939: HAMADA Rebah
+[+] 30649: GASSOUMI Mariem
+[+] 29447: BOUGHABA Khouloud
+[+] 30260: SIFAOUI Ahmed
+[+] 29601: BEJAOUI Ines
+[+] 30287: MOALLA Nour
+[+] 29817: AYADI Fatma
+[+] 30478: BEN MAHFOUDH Omar
+[+] 29840: BAKLOUTI Ahlem 
+[+] 30292: JBARI Arina
+[+] 30223: TOUMI Ranim
+[+] 30426: GATI Nesrine
+[+] 30538: MECHRGUI Wardi Oussema
+[+] 29932: GHANMI Ines
+[+] 29469: BOUHMIDA Rahma
+[+] 29731: RABHI Marwa
+[+] 30343: BEN AYED Salma
+[+] 29377: ABID Wissal
+[+] 30101: SELLAMI Mohamed Hedi
+[+] 29738: BEN MBAREK Meriem
+[+] 30483: SOUISSI Ala
+[+] 29872: SIOUD Rania
+[+] -92450: BATTOUM Zineb
+[+] 30521: BELHADJ Mohamed Jebril
+[+] 30439: JABRI Fatma Ezahra
+[+] 30479: EL MEJRI Ayoub
+[+] 29701: BOUHDID Mohsen
+[+] 30367: DHORBANI Nourhene
+[+] 29992: BOUCHRIT Sabrine 
+[+] 30425: BOUAZIZ Ilyes
+[+] 30252: BOUHLEL Hajer
+[+] 30087: ABRI Ahmed Amin
+[+] 30450: HLILA Tasnime
+[+] 29774: DERBEL Amani
+[+] 29704: HAMMAMI Rami
+[+] 30328: MAHBOULI Hela 
+[+] 29941: BOUAZIZ Slim
+[+] 29480: MILED Rabeb
+[+] 30251: MESSAOUD Safa
+[+] 30624: JAAFAR Yosra
+[+] 30575: ROUACHED Mouna
+[+] 30515: SEYAH Chaima
+[+] 30319: KHEIREDINE Chourouk
+[+] 30643: GUERMAZI Wassim
+[+] 29545: MANAI Hamza
+[+] 30526: BEN REJEB Oumayma
+[+] 30192: CHERIF Khadija
+[+] 30497: DAMAK Imen
+[+] 30210: BEN KAHLA Hadil
+[+] 29661: TOUHAMI Fatma
+[+] 29812: FARHAT Dhouha
+[+] 30616: KEMICHA Khaled
+[+] 30534: HAFAIEDH Chourouk
+[+] 30068: GHODHBANE Amal
+[+] 29822: BEN SAMIR Asma
+[+] 29464: BEN MESSAOUD  Hela
+[+] 29779: SALMANE Nesrine
+[+] 30435: SOUIAI Khawla
+[+] 30104: MISSAOUI Abdel Mouhaimen
+[+] 29901: LAOUINI Azza
+[+] 29733: BEN MANSOUR Safa
+[+] 29670: ABASSI Manel
+[+] 29770: CHAABI Khouloud
+[+] 29612: BEN HASSINE Donia
+[+] 29854: SELLAMI  Amir
+[+] 29524: TRABELSI Yasmine
+[+] 29859: BEN GHALIA Manel
+[+] 29425: MAHJOUB  Chaima 
+[+] 29887: BOUZANNA Walid
+[+] 30072: CHIHI Imen
+[+] 30138: EL WHADHANE Issraa
+[+] 30070: FDHILA Sana
+[+] 29374: LAARIF Fatma 
+[+] 30577: CHATTI Chamseddine 
+[+] 30595: CHAABANE Arbia
+[+] 30410: NAIFAR Samar
+[+] 30116: AYACHI  Fadoua
+[+] 12114240: Barbana Iyed
+[+] 29793: AMAIDI Rami
+[+] 30152: SBOUI Karama
+[+] 29371: GATTI Sirine
+[+] 30368: TERZI Donia
+[+] 29404: NEFZI Ahmed Mohamed
+[+] 30136: TURKI Roua
+[+] 30225: GOUIAA Ines
+[+] 29984: GOSSA Naissen
+[+] 30035: Mabrouk  Rihab 
+[+] 30057: TEKAYA Asma
+[+] 30180: GUELMAMI  Houda
+[+] 30280: TOUNSI Abdelkader
+[+] 30409: DHAOUADI  Rania
+[+] 30048: KOUISSAH MAHJOUB Maissa 
+[+] 29631: NEJI Syrine 
+[+] 29960: JEBALI Yosra
+[+] 30564: HERMASSI Houdhayfa
+[+] 30046: ELFALEH Meriem
+[+] 29656: OUERFELLI Ahlem
+[+] 30636: BEN SAID Marouene
+[+] 29904: KETATA Emna
+[+] 29741: El AMRI Abir
+[+] 30385: ALOUI Amal
+[+] 29825: BOUAZZI Chadi
+[+] 29773: GUEDRI Nour
+[+] 30462: BEN FEKIH Naoures
+[+] 30286: JENDOUBI Mariem
+[+] 30437: M'SADAK Ghazi
+[+] 29685: DLENSI Aryj
+[+] 30420: ABDELHEDI Yessin
+[+] 29697: SALHA Cyrine
+[+] 30529: ABIDI Safa
+[+] 30302: BEN ZEID Mohamed 
+[+] 29871: BEN ARIBI Wissem
+[+] 30065: YAHMADI Cheima
+[+] 29630: HACHICHA Sarra
+[+] 29431: DRIDI Manel
+[+] 29768: MAAZOUN Majdi
+[+] 29767: FARHAT Rawia
+[+] 29596: EBN EBRAHIM Youssef
+[+] 30558: GEREISHA Rasene
+[+] 30268: MAAROUFI Arij
+[+] 30600: SGHAIER Hamdi
+[+] 29565: AMEUR Amani
+[+] 30333: HOUMANE Yasmine
+[+] 29411: BENJEDDOU Wael
+[+] 29474: BEN AZIZA Anissa
+[+] 30069: BEDOUI Youssef
+[+] 30422: TRIGUI Sahar
+[+] 29517: MEKKI Sahar
+[+] 30103: JAMOUSSI Sirine
+[+] 29821: ANENE Wafa
+[+] 30547: BEN ABDALLAH Mairiam
+[+] 30561: AL SABAH Rayane
+[+] 30655: TALBI Ons
+[+] 29435: TAJ Montasssar
+[+] 29382: ELMOKH Wissem
+[+] 29628: BEN SLAMIA Wiem
+[+] 30114: GUERMAZI Yosr
+[+] 30516: LEMBARKI Achref
+[+] 30621: ZEHI Meriem
+[+] 29919: SAADANI Khaoula
+[+] 30417: MOUELHI Yosra
+[+] 29629: BOUABID Manel
+[+] 30032: CHERIF Meriem
+[+] 29532: BAKARI Kamel
+[+] 30523: BNOUNI Mohamed Anes
+[+] 30128: SAHBANI Hela
+[+] 17144958: SHTAYEH Fayez
+[+] 29797: SAKER Malak
+[+] -13111: ZAZ BEN AISSA Taoufik
+[+] 29927: BEN HAMMOUDA Riadh
+[+] 30407: MIGHRI Asma
+[+] 30219: MAATALLAH Fida
+[+] 30166: KHEMILI khouloud
+[+] 29945: KHADRAOUI Faten 
+[+] 29970: BOUZIDI Dhafer 
+[+] 29438: MILI Fares
+[+] 29625: BEN HAMMOUDA Ines
+[+] -92454: Aljuaidi Mohammed
+[+] 29492: BOUJMIL Khalil
+[+] 29619: BEN SALAH Radhouene
+[+] 30536: FERJAOUI Mohamed
+[+] 29610: BEN CHEDLY Mohamed Wassim
+[+] 30607: MEDHAFFAR Dorra
+[+] 29518: M'DIMEGH Safa
+[+] 30158: BEN LAZREG Khouloud
+[+] 30290: JAOUA Meriem
+[+] 30299: ZEKRI Dorsaf
+[+] 29856: FARHAT Rania
+[+] 30441: KOUBAA Cyrine
+[+] 29780: BOURGOU Malek
+[+] 30518: kALBOUSSI Chanez
+[+] 29439: BEN JDIDIA Nadia
+[+] 29520: AMRI Iheb
+[+] 29673: BEN BRAHIM Mayssa
+[+] 30163: JMAL Aiman
+[+] 29964: BELLARADH Rabeb
+[+] 29886: BERGAOUI Emna
+[+] 29473: BOUSNINA Sabrine
+[+] 30064: CHHAIDAR Ahmed
+[+] 30149: HADRICH Safa
+[+] 30384: ABASSI Ameni
+[+] 29389: BEN AMARA Faten
+[+] 30501: BAKIR Mariem
+[+] 30083: BEN AMARA Nouha
+[+] 29624: BOUZID Ahlem
+[+] 29665: OMRI Nihel
+[+] 29875: CHENOUFI Molka
+[+] 29846: SMIDA Sourour
+[+] 29508: BEN FREDJ Nizar
+[+] 30553: SAMET Abir
+[+] 30512: BASSALAH Amani
+[+] 30548: BARKALLAH Mariem
+[+] 30456: ZOUAGHI Asma
+[+] 29816: BEN SALEM Emna
+[+] 29869: BEN MABROUK Syrine
+[+] 29691: DEKHIL Ahlem
+[+] 29445: AOUINI Tarek
+[+] 30362: FOURATI Ahlem
+[+] 29509: BEN DOUISSA Asma
+[+] 29796: MOKADDEM Mariem
+[+] 29739: SAIDI Emira
+[+] 30198: FERCHICHI Olfa
+[+] 29458: ARBI Hassane
+[+] 30121: JMAL Sofia
+[+] 30623: BAHRI Ikram
+[+] 29501: DOUKH Meryem
+[+] 30591: HAMMADI Jihene
+[+] 29698: JABRI Amani
+[+] 29676: MILED Wafa
+[+] 30606: MORHAG Sabah
+[+] 30150: BAHRI Jihene
+[+] 30400: YEZZA Hajer
+[+] 120122035: souhailA Souahil
+[+] 30622: SAKOUHI Badreddine
+[+] 30184: AISSAOUI Cyrine
+[+] 30006: CHARGUI Latifa
+[+] 29528: BOUAZIZI Soumaya
+[+] 30022: CHERIF Mouna
+[+] 29787: MRAD DALI Yasmine
+[+] 30215: KRIMI Helmi
+[+] 30018: BOUSSAID Halima
+[+] 29681: AYADI Hadhemi
+[+] 29863: KOUKI Chaima
+[+] 30043: KHALED Ramzi
+[+] 29972: MEZZI Rania 
+[+] 30140: DHAOUADI Tasnim
+[+] 29790: HRIZ Nermine
+[+] 30079: BEN JMAA Donia
+[+] 29828: BOUAZIZ khouloud
+[+] 29669: CHROUFA Malek
+[+] 29782: AYARI Sabrina
+[+] 30026: BENSOLTANE Mbarka
+[+] 29401: SMAOUI Hend
+[+] 30265: BELLIL Jawher
+[+] 22714614: BEN ABDA Raoudha
+[+] 30033: KHALED Amal
+[+] 29618: TLILI Yassine
+[+] 29884: ATTIA Maryam
+[+] 29384: NAHDI Nour
+[+] 30119: LAZZEZ Raouia
+[+] 29482: ZOUBEIDI Rafif
+[+] 29850: GHABI Faten
+[+] 30580: TRIMECH Chaima
+[+] 30071: ATALLAH Farah
+[+] 29605: DHIFAOUI Naim
+[+] 30061: KOUKI Nadia
+[+] 29437: MOKNI Hajer
+[+] 29547: KHALDI Amira
+[+] 30638: KAANICHE Hajer
+[+] 30495: CHARFI Salima
+[+] 29592: MEDDEB Ayoub
+[+] 30123: KILANI  Yosra
+[+] 29659: ELARBI Malek
+[+] 30312: ALAYA Salma
+[+] 29899: KHAZRI Mouna
+[+] 30254: ZILI Inès
+[+] 29915: MLIK Zeineb
+[+] 30433: NJAH Dorra
+[+] 30358: MEL Yosr
+[+] 29407: BEN MARZOUK Saoussen
+[+] 29725: DHIFALLAH Radhia
+[+] 30293: KCHAOU Raouf 
+[+] 29584: EL MABROUK Yosr
+[+] 29678: GABSI Sofiene
+[+] 29959: ELLEUCH Amal
+[+] 29900: CHLAGOU Mahmoud
+[+] 30414: BEN MIMOUN Nermine
+[+] 29707: REJEB Jihene
+[+] 29615: JOUIROU Rabeb
+[+] 30200: HAMMAMI Selim
+[+] 30532: ABBES Chahrazed
+[+] 30266: LAATIRI Farah
+[+] 29844: BEN OTHMAN Sirine
+[+] 30214: JERIDI Islem
+[+] 29750: GADER Nassim
+[+] 29412: JAZIRI Shayma
+[+] 29386: SAKHRI Hanen
+[+] 30027: BOUAZIZ Mouna 
+[+] 29476: BOUDHINA Emna
+[+] 30581: YAICH Yasmine
+[+] 30242: RANNEN Rami
+[+] 30237: ROUACHED Sarra
+[+] 30277: JARRAYA Myriam
+[+] 29576: BELGHITH Yassine
+[+] 29742: KHEMIRI Hamza
+[+] 29818: MEZGHANI Chéma
+[+] 30054: FITOURI Moez
+[+] 30634: ALOULOU Yossr
+[+] 30077: BAHROUN Fatma Ezzahra
+[+] 29387: BENGAGI Neyrouz
+[+] 29926: BOUAZIZI Bassem
+[+] 29552: GARGOURI Chedli
+[+] 30406: HERCH Nourhène
+[+] 29942: BEN AMEUR Fatma
+[+] 30307: ALOUI Emna
+[+] 29498: DOUZI Arsalen
+[+] 30002: MAHMOUD Salma
+[+] -92451: ABDELRAHMAN Imad
+[+] 30037: HAJJI Darine
+[+] 30089: BEJI Roua
+[+] 29395: JELLOULI Asma
+[+] 12415215: Mallek  Ward
+[+] 30274: GHACHEM Oussama
+[+] 29540: KAMMOUN Ameni
+[+] 30463: CHARFI Jihene
+[+] 30144: NEFZI Amal
+[+] 29696: DRISSI Eya
+[+] 29905: BEN BNINA Molka
+[+] 30499: BOUJENOUI Samia
+[+] 30408: HAFSI Montacer
+[+] 29967: EL BAHRI Mohamed Khalil
+[+] 29451: ZINI Wissal
+[+] 30347: SOUISSI Marouan
+[+] 29837: Ali Mohamed
+[+] 30256: SALEM Imen
+[+] 29679: ADHOUM Aymen
+[+] 29758: MAHMOUD Amine 
+[+] 29634: DEBABI Chaima
+[+] 30099: JRAD Maissa
+[+] 30510: MARDESSI Ameni
+[+] 30117: RZIG Anissa
+[+] 30245: TRIGUI Syrine
+[+] 30288: ELLOUMI Salma
+[+] 29504: SAKLI NADA
+[+] 30086: MASTOURI Rihab
+[+] 30525: MAJDOUB Rihab
+[+] 29723: ZAAFRANE Mohamed Hedi
+[+] 29830: HASNAOUI Zaineb
+[+] 30539: KHALFAOUI Aymen
+[+] 30502: MAATALLAH Kais
+[+] 29760: BEN MBAREK Salma
+[+] 30369: FANTAR Asma
+[+] 30428: BEN ARFA Oumaima 
+[+] 30094: ATROUS Ouafa
+[+] 29806: GUEFFRACHE Heykel 
+[+] 30486: AYEDI Mariem
+[+] 30459: HARBI Azza
+[+] 29762: BEN ZEKRI Sinda
+[+] 29478: SARRAJ Rihab
+[+] 30630: BEN AMARA Mohamed Amine
+[+] 30315: MRAD Adel
+[+] 30137: SELLAMI  Walid
+[+] 29708: BEN AMEUR Selim
+[+] 29985: TRIFA Imen
+[+] 29722: RADDADI Awatef
+[+] 29392: MAATOUK Amani
+[+] 30493: DRIRA Anouar
+[+] 30127: JHIMI Ali
+[+] 29421: BEN YAHIA Salwa
+[+] 29718: ESSID Salem
+[+] 30511: AKRIMI Khouloud
+[+] 29643: BEN HMED Chokri
+[+] 30651: ZINE LABIDINE Mohamed Karim
+[+] 29525: GHORBEL Salma
+[+] 128243: Brigui Yassine
+[+] 29448: BACCAR Hela
+[+] 30227: FRIKHA Chourouk
+[+] 30465: BHAR salma
+[+] 30169: BENHELEL Chaima
+[+] 12215734: Megdiche Mohamed Amine
+[+] 120122248: abidellaoui khaoula
+[+] 30365: MAKHLOUF Emna
+[+] 29442: ABDLKEFI Olfa
+[+] 29709: DHAOUADI Nawel
+[+] 29849: LAHOUIMEL Rania
+[+] 29623: GRISSA Ons
+[+] 30092: AROUS Amine
+[+] 29459: DRIDI Nour El Houda
+[+] 30545: BEN YOUSSEF Selima
+[+] 29881: FEKI Feten
+[+] 29810: SALHI Salma
+[+] 30386: BANI Amina
+[+] 29917: BEN YOUSSEF Fatma
+[+] 30111: BLEL Soumaya
+[+] -92460: SHTAYEH Fayez
+[+] 30188: BELKHIRIA Afef
+[+] 29495: BALTAGI Myriam
+[+] 30482: OUALHA Omar
+[+] 29655: ZIEDI Hiba
+[+] 30394: RABHI Hiba
+[+] 30284: MTIMET Hichem
+[+] 30259: CHOURIA Nour El Houda
+[+] 30602: HAROUNI Nouha
+[+] 30480: NAFFATI Malek
+[+] 29729: JALLOUL Ikhlas
+[+] 29535: BIZID Inaam
+[+] 29649: FRIGUI Hedi
+[+] 29582: ARFAOUI Zied
+[+] 29415: CHERICHI Maroua
+[+] 30285: TARKAOUCHI Omar
+[+] 30487: ABDELHEDI Farah
+[+] -92455: BADER Saeb
+[+] 29769: ELAIFIA  Rani
+[+] 30279: SGHAIER Manar
+[+] 30392: BARKALLAH Fatma
+[+] 29635: HTIRA Mohamed Mahdi
+[+] 30429: HACHANA Zied
+[+] 29971: BLAIECH Ines
+[+] 29752: KRIFA Rahma
+[+] 30153: NEGLA Nadia
+[+] 30448: REJEB Rayhan
+[+] 30124: SALHI Emna
+[+] 30551: BACCAR EMNA
+[+] 29914: GHAMGUI Wissal
+[+] 30125: RABHI Salma
+[+] 29510: RAGUEM Ahmed
+[+] 29834: ABIADH Rahma
+[+] 29874: BEN RBAI Senda
+[+] 30038: HNEN Youssef
+[+] 30468: GHARBI Ines
+[+] 113141655: MTIR MOHAMED KAMEL
+[+] 30218: BEN MAHMOUD Hadil
+[+] 30097: EL ABED Wiem
+[+] 29648: BEN BRAHIM Safouen
+[+] 30416: MOULAHI Khouloud
+[+] 30267: KHARRAT Ons
+[+] 29544: NEFZI Rihab
+[+] 30436: KOTTI Amal
+[+] 29730: NAAROURA Ameni
+[+] 30612: CHERNI Khouloud 
+[+] 30342: KESKES Imed
+[+] 29798: CHAFFAI Olfa
+[+] 29937: ALLANI Donia 
+[+] 29536: MOUSSA  Khaoula 
+[+] 29663: SASSI Ahmed Amine
+[+] 29589: CHAHED Faiza
+[+] 29885: SAHNOUN Dhouha
+[+] 29539: ZOUARI Alaeddine
+[+] 30203: HABACHA Farah
+[+] 30438: ARFAOUI Ahmed 
+[+] 29726: AIDANI Sofien
+[+] 29732: RIAHI Souhir
+[+] 29660: MAALAOUI Hajer
+[+] 30261: MEDIOUNI Houssem Eddine
+[+] 29541: ZINA Naima
+[+] 29943: ZMERLI Rayhane 
+[+] 29385: BOUZIDI  Mahdi
+[+] 29664: BOUGHZALA Syrine
+[+] 29609: LACHTAR FADOUA
+[+] 30154: FERHI Mohamed
+[+] 29747: HSASNA Roua
+[+] 29690: FOUZAI Sarhane
+[+] 6679: OTHMAN Noureddine
+[+] 30049: BEN MABROUK Wided
+[+] 29814: HELLALI Nadia
+[+] 30598: MAZLOUT Mahmoud 
+[+] 29675: SELMI Amany
+[+] 29402: BOUALLAGUI Marwa
+[+] 29627: HENTATI Mohamed Wassim 
+[+] 29674: TISSAOUI Amani
+[+] 30345: BOUALLEGUE Eya
+[+] -92458: I.S. ABUSAWAWIN Yousef
+[+] 29922: ACHOUR Selsabil
+[+] 29563: SAIDANI Amal
+[+] 29642: NAJIB Fatma Ezzahra
+[+] 29463: KNISS Ouided
+[+] 29909: DENDEN Zeineb
+[+] 29446: JEMEL Iheb
+[+] 29572: MAALOUL Mariem
+[+] -92456:  M.J.MUSHTAHA Sharafeddin
+[+] 30058: LAADHAR Mohamed Amine
+[+] 29506: BENKHALIFA Samah
+[+] 30023: ALOUI Marwa
+[+] 29781: OBAY Becem
+[+] 29759: BADREDDINE Syrine
+[+] 1813030: Khouloud Absi
+[+] 30398: HELAOUI Fadoua
+[+] 30005: SOUISSI SAFA
+[+] 29620: HAFSI Marwa
+[+] 30542: BEN ABDELADHIM Asma
+[+] 30639: GNOUNOU Hajer
+[+] 30531: MAALEL Asma
+[+] 29638: BEN SAAD Saeb
+[+] 30530: BATBOUT Olfa
+[+] 30415: MGHIRBI Rania 
+[+] 29650: FEJJI Yosra
+[+] 29754: HATMANI Sana
+[+] 29996: BACCAR Farah
+[+] 30278: BEN SAID Marwen
+[+] 29705: BEN SALEM Nesrine
+[+] 30432: SELLAOUTI Yasmine
+[+] 30544: DALLAGI Rania 
+[+] 29521: MARRAKCHI Meriem
+[+] 30143: KHLAS Mohamed Elyes
+[+] -92447: KHADER Ahmed
+[+] 30081: FEKI Karama
+[+] 29990: ROMDHANE Islem
+[+] 29440: TRABELSI Sahar
+[+] 29835: SEGNI Yosra
+[+] 30633: DAOUD Yasmine
+[+] 29894: BEN YAGOUB Rim
+[+] 29963: BELLAAJ Maissa
+[+] 30282: LEFI Nermine
+[+] 1241365: Sahnoun Khadija
+[+] 29858: NAFTI Imen
+[+] 29653: BENZARTI Amani
+[+] 30335: AMRI Mohamed Salah
+[+] 130122035: TestPaiement TSITest
+[+] 29703: BOUAZIZ Anis
+[+] 29468: KORT Nesrine
+[+] 29912: KHIARI Ons
+[+] 30582: MLAYAH Ines
+[+] 29423: MEKKI Nouha
+[+] 29499: CHEBBI Elaa
+[+] 29406: LAGHA Ilyes
+[+] 29833: LAZID SARRA
+[+] 30182: LAAJIMI Raed
+[+] 29671: MIADI Mouheb
+[+] 29530: FRINI Safouane
+[+] 30388: ABIDI Nouha
+[+] 29746: BETTAIEB Oussama
+[+] 29436: BOUABDALLAH Ilyes
+[+] 29931: SEDIRI Oumeima
+[+] 29636: TRABELSI Mohamed Mehdi
+[+] 30204: DHOUIB Rafik
+[+] 30112: BEL HADJ SALAH Maroua
+[+] 30533: BOURAOUI Mariem
+[+] 29807: AYARI Malek
+[+] 30325: SELMI Yassine
+[+] 30067: SALEM Zeineb
+[+] 29598: ALMAHMOUDI Wiem
+[+] 30557: ROMDHANI Sana
+[+] 29687: DHIEB EP AMMAR Nesrine
+[+] 30194: TAOUS Lina
+[+] 30556: KHALIFA Hind
+[+] 30196: BEN ABDESSALEM Abdelaziz
+[+] 30107: BEN ALI Sonia
+[+] 29857: ABIDI Sahar
+[+] 29651: GASSARA  Fatma
+[+] 29400: AYADI Mohsen
+[+] 29581: OUERTANI Emna
+[+] 29918: KTARI Selima
+[+] 29764: SAMMOUD Wael
+[+] 30281: LAAROUSSI  Randa
+[+] 29418: MARRAK Mehdi
+[+] 30418: SEBRI Hajer
+[+] 29379: DAOUD Rihab
+[+] 1120143819: HAFI Khouloud
+[+] 30232: CHABOUH Amal
+[+] 29677: OUASLI Ferdaous
+[+] 29617: OTHMANE Nour El Houda
+[+] 30040: KAABACHI Mouna
+[+] 29621: GARNA Selma
+[+] 30133: ABDELKRIM Nada
+[+] 30509: DERBEL Chaima
+[+] 29585: SELMI Marwen
+[+] 30300: KRIFA Myriam
+[+] 29578: ROUAG Hatem
+[+] 30380: GRITLI Emna
+[+] 29543: BEN ARAB Emna
+[+] 30091: AZAOUZI Firas
+[+] 29549: ESSGHAIER Salma
+[+] 30527: DABBEBI Fatma Ezzahra
+[+] 30412: RADDAOUI Yosra
+[+] 30481: REKIK Emna
+[+] 29564: ABDESSATAR Ghada
+[+] 30552: DERBEL Latifa
+[+] 29949: MUFTI Myriam
+[+] 30393: JALLOULI Nour Elhabib 
+[+] 30356: BEN ABDELHAFID Imen
+[+] 29860: DARDOUR Sirine
+[+] 30313: MAZIGH Rym
+[+] 29465: KANOUN Mariem
+[+] 30554: BOUCHENDIRA Mariem
+[+] 29604: BEN ABDALLAH Khouloud
+[+] 30383: LAJMI Yosr
+[+] 30615: BEN CHAABENE Haithem 
+[+] 30372: ABIDI Zaineb
+[+] 29907: HAJ ABDALLAH Haifa
+[+] 30546: M'HAMED Marwa
+[+] 9573: MHADHEBI Sabeur
+[+] 29829: DHAHBI Mohamed 
+[+] 29537: HAMOUDA Hajer
+[+] 30652: BEY Cyrine
+[+] 29602: BEN SAIDANE Syrine
+[+] 29934: BEN MOSBEH Khaoula
+[+] 29388: KETATA Imen
+[+] 29574: DHOUIB Salma
+[+] 30341: MADI Wafa
+[+] 30519: GHORBEL  Mohamed 
+[+] 29667: KALBOUSSI Rania
+[+] 29847: NSIBI Seif Eddine 
+[+] 29633: MSADEK Mohamed Sofiene
+[+] 29583: ATROUS Amal
+[+] 29376: BEN HAMED Nourhene
+[+] 29372: DALI Ala Eddine
+[+] 29792: AZAIEZ Abir
+[+] 29848: GHANMI Abir
+[+] 30586: MTIR Mohamed Kamel
+[+] 30484: GUEDRI Ghassen
+[+] 29434: GEREISHA Ahmed Adel
+[+] 30390: YOUNES Asma
+[+] 30109: SALAH Hela
+[+] 30236: JARDAK Donia
+[+] 29923: CHAARI Oumayma 
+[+] 30314: NAMOUCHI Amal
+[+] 30455: ZINELABIDINE Aicha
+[+] 29553: DHIAB Leila
+[+] 30031: MARZOUKI Safa
+[+] 29503: CHTIOUI Soumaya
+[+] 30625: TRIMECHE Oumeima
+[+] 29637: GHANMI Ahlem 
+[+] 30601: GUEDRI Mohamed Ali
+[+] 30569: MANNOUBI Islem 
+[+] 30134: BEN YOUSSEF Youssef
+[+] 30336: BEN HADID  Mohamed Fares 
+[+] 30565: MAHOUACHI Ines
+[+] 30571: MTIMET Firas
+[+] 29606: GAZZAH Houda
+[+] 29786: LOUATI Molka
+[+] 29378: KCHAOU Rahma
+[+] 29454: KECHAICH OMAR
+[+] 30579: GUERFALLAH Mohamed Rafik
+[+] 129125256: Mighri Asma
+[+] 29475: MAATOUK Yasmine
+[+] 29711: GARGOURI Farah
+[+] 29800: HSAIRI Meriem
+[+] 8064: EL HAJRI Saida
+[+] 30051: GHRAB Siwar
+[+] 30563: BEN MASSOUD Ghofrane
+[+] 30130: FLISS Marwa
+[+] 30231: ELGHALI Adnen
+[+] 12976: BEN TAHAR Mondher
+[+] 30073: MECHRAOUI Erij
+[+] 30357: KHAYAT Lobna
+[+] 30062: OUERGHI Sondos
+[+] 30174: DAOUD Rabeb
+[+] 29414: OUARASSI Asma
+[+] 29841: BOUATTOUR Issam
+[+] 29429: BELKHIRI Malak
+[+] 29920: TAMBOURA Ahmed
+[+] 29441: MNIF Emna
+[+] 30329: BEN AMOR Imen
+[+] 30321: BEN  ALAYA Zied
+[+] 29580: BOUGHZALA Wieme
+[+] 30195: CHERNI Fadwa
+[+] 29453: KLILA Marwa
+[+] 30587: BARBANA Iyed
+[+] 29880: CHATTI Abir
+[+] 29680: TERZI Ameni
+[+] 29427: AGUIR Sirine
+[+] 30387: DACHRAOUI Rim
+[+] 29460: BEN HAMMED Asma
+[+] 30170: OUERTANI Sarra
+[+] 30363: BENBRAHIM Amal
+[+] 30411: ROMDHANI Mariem 
+[+] 29892: BOUZID Sana
+[+] 29753: SGHAIER Najla
+[+] 30498: ZAAFOURI Elmontassar Belleh
+[+] 30108: RIHANE Sarra
+[+] 30585: FENINA Elyes
+[+] 29893: KRIAA Maamoun Aziz
+[+] 30209: ZELLEG Ines
+[+] 29443: ELLEUCH Imen
+[+] 29831: JEMLI Safa
+[+] 30603: HAMMAMI Yasmine
+[+] 29717: GHEZAL Mohamed Ali
+[+] 30446: ARBI Mohamed Aziz
+[+] 30381: BOUAZIZ Imen
+[+] 29526: BERGUELLIL Marwa
+[+] 29845: MOUELHI Yasmine
+[+] 30496: BENZARTI  Oumaima
+[+] 30573: CHELLY Maroua
+[+] 30578: CHAMEKH Sourour
+[+] 30146: LADHARI Mohamed Houssam
+[+] 30059: BEN TAHER Soumaya Aicha
+[+] 30614: JRADI Chayma
+[+] 30177: JAOUA Amira
+[+] 30589: OUNISSI Hajer
+[+] 30025: ALI Tarek
+[+] 29527: BHOURI Chaima
+[+] 30164: HAMZA Zied
+[+] 30310: BEN FTIMA  Ramla
+[+] 30187: BEN SLAMA Amal
+[+] 29424: ZOGHLAMI Aziz
+[+] 30052: KAMMOUN Hajer
+[+] 30332: BOUDEN Ep BELAID Maryem
+[+] 30389: KAHLAOUI Fatma
+[+] 29952: MEHRI Yassine
+[+] 30208: ABDALLAH Naouras
+[+] 29555: AJMI Maha
+[+] 30120: MKAOUAR Slah
+[+] 29966: REHAOULIA Mariem
+[+] 30063: SELLAMI  Sirine
+[+] 30324: JERBI Mohamed Ghazi
+[+] 30610: BELTAIFA Dorsaf
+[+] 29502: ELAYECH Fedia
+[+] 29973: GHRAIRI Yosr
+[+] 30605: TERGUI Wissal 
+[+] 29562: OUMAYA Zeineb
+[+] 30340: NAJAR Zeineb
+[+] 30454: BOUKADIDA Youssef
+[+] 29452: ROMDHANE Saida
+[+] 30421: FOURATI Zaineb
+[+] 30189: FARHAOUI Seifeddine
+[+] 30181: NASRI Ines
+[+] 29839: BEN SALEM Amani
+[+] 30235: WALI Farah
+[+] 29978: GUENICHI Naouel
+[+] 29444: RAMMAH Maissa Karama
+[+] 30106: kHARRAT Rabeb
+[+] 29969: EL GMATI Sawsen
+[+] 30255: LABIDI Salima
+[+] 30541: BERRICHE Mohamed Aziz
+[+] 30592: BEN SAID Nadia
+[+] 30007: ELBECHA Nada
+[+] 29989: ACHEK Sahar
+[+] 30175: GUEMRI Malika
+[+] 30508: ZOUARI Dhouha
+[+] 29600: MENIF Fatma Ezzahra
+[+] 30102: BOUAZIZI Karima
+[+] 30371: GUEFRECH Oumaima
+[+] 161125: MOHAMMAD ABDULLAH Shaima
+[+] 30233: NEJI Ikram
+[+] 29813: BANNOUR Mohamed Amine
+[+] 30217: HADDAJI Ons
+[+] 30308: YAHYAOUI Ramzi
+[+] 30653: OUESLATI Feryel Cyrine
+[+] 29692: NSIRI A L'amine
+[+] 29783: BEN SGHAIER Fattouma
+[+] 29516: CHARFI Rim
+[+] 29977: BENWANNES Sabrine
+[+] 29910: BEN MANSOUR Feres
+[+] 29719: KNANI Yassine
+[+] 29954: OTHMEN Anis
+[+] 29688: BEN YOUSSEF Achraf 
+[+] 30036: ZAIER Akrem Yassine
+[+] 29706: ARFAOUI Farah
+[+] 30216: SAAFI Meniar
+[+] 30053: BEN HAMADI Yasmine
+[+] 30566: BEN MAKHLOUF Wiem
+[+] 30167: MEMMI Kais
+[+] 30629: KHALDI Sirine
+[+] 30344: KCHAOU Ons
+[+] 29712: MATHLOUTHI Chiraz
+[+] 29896: BEN NJIMA Oussama 
+[+] 29889: FATHALLAH Ines
+[+] 30273: MRAD Meriem
+[+] 30178: AYADI Mariem
+[+] 29878: BOURMECH Oussama
+[+] 29396: TABBABI Taher
+[+] 30645: ZORRIG Mahdi
+[+] 30364: FARHAT Wafa
+[+] 30316: DAHMANI Yahia
+[+] 29981: SAIDI Wael
+[+] 30506: TRIGUI Racem
+[+] 29380: TRABELSI Ons
+[+] 29994: BALAAZI Ahmed
+[+] 30431: OMRI Ahlem
+[+] 29588: CHEHAIDER Amira
+[+] 30024: HOURI Fadwa
+[+] 30550: OMRANE Mohamed
+[+] 30453: EZZINE Fahmi 
+[+] 29751: FHIMA Mohamed Achraf
+[+] 30016: LABBAOUI Khaoula
+[+] 29868: HAMMAMI Maroua
+[+] 12093523: BENKRAIEM  HOUYEM
+[+] 30047: BEN ABDELJELIL Wiem
+[+] 30473: KAMMOUN Mariem 
+[+] 30276: CHEHAB Mayssa
+[+] 30401: HAMZA Farah
+[+] 29662: BOUDABBOUS Wiem
+[+] 29974: JRIDI Yosra
+[+] 30248: HAJRI Eya 
+[+] 30076: BAHRI Yasmine Maya
+[+] 30464: AGUIR Fadwa
+[+] 30584: ZITOUNI Chaima 
+[+] 30246: WERDA Majd
+[+] 29479: GHARIANI Jihene 
+[+] 30074: LAAJILI Siwar
+[+] 30096: BOUATTOUR Maroua
+[+] 30352: KALAI Abir
+[+] 29548: GHABI Marwen
+[+] 29724: HICHRI Ahlem
+[+] 29529: ZMANTAR Ines
+[+] 30015: WACHEM Oussema
+[+] 29640: HAMDI Ikram
+[+] 30507: MNASRI Hanen
+[+] 29997: BEN DABBABI Maha
+[+] 29824: El AKEL Malek
+[+] 29713: KNANI Hela
+[+] 30317: BEDOUI Asma
+[+] 29826: MEZGHANI Issam
+[+] 30391: HOUICHI Hela
+[+] 30090: ZARGOUNI Asma
+[+] 29734: OUERGHEMMI Arij
+[+] 29898: BEN SALEM Ines
+[+] 29867: KRIFI Farah
+[+] 29735: SELLAOUTI Selim
+[+] 29684: Gharbi Rania
+[+] 29490: SADDEM Issam
+[+] 30030: MEKKI Soumaya
+[+] 30042: HAJJI Haifa
+[+] 124123556: Aouini Sabrine
+[+] 30654: DERBEL Lina
+[+] 30011: SADKI Amine
+[+] 29784: NASRI Insaf
+[+] 30355: MABROUK Karim
+[+] 30537: SALHI Mohamed Hédi
+[+] 29929: TRIGUI Khawla
+[+] 30491: HAMMAMI Yesmine
+[+] 30513: TABARKI Rana
+[+] 29397: SOUISSI Meriem
+[+] 29993: BEN SALAH Siwar
+[+] 30520: CHEBBEH Rayhan
+[+] 30044: HBAIEB Youssef
+[+] 29519: RAJAH Rihab
+[+] 30395: JABNOUN Rihab
+[+] 30470: KHENISSI Mahmoud Khalil
+[+] 29755: MESKINI Majdi
+[+] 29561: ARFAOUI Asma
+[+] 29838: Gazzeh Hamza
+[+] 30241: TRABELSI Farah
+[+] 29956: BERGAOUI Mohamed Maher
+[+] 29775: HARRATHI Soumaya
+[+] 29756: ABIDA Nesrine
+[+] 30583: CHERIF Rania
+[+] 29579: TRIMECH Khaoula
+[+] 29995: AYACHI Amal
+[+] 29749: DRISS Nour El Houda
+[+] 29533: MABROUK Mohamed
+[+] 30646: SETTI Mootez
+[+] 29658: MERGHENI Ines
+[+] 30234: GRASSI Amira
+[+] 30021: JELASSI Asma
+[+] 30427: BOUAGILA karim
+[+] 30570: KHADRAOUI Motez
+[+] 29715: AYACHI Haythem
+[+] 30014: LAZZEM Moez
+[+] 30382: BAKLOUTI Soulaymen
+[+] 30637: KADRI Nour
+[+] 29455: SOUISSI Hamza
+[+] 30500: CHAHED Houssem Eddine
+[+] 30272: MOUSSA Ramzi
+[+] 30617: CHAABANI Mariem
+[+] 30275: HADDAD Yasmine 
+[+] 29417: FEZAI Wissal
+[+] 29865: ARFAOUI Baha eddine
+[+] 30588: AZOUZ Asma
+[+] 29560: HACHANI Yosra
+[+] 29419: BRAHIM Asma
+[+] 30449: SABAHI Bilel
+[+] 30301: KHEMIRI Haifa
+[+] 30339: ABID Souha
+[+] 29737: BAYAR Mohamed Fehmi
+[+] 29804: BEN AYED Mayssa
+[+] 30085: ZAARA Mohamed Amine
+[+] 30191: OTHMAN Akram
+[+] 29895: RAHIM Jasser
+[+] 29472: LAARIF Souha
+[+] 30620: KHABTHANI Oumayma
+[+] 29420: BEN AMAR Ferdaous
+[+] 29811: BEN MOUSSA Mohamed Amine
+[+] 29962: JAOUADI Chadha
+[+] 30396: ABDENNEJI Souha
+[+] 29483: METAOUA Rahma
+[+] 30648: BADRI Amal
+[+] 30419: KHELIL Yosra 
+[+] 29953: TURKI Mariam
+[+] 29611: AJRA Zaineb
+[+] 29470: HAMDI Sana
+[+] 29575: TRIKI Zied
+[+] 30020: ALOUANE Rabab
+[+] 30055: DINARI Syrine
+[+] 29906: BELKHIRIA Hela
+[+] 29449: LOUATI Meriam
+[+] 11159520: ATTIA Rania
+[+] 30224: JAMMOUSSI Fatma
+[+] 29983: OUMAYA Hazem
+[+] 29720: BEN JEMIA Sarra
+[+] 30161: TAHAR Oumaima
+[+] 29613: DZIRI Sonia
+[+] 124121310: Shiri Mayssene 
+[+] 30270: KAMMOUN Alyssa
+[+] 30472: CHRIGUI Maha
+[+] 30041: BELGHITH Siwar
+[+] 30574: LAHIANI Emna
+[+] 29808: HOUIJ Chahrazed
+[+] 11750: MANSALI Béchir
+[+] 30066: BEN THAYER Maissa
+[+] 30303: DRISSI Hajer
+[+] 30264: RAIES Rim
+[+] 29903: MABROUK Alaeddine
+[+] 29921: LAMLOUM Eya
+[+] 30492: KALLEL Amina
+[+] 30631: MHAMDI Tesnim
+[+] 29799: MAALOUL Sahar
+[+] 29794: OMRANI Maissa
+[+] 30095: BOUAZIZ Fatma
+[+] 30084: MEJRI Oumaima
+[+] 29968: BEN DOUISSA Nadia
+[+] 29928: TRIKI Molka
+[≈] 28107: 2 fields updated
+[≈] 14256: 2 fields updated
+[≈] 1661: 2 fields updated
+[≈] 10574: 1 fields updated
+[≈] 17509: 1 fields updated
+[≈] 23026: 2 fields updated
+[≈] 20778: 1 fields updated
+[≈] 17895: 1 fields updated
+[≈] 25817: 3 fields updated
+[≈] 20363: 2 fields updated
+[≈] 26095: 1 fields updated
+[≈] 3793: 2 fields updated
+[≈] 3011: 1 fields updated
+[≈] 4577: 1 fields updated
+[≈] 3268: 1 fields updated
+[≈] 25412: 1 fields updated
+[≈] 7001: 1 fields updated
+[≈] 9920: 3 fields updated
+[≈] 10907: 1 fields updated
+[≈] 14607: 1 fields updated
+[≈] 7089: 1 fields updated
+[≈] 10577: 1 fields updated
+[≈] 8252: 4 fields updated
+[≈] 14959: 1 fields updated
+[≈] 28591: 2 fields updated
+[≈] 1910: 1 fields updated
+[≈] 4113: 1 fields updated
+[≈] 5602: 2 fields updated
+[≈] 5104: 2 fields updated
+[≈] 21047: 1 fields updated
+[≈] 4075: 3 fields updated
+[≈] 28038: 2 fields updated
+[≈] 13059: 1 fields updated
+[≈] 18795: 1 fields updated
+[≈] 10860: 1 fields updated
+[≈] 8080: 2 fields updated
+[≈] 1587: 2 fields updated
+[≈] 8764: 1 fields updated
+[≈] 19535: 2 fields updated
+[≈] 14769: 2 fields updated
+[≈] 13234: 2 fields updated
+[≈] 7227: 3 fields updated
+[≈] 18638: 3 fields updated
+[≈] 12127: 2 fields updated
+[≈] 27929: 4 fields updated
+[≈] 23050: 2 fields updated
+[≈] 10561: 2 fields updated
+[≈] 26503: 2 fields updated
+[≈] 14147: 3 fields updated
+[≈] 12051: 1 fields updated
+[≈] 19811: 1 fields updated
+[≈] 17691: 1 fields updated
+[≈] 22642: 2 fields updated
+[≈] 4912: 1 fields updated
+[≈] 19350: 1 fields updated
+[≈] 6114: 1 fields updated
+[≈] 1850: 2 fields updated
+[≈] 24298: 3 fields updated
+[≈] 27908: 4 fields updated
+[≈] 29340: 1 fields updated
+[≈] 6431: 3 fields updated
+[≈] 25972: 1 fields updated
+[≈] 23727: 1 fields updated
+[≈] 15011: 1 fields updated
+[≈] 17973: 1 fields updated
+[≈] 12097: 2 fields updated
+[≈] 9563: 1 fields updated
+[≈] 21619: 3 fields updated
+[≈] 23809: 1 fields updated
+[≈] 21787: 2 fields updated
+[≈] 25559: 2 fields updated
+[≈] 4154: 1 fields updated
+[≈] 26594: 1 fields updated
+[≈] 13841: 2 fields updated
+[≈] 13708: 1 fields updated
+[≈] 25888: 1 fields updated
+[≈] 28683: 1 fields updated
+[≈] 1762: 1 fields updated
+[≈] 12789: 4 fields updated
+[≈] 8323: 1 fields updated
+[≈] 9346: 2 fields updated
+[≈] 15125: 1 fields updated
+[≈] 11520: 2 fields updated
+[≈] 7447: 1 fields updated
+[≈] 21007: 1 fields updated
+[≈] 5920: 1 fields updated
+[≈] 15009: 2 fields updated
+[≈] 24247: 1 fields updated
+[≈] 8953: 1 fields updated
+[≈] 19108: 1 fields updated
+[≈] 22646: 2 fields updated
+[≈] 17229: 1 fields updated
+[≈] 28310: 3 fields updated
+[≈] 4426: 2 fields updated
+[≈] 26792: 1 fields updated
+[≈] 2891: 1 fields updated
+[≈] 13835: 1 fields updated
+[≈] 9675: 2 fields updated
+[≈] 20645: 3 fields updated
+[≈] 26433: 1 fields updated
+[≈] 6731: 1 fields updated
+[≈] 10537: 1 fields updated
+[≈] 15071: 2 fields updated
+[≈] 7273: 2 fields updated
+[≈] 12341: 1 fields updated
+[≈] 21775: 2 fields updated
+[≈] 8542: 3 fields updated
+[≈] 2607: 1 fields updated
+[≈] 28760: 1 fields updated
+[≈] 26167: 3 fields updated
+[≈] 23900: 1 fields updated
+[≈] 14229: 2 fields updated
+[≈] 16644: 2 fields updated
+[≈] 12558: 2 fields updated
+[≈] 9894: 1 fields updated
+[≈] 22680: 4 fields updated
+[≈] 23419: 3 fields updated
+[≈] 21797: 3 fields updated
+[≈] 28121: 4 fields updated
+[≈] 25417: 1 fields updated
+[≈] 2470: 1 fields updated
+[≈] 15512: 1 fields updated
+[≈] 6950: 3 fields updated
+[≈] 15144: 1 fields updated
+[≈] 16297: 1 fields updated
+[≈] 9287: 3 fields updated
+[≈] 24175: 2 fields updated
+[≈] 19622: 1 fields updated
+[≈] 12100: 2 fields updated
+[≈] 20978: 1 fields updated
+[≈] 19438: 2 fields updated
+[≈] 28518: 2 fields updated
+[≈] 10704: 1 fields updated
+[≈] 26675: 1 fields updated
+[≈] 14191: 3 fields updated
+[≈] 9964: 1 fields updated
+[≈] 25069: 1 fields updated
+[≈] 10932: 1 fields updated
+[≈] 22783: 2 fields updated
+[≈] 25996: 1 fields updated
+[≈] 26604: 4 fields updated
+[≈] 17835: 4 fields updated
+[≈] 7007: 1 fields updated
+[≈] 25210: 2 fields updated
+[≈] 3301: 1 fields updated
+[≈] 12573: 2 fields updated
+[≈] 23866: 1 fields updated
+[≈] 19953: 1 fields updated
+[≈] 21830: 2 fields updated
+[≈] 23489: 1 fields updated
+[≈] 28560: 1 fields updated
+[≈] 19996: 2 fields updated
+[≈] 27186: 3 fields updated
+[≈] 23690: 2 fields updated
+[≈] 25034: 1 fields updated
+[≈] 10254: 3 fields updated
+[≈] 4109: 4 fields updated
+[≈] 4519: 1 fields updated
+[≈] 19866: 1 fields updated
+[≈] 26914: 1 fields updated
+[≈] 4534: 2 fields updated
+[≈] 20052: 1 fields updated
+[≈] 11010: 1 fields updated
+[≈] 10290: 1 fields updated
+[≈] 16966: 1 fields updated
+[≈] 23726: 3 fields updated
+[≈] 10303: 1 fields updated
+[≈] 25889: 2 fields updated
+[≈] 19822: 2 fields updated
+[≈] 6779: 1 fields updated
+[≈] 6793: 3 fields updated
+[≈] 8533: 1 fields updated
+[≈] 24309: 1 fields updated
+[≈] 16884: 1 fields updated
+[≈] 1478: 1 fields updated
+[≈] 6706: 2 fields updated
+[≈] 17163: 1 fields updated
+[≈] 8755: 1 fields updated
+[≈] 27416: 2 fields updated
+[≈] 1721: 2 fields updated
+[≈] 5117: 1 fields updated
+[≈] 10111: 1 fields updated
+[≈] 7083: 1 fields updated
+[≈] 9093: 1 fields updated
+[≈] 24288: 1 fields updated
+[≈] 16216: 2 fields updated
+[≈] 15889: 1 fields updated
+[≈] 28247: 1 fields updated
+[≈] 18556: 3 fields updated
+[≈] 18845: 3 fields updated
+[≈] 26020: 1 fields updated
+[≈] 24158: 1 fields updated
+[≈] 7106: 1 fields updated
+[≈] 28823: 1 fields updated
+[≈] 15311: 1 fields updated
+[≈] 24115: 2 fields updated
+[≈] 18663: 2 fields updated
+[≈] 16410: 1 fields updated
+[≈] 7766: 1 fields updated
+[≈] 24279: 3 fields updated
+[≈] 27245: 2 fields updated
+[≈] 21430: 1 fields updated
+[≈] 15978: 1 fields updated
+[≈] 13266: 2 fields updated
+[≈] 12935: 1 fields updated
+[≈] 13163: 1 fields updated
+[≈] 27600: 2 fields updated
+[≈] 10374: 1 fields updated
+[≈] 13186: 2 fields updated
+[≈] 11469: 1 fields updated
+[≈] 14820: 1 fields updated
+[≈] 5628: 1 fields updated
+[≈] 13229: 1 fields updated
+[≈] 25465: 1 fields updated
+[≈] 28430: 1 fields updated
+[≈] 18907: 1 fields updated
+[≈] 11172: 1 fields updated
+[≈] 22731: 1 fields updated
+[≈] 26916: 2 fields updated
+[≈] 25652: 1 fields updated
+[≈] 26830: 2 fields updated
+[≈] 28985: 1 fields updated
+[≈] 14291: 2 fields updated
+[≈] 16575: 1 fields updated
+[≈] 20046: 2 fields updated
+[≈] 20218: 2 fields updated
+[≈] 12828: 3 fields updated
+[≈] 22432: 2 fields updated
+[≈] 25095: 1 fields updated
+[≈] 11808: 1 fields updated
+[≈] 2325: 3 fields updated
+[≈] 23557: 1 fields updated
+[≈] 5145: 1 fields updated
+[≈] 2774: 1 fields updated
+[≈] 3453: 1 fields updated
+[≈] 27068: 3 fields updated
+[≈] 19981: 1 fields updated
+[≈] 25001: 1 fields updated
+[≈] 28721: 3 fields updated
+[≈] 3249: 1 fields updated
+[≈] 11753: 1 fields updated
+[≈] 17445: 1 fields updated
+[≈] 26333: 2 fields updated
+[≈] 7010: 1 fields updated
+[≈] 24278: 1 fields updated
+[≈] 8192: 3 fields updated
+[≈] 26265: 3 fields updated
+[≈] 20160: 1 fields updated
+[≈] 21926: 3 fields updated
+[≈] 11780: 2 fields updated
+[≈] 27133: 3 fields updated
+[≈] 2643: 1 fields updated
+[≈] 15643: 2 fields updated
+[≈] 18588: 1 fields updated
+[≈] 6759: 1 fields updated
+[≈] 20298: 2 fields updated
+[≈] 27960: 2 fields updated
+[≈] 14119: 1 fields updated
+[≈] 15146: 2 fields updated
+[≈] 9829: 2 fields updated
+[≈] -92384: 1 fields updated
+[≈] 5532: 2 fields updated
+[≈] 18346: 2 fields updated
+[≈] 10386: 2 fields updated
+[≈] 15280: 1 fields updated
+[≈] 5353: 1 fields updated
+[≈] 4118: 1 fields updated
+[≈] 2778: 2 fields updated
+[≈] 28976: 2 fields updated
+[≈] 23197: 1 fields updated
+[≈] 20652: 2 fields updated
+[≈] 8164: 1 fields updated
+[≈] 12754: 1 fields updated
+[≈] 6275: 2 fields updated
+[≈] 20582: 1 fields updated
+[≈] 24785: 2 fields updated
+[≈] 8569: 2 fields updated
+[≈] 28617: 4 fields updated
+[≈] 17600: 2 fields updated
+[≈] 16468: 2 fields updated
+[≈] 26550: 2 fields updated
+[≈] 22899: 1 fields updated
+[≈] 28736: 3 fields updated
+[≈] 5846: 1 fields updated
+[≈] 23058: 2 fields updated
+[≈] 21069: 1 fields updated
+[≈] 22470: 2 fields updated
+[≈] 14602: 2 fields updated
+[≈] 10916: 3 fields updated
+[≈] 17281: 2 fields updated
+[≈] 28533: 2 fields updated
+[≈] 25030: 1 fields updated
+[≈] 26932: 4 fields updated
+[≈] 26664: 1 fields updated
+[≈] 1119: 3 fields updated
+[≈] 25126: 1 fields updated
+[≈] 1608: 1 fields updated
+[≈] 4451: 1 fields updated
+[≈] 14939: 3 fields updated
+[≈] 4168: 1 fields updated
+[≈] 26942: 2 fields updated
+[≈] 15636: 1 fields updated
+[≈] 19392: 3 fields updated
+[≈] 26300: 6 fields updated
+[≈] 19584: 2 fields updated
+[≈] 4153: 1 fields updated
+[≈] 19306: 1 fields updated
+[≈] 19010: 1 fields updated
+[≈] 25684: 2 fields updated
+[≈] 18523: 2 fields updated
+[≈] 16882: 1 fields updated
+[≈] 16207: 1 fields updated
+[≈] 5913: 1 fields updated
+[≈] 26045: 2 fields updated
+[≈] 28925: 2 fields updated
+[≈] 9444: 1 fields updated
+[≈] 3197: 1 fields updated
+[≈] 3016: 1 fields updated
+[≈] 11578: 2 fields updated
+[≈] 7665: 1 fields updated
+[≈] 6852: 1 fields updated
+[≈] 2615: 2 fields updated
+[≈] 20221: 3 fields updated
+[≈] 15486: 1 fields updated
+[≈] 1346: 1 fields updated
+[≈] 6543: 1 fields updated
+[≈] 12094: 1 fields updated
+[≈] 20568: 1 fields updated
+[≈] 12823: 1 fields updated
+[≈] 10264: 3 fields updated
+[≈] 21497: 2 fields updated
+[≈] 26009: 4 fields updated
+[≈] 8628: 2 fields updated
+[≈] 3546: 1 fields updated
+[≈] 18102: 4 fields updated
+[≈] 12987: 4 fields updated
+[≈] 28288: 1 fields updated
+[≈] 26408: 1 fields updated
+[≈] 4416: 1 fields updated
+[≈] 7415: 1 fields updated
+[≈] 10913: 1 fields updated
+[≈] 5148: 3 fields updated
+[≈] 29337: 1 fields updated
+[≈] 12575: 4 fields updated
+[≈] 20098: 1 fields updated
+[≈] 22095: 1 fields updated
+[≈] 1112: 1 fields updated
+[≈] 6283: 2 fields updated
+[≈] 5270: 2 fields updated
+[≈] 27334: 2 fields updated
+[≈] 8404: 2 fields updated
+[≈] 18735: 2 fields updated
+[≈] 19516: 1 fields updated
+[≈] 21294: 2 fields updated
+[≈] 27059: 1 fields updated
+[≈] 17327: 1 fields updated
+[≈] 24198: 2 fields updated
+[≈] 25058: 2 fields updated
+[≈] 28468: 2 fields updated
+[≈] 2560: 1 fields updated
+[≈] 27407: 2 fields updated
+[≈] 23862: 3 fields updated
+[≈] 1956: 1 fields updated
+[≈] 17903: 2 fields updated
+[≈] 9428: 2 fields updated
+[≈] 6912: 4 fields updated
+[≈] 25720: 1 fields updated
+[≈] 18002: 2 fields updated
+[≈] 26979: 2 fields updated
+[≈] 28885: 2 fields updated
+[≈] 22928: 1 fields updated
+[≈] 13342: 1 fields updated
+[≈] 19473: 1 fields updated
+[≈] 5971: 2 fields updated
+[≈] 13632: 1 fields updated
+[≈] 24333: 2 fields updated
+[≈] 3846: 4 fields updated
+[≈] 14064: 3 fields updated
+[≈] 8417: 1 fields updated
+[≈] 9694: 1 fields updated
+[≈] 18011: 1 fields updated
+[≈] 7764: 1 fields updated
+[≈] 28642: 1 fields updated
+[≈] 13123: 1 fields updated
+[≈] 17842: 1 fields updated
+[≈] 18300: 5 fields updated
+[≈] 12003: 2 fields updated
+[≈] 11573: 1 fields updated
+[≈] 24131: 2 fields updated
+[≈] 9204: 3 fields updated
+[≈] 21468: 1 fields updated
+[≈] 26992: 2 fields updated
+[≈] 18347: 2 fields updated
+[≈] 4811: 1 fields updated
+[≈] 15704: 1 fields updated
+[≈] 21609: 4 fields updated
+[≈] 27987: 3 fields updated
+[≈] 13581: 1 fields updated
+[≈] 5691: 4 fields updated
+[≈] 25984: 3 fields updated
+[≈] 8689: 1 fields updated
+[≈] 15859: 1 fields updated
+[≈] 23205: 1 fields updated
+[≈] 20716: 2 fields updated
+[≈] 9876: 1 fields updated
+[≈] 1985: 2 fields updated
+[≈] 27706: 2 fields updated
+[≈] 13198: 4 fields updated
+[≈] 23657: 4 fields updated
+[≈] 15026: 1 fields updated
+[≈] 28808: 1 fields updated
+[≈] 26995: 2 fields updated
+[≈] 16450: 1 fields updated
+[≈] 27545: 1 fields updated
+[≈] 16502: 1 fields updated
+[≈] 5618: 2 fields updated
+[≈] 28874: 2 fields updated
+[≈] 12228: 1 fields updated
+[≈] 26253: 3 fields updated
+[≈] 14991: 1 fields updated
+[≈] 1986: 3 fields updated
+[≈] 17838: 1 fields updated
+[≈] 27626: 1 fields updated
+[≈] 20421: 1 fields updated
+[≈] 11299: 2 fields updated
+[≈] 8010: 2 fields updated
+[≈] 16529: 1 fields updated
+[≈] 7632: 1 fields updated
+[≈] 7721: 3 fields updated
+[≈] 28604: 2 fields updated
+[≈] 5758: 3 fields updated
+[≈] 19144: 1 fields updated
+[≈] 25880: 1 fields updated
+[≈] 26256: 1 fields updated
+[≈] 14738: 2 fields updated
+[≈] 17674: 1 fields updated
+[≈] 28688: 2 fields updated
+[≈] 24259: 1 fields updated
+[≈] 29202: 1 fields updated
+[≈] 24508: 1 fields updated
+[≈] 4486: 4 fields updated
+[≈] 28710: 3 fields updated
+[≈] 10788: 2 fields updated
+[≈] 1061: 1 fields updated
+[≈] 5837: 2 fields updated
+[≈] 16662: 2 fields updated
+[≈] 16722: 1 fields updated
+[≈] 12158: 1 fields updated
+[≈] 14761: 1 fields updated
+[≈] 6830: 1 fields updated
+[≈] 14767: 2 fields updated
+[≈] 15210: 1 fields updated
+[≈] 28729: 4 fields updated
+[≈] 1207: 2 fields updated
+[≈] 25403: 1 fields updated
+[≈] 23191: 2 fields updated
+[≈] 6334: 1 fields updated
+[≈] 29358: 1 fields updated
+[≈] 23297: 1 fields updated
+[≈] 21018: 1 fields updated
+[≈] 25004: 2 fields updated
+[≈] 25470: 1 fields updated
+[≈] 23066: 2 fields updated
+[≈] 10423: 1 fields updated
+[≈] 15631: 3 fields updated
+[≈] 4264: 3 fields updated
+[≈] 20597: 3 fields updated
+[≈] 26695: 1 fields updated
+[≈] 13307: 3 fields updated
+[≈] 2382: 1 fields updated
+[≈] 22339: 1 fields updated
+[≈] 18462: 2 fields updated
+[≈] 23806: 1 fields updated
+[≈] 16365: 1 fields updated
+[≈] 23814: 4 fields updated
+[≈] 6581: 1 fields updated
+[≈] 10106: 1 fields updated
+[≈] 26951: 2 fields updated
+[≈] 17237: 3 fields updated
+[≈] 25747: 1 fields updated
+[≈] 5681: 1 fields updated
+[≈] 3123: 2 fields updated
+[≈] 26345: 1 fields updated
+[≈] 16629: 1 fields updated
+[≈] 15142: 1 fields updated
+[≈] 8223: 1 fields updated
+[≈] 25643: 2 fields updated
+[≈] 5668: 1 fields updated
+[≈] 17207: 1 fields updated
+[≈] 23644: 2 fields updated
+[≈] 3698: 2 fields updated
+[≈] 28666: 1 fields updated
+[≈] 28519: 2 fields updated
+[≈] 12095: 1 fields updated
+[≈] 28682: 2 fields updated
+[≈] 25211: 1 fields updated
+[≈] 2117: 3 fields updated
+[≈] 23067: 2 fields updated
+[≈] 10981: 1 fields updated
+[≈] 16144: 1 fields updated
+[≈] 16883: 2 fields updated
+[≈] 16903: 2 fields updated
+[≈] 22729: 2 fields updated
+[≈] 27521: 2 fields updated
+[≈] 18915: 1 fields updated
+[≈] 19388: 1 fields updated
+[≈] 15616: 1 fields updated
+[≈] 19397: 4 fields updated
+[≈] 29089: 2 fields updated
+[≈] 24072: 2 fields updated
+[≈] 25297: 1 fields updated
+[≈] 25317: 2 fields updated
+[≈] 27015: 1 fields updated
+[≈] 5583: 1 fields updated
+[≈] 13548: 1 fields updated
+[≈] 17727: 2 fields updated
+[≈] 2904: 1 fields updated
+[≈] 10747: 4 fields updated
+[≈] 14135: 1 fields updated
+[≈] 29004: 2 fields updated
+[≈] 26112: 2 fields updated
+[≈] 17294: 1 fields updated
+[≈] 19572: 1 fields updated
+[≈] 28104: 2 fields updated
+[≈] 23757: 1 fields updated
+[≈] 4454: 1 fields updated
+[≈] 13598: 1 fields updated
+[≈] 20159: 1 fields updated
+[≈] 20948: 5 fields updated
+[≈] 9092: 1 fields updated
+[≈] 15783: 2 fields updated
+[≈] 27289: 1 fields updated
+[≈] 17110: 1 fields updated
+[≈] 22226: 2 fields updated
+[≈] 25054: 1 fields updated
+[≈] 11799: 1 fields updated
+[≈] 18916: 2 fields updated
+[≈] 16342: 1 fields updated
+[≈] 1858: 1 fields updated
+[≈] 4729: 2 fields updated
+[≈] 2864: 1 fields updated
+[≈] 18985: 1 fields updated
+[≈] 7421: 1 fields updated
+[≈] 12080: 1 fields updated
+[≈] 19919: 2 fields updated
+[≈] 21447: 1 fields updated
+[≈] 12347: 1 fields updated
+[≈] 16706: 1 fields updated
+[≈] 10750: 1 fields updated
+[≈] 29214: 3 fields updated
+[≈] 10234: 1 fields updated
+[≈] 10787: 3 fields updated
+[≈] 10595: 1 fields updated
+[≈] 10220: 1 fields updated
+[≈] 20190: 3 fields updated
+[≈] 9710: 2 fields updated
+[≈] 26546: 3 fields updated
+[≈] 24962: 3 fields updated
+[≈] 27569: 3 fields updated
+[≈] 9537: 2 fields updated
+[≈] 21764: 2 fields updated
+[≈] -92446: 2 fields updated
+[≈] 11071: 1 fields updated
+[≈] 2948: 1 fields updated
+[≈] 18668: 2 fields updated
+[≈] 14987: 1 fields updated
+[≈] 20295: 3 fields updated
+[≈] 7755: 1 fields updated
+[≈] 25358: 1 fields updated
+[≈] 17987: 1 fields updated
+[≈] 14617: 1 fields updated
+[≈] 26599: 1 fields updated
+[≈] 8221: 2 fields updated
+[≈] 14401: 2 fields updated
+[≈] 16555: 4 fields updated
+[≈] 5139: 2 fields updated
+[≈] 24986: 1 fields updated
+[≈] 16462: 1 fields updated
+[≈] 10030: 1 fields updated
+[≈] 16022: 2 fields updated
+[≈] 28966: 2 fields updated
+[≈] 9552: 2 fields updated
+[≈] 28350: 3 fields updated
+[≈] 7044: 1 fields updated
+[≈] 26674: 1 fields updated
+[≈] 25375: 1 fields updated
+[≈] 18147: 2 fields updated
+[≈] 4449: 3 fields updated
+[≈] 15750: 2 fields updated
+[≈] 21943: 3 fields updated
+[≈] 2508: 1 fields updated
+[≈] 20566: 2 fields updated
+[≈] 28539: 3 fields updated
+[≈] 17296: 1 fields updated
+[≈] 9053: 2 fields updated
+[≈] 7399: 1 fields updated
+[≈] 2212: 2 fields updated
+[≈] 21274: 2 fields updated
+[≈] 9689: 3 fields updated
+[≈] 13757: 2 fields updated
+[≈] 21068: 2 fields updated
+[≈] 21212: 1 fields updated
+[≈] 27924: 2 fields updated
+[≈] 27378: 1 fields updated
+[≈] 18912: 1 fields updated
+[≈] 18380: 1 fields updated
+[≈] 28859: 4 fields updated
+[≈] 23768: 1 fields updated
+[≈] 19462: 2 fields updated
+[≈] 14429: 1 fields updated
+[≈] 27816: 2 fields updated
+[≈] 22521: 2 fields updated
+[≈] 1869: 3 fields updated
+[≈] 5428: 2 fields updated
+[≈] 19795: 1 fields updated
+[≈] 16328: 1 fields updated
+[≈] 8685: 1 fields updated
+[≈] 7203: 1 fields updated
+[≈] 2868: 2 fields updated
+[≈] 23491: 1 fields updated
+[≈] 15360: 2 fields updated
+[≈] 15332: 1 fields updated
+[≈] 4272: 1 fields updated
+[≈] 10856: 1 fields updated
+[≈] 20971: 2 fields updated
+[≈] 5138: 3 fields updated
+[≈] 8749: 1 fields updated
+[≈] 3395: 1 fields updated
+[≈] 18521: 3 fields updated
+[≈] 24716: 1 fields updated
+[≈] 4789: 1 fields updated
+[≈] 19382: 1 fields updated
+[≈] 12395: 1 fields updated
+[≈] 9784: 1 fields updated
+[≈] 26283: 2 fields updated
+[≈] 6621: 2 fields updated
+[≈] 11376: 4 fields updated
+[≈] 26128: 2 fields updated
+[≈] 27473: 2 fields updated
+[≈] 24566: 3 fields updated
+[≈] 12451: 1 fields updated
+[≈] 16331: 1 fields updated
+[≈] 26492: 2 fields updated
+[≈] 2783: 1 fields updated
+[≈] 6490: 1 fields updated
+[≈] 16615: 1 fields updated
+[≈] 11300: 1 fields updated
+[≈] 11896: 1 fields updated
+[≈] 16933: 1 fields updated
+[≈] 14179: 3 fields updated
+[≈] 18470: 2 fields updated
+[≈] 6651: 3 fields updated
+[≈] 25092: 1 fields updated
+[≈] 3998: 3 fields updated
+[≈] 15527: 2 fields updated
+[≈] 14690: 2 fields updated
+[≈] 6495: 1 fields updated
+[≈] 5439: 1 fields updated
+[≈] 23167: 1 fields updated
+[≈] 17307: 2 fields updated
+[≈] 17759: 1 fields updated
+[≈] 20105: 1 fields updated
+[≈] 19136: 1 fields updated
+[≈] 28261: 3 fields updated
+[≈] 23150: 1 fields updated
+[≈] 8403: 2 fields updated
+[≈] 11557: 1 fields updated
+[≈] 15392: 1 fields updated
+[≈] 28686: 4 fields updated
+[≈] 21675: 3 fields updated
+[≈] 14422: 1 fields updated
+[≈] 8886: 2 fields updated
+[≈] 21746: 2 fields updated
+[≈] 10594: 2 fields updated
+[≈] 22015: 3 fields updated
+[≈] 4810: 1 fields updated
+[≈] 28973: 1 fields updated
+[≈] 16815: 4 fields updated
+[≈] 3615: 1 fields updated
+[≈] 19740: 1 fields updated
+[≈] 29370: 2 fields updated
+[≈] 28738: 3 fields updated
+[≈] 22314: 2 fields updated
+[≈] 24453: 1 fields updated
+[≈] 4548: 2 fields updated
+[≈] 11157: 1 fields updated
+[≈] 17996: 1 fields updated
+[≈] 5712: 2 fields updated
+[≈] 14601: 3 fields updated
+[≈] 17388: 2 fields updated
+[≈] 25918: 1 fields updated
+[≈] 26796: 1 fields updated
+[≈] 19722: 2 fields updated
+[≈] 11510: 2 fields updated
+[≈] 19503: 5 fields updated
+[≈] 5591: 3 fields updated
+[≈] 19316: 1 fields updated
+[≈] 27788: 1 fields updated
+[≈] 28317: 2 fields updated
+[≈] 20599: 1 fields updated
+[≈] 11400: 2 fields updated
+[≈] 26999: 1 fields updated
+[≈] 22893: 1 fields updated
+[≈] 29093: 2 fields updated
+[≈] 21630: 1 fields updated
+[≈] 1092: 3 fields updated
+[≈] 20448: 1 fields updated
+[≈] 12442: 1 fields updated
+[≈] 26296: 1 fields updated
+[≈] 7917: 1 fields updated
+[≈] 20393: 2 fields updated
+[≈] 28462: 1 fields updated
+[≈] 5336: 3 fields updated
+[≈] 12447: 1 fields updated
+[≈] 11502: 1 fields updated
+[≈] 10075: 1 fields updated
+[≈] 28602: 3 fields updated
+[≈] 20236: 2 fields updated
+[≈] 26929: 2 fields updated
+[≈] 10599: 1 fields updated
+[≈] 3629: 1 fields updated
+[≈] 16243: 1 fields updated
+[≈] 15874: 1 fields updated
+[≈] 27370: 3 fields updated
+[≈] 12609: 1 fields updated
+[≈] 16090: 1 fields updated
+[≈] 29293: 2 fields updated
+[≈] 11049: 1 fields updated
+[≈] 9101: 3 fields updated
+[≈] 2314: 1 fields updated
+[≈] 3850: 1 fields updated
+[≈] 15712: 2 fields updated
+[≈] 8599: 2 fields updated
+[≈] 4274: 3 fields updated
+[≈] 28048: 2 fields updated
+[≈] 4460: 1 fields updated
+[≈] 27698: 2 fields updated
+[≈] 24384: 1 fields updated
+[≈] 18363: 1 fields updated
+[≈] 3726: 3 fields updated
+[≈] 21297: 1 fields updated
+[≈] 28764: 1 fields updated
+[≈] 18581: 2 fields updated
+[≈] 17257: 1 fields updated
+[≈] 21825: 3 fields updated
+[≈] 28270: 3 fields updated
+[≈] 20879: 1 fields updated
+[≈] 6992: 3 fields updated
+[≈] 15789: 1 fields updated
+[≈] 24505: 3 fields updated
+[≈] 20875: 4 fields updated
+[≈] 8311: 2 fields updated
+[≈] 25441: 2 fields updated
+[≈] 1277: 1 fields updated
+[≈] 9535: 4 fields updated
+[≈] 6761: 1 fields updated
+[≈] 28665: 4 fields updated
+[≈] 15764: 1 fields updated
+[≈] 10474: 2 fields updated
+[≈] 10694: 1 fields updated
+[≈] 21376: 4 fields updated
+[≈] 19660: 2 fields updated
+[≈] 26360: 2 fields updated
+[≈] 5164: 3 fields updated
+[≈] 12295: 2 fields updated
+[≈] 16545: 1 fields updated
+[≈] 19082: 1 fields updated
+[≈] 15661: 1 fields updated
+[≈] 26480: 1 fields updated
+[≈] 26181: 2 fields updated
+[≈] 6344: 2 fields updated
+[≈] 16366: 1 fields updated
+[≈] 25015: 2 fields updated
+[≈] 12550: 3 fields updated
+[≈] 10676: 2 fields updated
+[≈] 6470: 1 fields updated
+[≈] 28755: 1 fields updated
+[≈] 16286: 1 fields updated
+[≈] 26325: 1 fields updated
+[≈] 9687: 1 fields updated
+[≈] 9400: 2 fields updated
+[≈] 7209: 1 fields updated
+[≈] 23142: 2 fields updated
+[≈] 3440: 3 fields updated
+[≈] 17329: 1 fields updated
+[≈] 16550: 1 fields updated
+[≈] 22185: 1 fields updated
+[≈] 19636: 1 fields updated
+[≈] 25554: 2 fields updated
+[≈] 23178: 1 fields updated
+[≈] 14686: 3 fields updated
+[≈] 24574: 1 fields updated
+[≈] 14904: 2 fields updated
+[≈] 14906: 1 fields updated
+[≈] 14945: 2 fields updated
+[≈] 28865: 3 fields updated
+[≈] 27464: 2 fields updated
+[≈] 10976: 2 fields updated
+[≈] 6640: 1 fields updated
+[≈] 10616: 1 fields updated
+[≈] 24197: 4 fields updated
+[≈] 6316: 4 fields updated
+[≈] 18844: 2 fields updated
+[≈] 28414: 1 fields updated
+[≈] 18082: 1 fields updated
+[≈] 13230: 2 fields updated
+[≈] 6422: 2 fields updated
+[≈] 12567: 4 fields updated
+[≈] 14410: 1 fields updated
+[≈] 7069: 3 fields updated
+[≈] 24745: 2 fields updated
+[≈] 19264: 5 fields updated
+[≈] 17383: 2 fields updated
+[≈] 28370: 1 fields updated
+[≈] 17898: 2 fields updated
+[≈] 25759: 1 fields updated
+[≈] 6066: 2 fields updated
+[≈] 25510: 1 fields updated
+[≈] 28315: 1 fields updated
+[≈] 26680: 3 fields updated
+[≈] 17243: 1 fields updated
+[≈] 11168: 3 fields updated
+[≈] 23812: 2 fields updated
+[≈] 5491: 1 fields updated
+[≈] 29095: 1 fields updated
+[≈] 8649: 1 fields updated
+[≈] 4334: 1 fields updated
+[≈] 18480: 2 fields updated
+[≈] 16471: 1 fields updated
+[≈] 4603: 2 fields updated
+[≈] 4193: 1 fields updated
+[≈] 17635: 1 fields updated
+[≈] 11517: 2 fields updated
+[≈] 22010: 1 fields updated
+[≈] 19302: 4 fields updated
+[≈] 6097: 1 fields updated
+[≈] 26217: 1 fields updated
+[≈] 19442: 1 fields updated
+[≈] 2436: 2 fields updated
+[≈] 8450: 2 fields updated
+[≈] 16408: 1 fields updated
+[≈] 26410: 1 fields updated
+[≈] 3007: 1 fields updated
+[≈] 1447: 1 fields updated
+[≈] 15627: 3 fields updated
+[≈] 13482: 3 fields updated
+[≈] 28369: 1 fields updated
+[≈] 27580: 4 fields updated
+[≈] 25772: 4 fields updated
+[≈] 23404: 4 fields updated
+[≈] 5424: 1 fields updated
+[≈] 21289: 1 fields updated
+[≈] 4838: 2 fields updated
+[≈] 14057: 1 fields updated
+[≈] 16654: 1 fields updated
+[≈] 12045: 1 fields updated
+[≈] 8905: 1 fields updated
+[≈] 2609: 2 fields updated
+[≈] 23836: 1 fields updated
+[≈] 24124: 1 fields updated
+[≈] 13356: 4 fields updated
+[≈] 20240: 1 fields updated
+[≈] 21572: 1 fields updated
+[≈] 12782: 2 fields updated
+[≈] 11262: 1 fields updated
+[≈] 4115: 3 fields updated
+[≈] 14548: 1 fields updated
+[≈] 8726: 1 fields updated
+[≈] 25840: 2 fields updated
+[≈] 25079: 1 fields updated
+[≈] 28594: 2 fields updated
+[≈] 15359: 1 fields updated
+[≈] 28387: 3 fields updated
+[≈] 28284: 3 fields updated
+[≈] 5737: 1 fields updated
+[≈] 28158: 1 fields updated
+[≈] 19884: 1 fields updated
+[≈] 17804: 1 fields updated
+[≈] 29016: 2 fields updated
+[≈] 5698: 3 fields updated
+[≈] 12337: 4 fields updated
+[≈] 10064: 2 fields updated
+[≈] 27794: 2 fields updated
+[≈] 24596: 1 fields updated
+[≈] 28368: 3 fields updated
+[≈] 26250: 2 fields updated
+[≈] 16141: 1 fields updated
+[≈] 26364: 1 fields updated
+[≈] 24620: 2 fields updated
+[≈] 8741: 1 fields updated
+[≈] 19184: 2 fields updated
+[≈] 4905: 1 fields updated
+[≈] 23917: 2 fields updated
+[≈] 26161: 3 fields updated
+[≈] 28291: 1 fields updated
+[≈] 20277: 2 fields updated
+[≈] 24780: 1 fields updated
+[≈] 7016: 1 fields updated
+[≈] 8715: 1 fields updated
+[≈] 13651: 1 fields updated
+[≈] 25650: 2 fields updated
+[≈] 14791: 1 fields updated
+[≈] 17956: 3 fields updated
+[≈] 9741: 1 fields updated
+[≈] 7919: 1 fields updated
+[≈] 6463: 1 fields updated
+[≈] 5128: 3 fields updated
+[≈] 3199: 3 fields updated
+[≈] 18022: 1 fields updated
+[≈] 26239: 3 fields updated
+[≈] 2265: 1 fields updated
+[≈] 11696: 2 fields updated
+[≈] 18526: 2 fields updated
+[≈] 21860: 3 fields updated
+[≈] 28401: 3 fields updated
+[≈] 8800: 1 fields updated
+[≈] 20768: 1 fields updated
+[≈] 25091: 2 fields updated
+[≈] 27034: 3 fields updated
+[≈] 12659: 2 fields updated
+[≈] 26834: 3 fields updated
+[≈] 4817: 2 fields updated
+[≈] 25790: 4 fields updated
+[≈] 21767: 2 fields updated
+[≈] 23024: 2 fields updated
+[≈] 7385: 1 fields updated
+[≈] 26456: 2 fields updated
+[≈] 28529: 1 fields updated
+[≈] 24514: 1 fields updated
+[≈] 28155: 2 fields updated
+[≈] 20309: 3 fields updated
+[≈] 7851: 2 fields updated
+[≈] 12465: 1 fields updated
+[≈] 14379: 2 fields updated
+[≈] 17968: 2 fields updated
+[≈] 27271: 2 fields updated
+[≈] 22788: 2 fields updated
+[≈] 4818: 4 fields updated
+[≈] 27141: 3 fields updated
+[≈] 22958: 2 fields updated
+[≈] 26035: 4 fields updated
+[≈] 8578: 1 fields updated
+[≈] 21878: 1 fields updated
+[≈] 13006: 2 fields updated
+[≈] 5478: 1 fields updated
+[≈] 23405: 5 fields updated
+[≈] 27113: 1 fields updated
+[≈] 5798: 1 fields updated
+[≈] 16348: 3 fields updated
+[≈] 4985: 2 fields updated
+[≈] 13502: 3 fields updated
+[≈] 27163: 3 fields updated
+[≈] 17441: 2 fields updated
+[≈] 25864: 2 fields updated
+[≈] 13310: 1 fields updated
+[≈] 14502: 1 fields updated
+[≈] 23004: 3 fields updated
+[≈] 1413: 3 fields updated
+[≈] 16901: 1 fields updated
+[≈] 2875: 1 fields updated
+[≈] 20670: 2 fields updated
+[≈] 17414: 1 fields updated
+[≈] 19668: 5 fields updated
+[≈] 18587: 2 fields updated
+[≈] 17432: 1 fields updated
+[≈] 1506: 1 fields updated
+[≈] 26299: 1 fields updated
+[≈] 18733: 2 fields updated
+[≈] 18793: 1 fields updated
+[≈] 16520: 3 fields updated
+[≈] 23611: 1 fields updated
+[≈] 8871: 1 fields updated
+[≈] 16840: 1 fields updated
+[≈] 9856: 2 fields updated
+[≈] 10345: 1 fields updated
+[≈] 17181: 1 fields updated
+[≈] 12438: 3 fields updated
+[≈] 7654: 4 fields updated
+[≈] 12250: 1 fields updated
+[≈] 21627: 1 fields updated
+[≈] 18779: 1 fields updated
+[≈] 26967: 3 fields updated
+[≈] 14545: 1 fields updated
+[≈] 7122: 1 fields updated
+[≈] 6228: 1 fields updated
+[≈] 3209: 2 fields updated
+[≈] 6056: 4 fields updated
+[≈] 19425: 2 fields updated
+[≈] 5651: 1 fields updated
+[≈] 21580: 1 fields updated
+[≈] 16569: 1 fields updated
+[≈] 10349: 1 fields updated
+[≈] 20676: 3 fields updated
+[≈] 9592: 1 fields updated
+[≈] 5610: 1 fields updated
+[≈] 17766: 1 fields updated
+[≈] 29038: 3 fields updated
+[≈] 26526: 2 fields updated
+[≈] 2016: 1 fields updated
+[≈] 23795: 1 fields updated
+[≈] 16553: 1 fields updated
+[≈] 20149: 1 fields updated
+[≈] 5592: 1 fields updated
+[≈] 27813: 1 fields updated
+[≈] 19848: 1 fields updated
+[≈] 8887: 1 fields updated
+[≈] 1690: 4 fields updated
+[≈] 16723: 2 fields updated
+[≈] 26279: 3 fields updated
+[≈] 23655: 1 fields updated
+[≈] 25847: 1 fields updated
+[≈] 5692: 2 fields updated
+[≈] 1669: 1 fields updated
+[≈] 25642: 1 fields updated
+[≈] 28652: 3 fields updated
+[≈] 18450: 3 fields updated
+[≈] -92283: 1 fields updated
+[≈] 10596: 3 fields updated
+[≈] 17182: 1 fields updated
+[≈] 10184: 1 fields updated
+[≈] 3706: 1 fields updated
+[≈] 19742: 2 fields updated
+[≈] 16818: 1 fields updated
+[≈] 7528: 1 fields updated
+[≈] 10329: 1 fields updated
+[≈] -92300: 2 fields updated
+[≈] 13508: 1 fields updated
+[≈] 25836: 1 fields updated
+[≈] 4551: 1 fields updated
+[≈] 12716: 1 fields updated
+[≈] 19174: 1 fields updated
+[≈] 13839: 1 fields updated
+[≈] 24607: 3 fields updated
+[≈] 27537: 1 fields updated
+[≈] 9081: 1 fields updated
+[≈] 5851: 1 fields updated
+[≈] 29098: 1 fields updated
+[≈] 23517: 3 fields updated
+[≈] 28026: 2 fields updated
+[≈] 2937: 1 fields updated
+[≈] 7082: 2 fields updated
+[≈] 11569: 2 fields updated
+[≈] 14787: 1 fields updated
+[≈] 21976: 1 fields updated
+[≈] 15766: 1 fields updated
+[≈] 22675: 2 fields updated
+[≈] 12826: 1 fields updated
+[≈] 27072: 1 fields updated
+[≈] 14066: 2 fields updated
+[≈] 7878: 1 fields updated
+[≈] 23000: 1 fields updated
+[≈] 14187: 1 fields updated
+[≈] 19102: 2 fields updated
+[≈] 27591: 2 fields updated
+[≈] 3412: 4 fields updated
+[≈] 8036: 4 fields updated
+[≈] 25882: 2 fields updated
+[≈] 7640: 1 fields updated
+[≈] 21952: 2 fields updated
+[≈] 11692: 2 fields updated
+[≈] 6727: 1 fields updated
+[≈] 11119: 2 fields updated
+[≈] 7406: 1 fields updated
+[≈] 29311: 3 fields updated
+[≈] 19234: 3 fields updated
+[≈] 28585: 2 fields updated
+[≈] 26404: 2 fields updated
+[≈] 3328: 2 fields updated
+[≈] 1571: 1 fields updated
+[≈] 6671: 1 fields updated
+[≈] 16832: 4 fields updated
+[≈] 3852: 2 fields updated
+[≈] 9576: 1 fields updated
+[≈] 6956: 1 fields updated
+[≈] 21441: 2 fields updated
+[≈] 8752: 3 fields updated
+[≈] 11409: 1 fields updated
+[≈] 8020: 2 fields updated
+[≈] 21093: 2 fields updated
+[≈] 26380: 3 fields updated
+[≈] 11641: 1 fields updated
+[≈] 3826: 2 fields updated
+[≈] 10899: 2 fields updated
+[≈] 25331: 1 fields updated
+[≈] 15986: 1 fields updated
+[≈] 3968: 4 fields updated
+[≈] 25405: 1 fields updated
+[≈] 15157: 2 fields updated
+[≈] 10685: 1 fields updated
+[≈] 26377: 1 fields updated
+[≈] 12946: 1 fields updated
+[≈] 5467: 1 fields updated
+[≈] 21544: 3 fields updated
+[≈] 20350: 2 fields updated
+[≈] 16538: 4 fields updated
+[≈] 4279: 2 fields updated
+[≈] 28450: 1 fields updated
+[≈] 29007: 1 fields updated
+[≈] 10323: 1 fields updated
+[≈] 15474: 1 fields updated
+[≈] 25770: 1 fields updated
+[≈] 18794: 1 fields updated
+[≈] 7449: 1 fields updated
+[≈] 4085: 1 fields updated
+[≈] 17909: 1 fields updated
+[≈] 23974: 1 fields updated
+[≈] 24982: 1 fields updated
+[≈] 4135: 1 fields updated
+[≈] 29025: 1 fields updated
+[≈] 4877: 1 fields updated
+[≈] -92272: 2 fields updated
+[≈] 9498: 1 fields updated
+[≈] -92294: 1 fields updated
+[≈] 22514: 1 fields updated
+[≈] 15948: 1 fields updated
+[≈] 14102: 1 fields updated
+[≈] 15539: 4 fields updated
+[≈] 9171: 1 fields updated
+[≈] 20260: 1 fields updated
+[≈] 19476: 2 fields updated
+[≈] 23507: 2 fields updated
+[≈] 18053: 3 fields updated
+[≈] 25242: 1 fields updated
+[≈] 27506: 3 fields updated
+[≈] 21352: 2 fields updated
+[≈] 13565: 1 fields updated
+[≈] 25765: 3 fields updated
+[≈] 9633: 1 fields updated
+[≈] 28887: 3 fields updated
+[≈] 13951: 1 fields updated
+[≈] 2471: 3 fields updated
+[≈] 4892: 1 fields updated
+[≈] 24351: 1 fields updated
+[≈] 26690: 2 fields updated
+[≈] 19611: 3 fields updated
+[≈] -92122: 2 fields updated
+[≈] 24652: 2 fields updated
+[≈] 13685: 2 fields updated
+[≈] 14792: 1 fields updated
+[≈] 17837: 1 fields updated
+[≈] 27135: 2 fields updated
+[≈] 19381: 1 fields updated
+[≈] 6209: 1 fields updated
+[≈] 9989: 3 fields updated
+[≈] 7739: 1 fields updated
+[≈] 17082: 1 fields updated
+[≈] 17493: 1 fields updated
+[≈] 25699: 1 fields updated
+[≈] 7193: 1 fields updated
+[≈] 29048: 3 fields updated
+[≈] 19334: 7 fields updated
+[≈] 2039: 2 fields updated
+[≈] 20810: 1 fields updated
+[≈] 23208: 2 fields updated
+[≈] 11445: 2 fields updated
+[≈] 28994: 4 fields updated
+[≈] 3225: 2 fields updated
+[≈] 14486: 1 fields updated
+[≈] 1678: 1 fields updated
+[≈] 4295: 3 fields updated
+[≈] 10695: 1 fields updated
+[≈] 10186: 2 fields updated
+[≈] 21643: 1 fields updated
+[≈] 15842: 1 fields updated
+[≈] 24415: 3 fields updated
+[≈] 15797: 1 fields updated
+[≈] 13591: 1 fields updated
+[≈] 6982: 1 fields updated
+[≈] 7683: 1 fields updated
+[≈] 7928: 1 fields updated
+[≈] 14853: 2 fields updated
+[≈] 29056: 2 fields updated
+[≈] 7573: 1 fields updated
+[≈] 5198: 2 fields updated
+[≈] 17653: 1 fields updated
+[≈] 7190: 3 fields updated
+[≈] 21773: 2 fields updated
+[≈] 28102: 2 fields updated
+[≈] 24014: 1 fields updated
+[≈] 28413: 1 fields updated
+[≈] 22558: 3 fields updated
+[≈] 4804: 1 fields updated
+[≈] 24826: 1 fields updated
+[≈] 19118: 1 fields updated
+[≈] 21806: 2 fields updated
+[≈] 24538: 3 fields updated
+[≈] 9152: 2 fields updated
+[≈] 9143: 2 fields updated
+[≈] 13285: 2 fields updated
+[≈] 17662: 1 fields updated
+[≈] 12801: 1 fields updated
+[≈] 25700: 1 fields updated
+[≈] 23997: 5 fields updated
+[≈] 28000: 2 fields updated
+[≈] 2987: 1 fields updated
+[≈] 1496: 3 fields updated
+[≈] 10221: 3 fields updated
+[≈] 24537: 1 fields updated
+[≈] 5110: 2 fields updated
+[≈] 19592: 4 fields updated
+[≈] 25222: 1 fields updated
+[≈] 3202: 1 fields updated
+[≈] 14071: 4 fields updated
+[≈] 16762: 4 fields updated
+[≈] 3604: 2 fields updated
+[≈] -92247: 2 fields updated
+[≈] 20777: 1 fields updated
+[≈] 22390: 1 fields updated
+[≈] 3254: 2 fields updated
+[≈] 8655: 3 fields updated
+[≈] 6899: 1 fields updated
+[≈] 15841: 3 fields updated
+[≈] 20003: 5 fields updated
+[≈] 11956: 1 fields updated
+[≈] 5722: 2 fields updated
+[≈] 10100: 2 fields updated
+[≈] 15581: 1 fields updated
+[≈] 11353: 2 fields updated
+[≈] 23615: 1 fields updated
+[≈] 6963: 2 fields updated
+[≈] 25930: 3 fields updated
+[≈] 28879: 3 fields updated
+[≈] 13512: 1 fields updated
+[≈] 7699: 2 fields updated
+[≈] 18112: 1 fields updated
+[≈] 7541: 4 fields updated
+[≈] 13137: 1 fields updated
+[≈] 11279: 1 fields updated
+[≈] 28557: 1 fields updated
+[≈] 21854: 1 fields updated
+[≈] 9015: 2 fields updated
+[≈] 16827: 1 fields updated
+[≈] 17974: 1 fields updated
+[≈] 4160: 2 fields updated
+[≈] 11512: 1 fields updated
+[≈] 5055: 4 fields updated
+[≈] 21763: 1 fields updated
+[≈] 24677: 2 fields updated
+[≈] 17011: 1 fields updated
+[≈] 23035: 1 fields updated
+[≈] 20326: 3 fields updated
+[≈] 20700: 2 fields updated
+[≈] 27582: 1 fields updated
+[≈] 15315: 4 fields updated
+[≈] 23536: 1 fields updated
+[≈] 25318: 1 fields updated
+[≈] 24821: 1 fields updated
+[≈] 3625: 1 fields updated
+[≈] 28008: 2 fields updated
+[≈] 22515: 3 fields updated
+[≈] 4373: 3 fields updated
+[≈] 22495: 1 fields updated
+[≈] 8988: 1 fields updated
+[≈] 13139: 1 fields updated
+[≈] 17121: 2 fields updated
+[≈] 26556: 3 fields updated
+[≈] 13656: 1 fields updated
+[≈] 10797: 1 fields updated
+[≈] 28251: 5 fields updated
+[≈] 20616: 2 fields updated
+[≈] 7251: 1 fields updated
+[≈] 24231: 1 fields updated
+[≈] 27728: 2 fields updated
+[≈] 19759: 1 fields updated
+[≈] 13710: 1 fields updated
+[≈] 15574: 1 fields updated
+[≈] 12304: 2 fields updated
+[≈] 6984: 2 fields updated
+[≈] 16676: 1 fields updated
+[≈] 18958: 1 fields updated
+[≈] 22522: 2 fields updated
+[≈] 11802: 2 fields updated
+[≈] 27069: 2 fields updated
+[≈] 4107: 1 fields updated
+[≈] 26169: 2 fields updated
+[≈] 20155: 3 fields updated
+[≈] 4490: 3 fields updated
+[≈] 9242: 1 fields updated
+[≈] 4243: 4 fields updated
+[≈] 29333: 2 fields updated
+[≈] 12551: 2 fields updated
+[≈] 9860: 1 fields updated
+[≈] 28492: 3 fields updated
+[≈] 24128: 1 fields updated
+[≈] 18383: 2 fields updated
+[≈] 8777: 2 fields updated
+[≈] 14535: 1 fields updated
+[≈] 17738: 1 fields updated
+[≈] 22024: 2 fields updated
+[≈] 5496: 4 fields updated
+[≈] 17226: 1 fields updated
+[≈] 9167: 2 fields updated
+[≈] 25123: 1 fields updated
+[≈] 25276: 3 fields updated
+[≈] 25938: 4 fields updated
+[≈] 10058: 1 fields updated
+[≈] 7246: 3 fields updated
+[≈] 6303: 1 fields updated
+[≈] 26905: 2 fields updated
+[≈] 28146: 3 fields updated
+[≈] 29030: 1 fields updated
+[≈] 16542: 1 fields updated
+[≈] 6729: 1 fields updated
+[≈] 7073: 3 fields updated
+[≈] 20909: 1 fields updated
+[≈] 9872: 1 fields updated
+[≈] 15269: 2 fields updated
+[≈] 20893: 2 fields updated
+[≈] 14860: 2 fields updated
+[≈] 16470: 3 fields updated
+[≈] 6466: 2 fields updated
+[≈] 21826: 1 fields updated
+[≈] 25364: 1 fields updated
+[≈] 18175: 5 fields updated
+[≈] 1350: 1 fields updated
+[≈] 23180: 1 fields updated
+[≈] 6491: 2 fields updated
+[≈] 28649: 1 fields updated
+[≈] 21113: 1 fields updated
+[≈] 24867: 2 fields updated
+[≈] 20843: 2 fields updated
+[≈] 24149: 1 fields updated
+[≈] 18873: 1 fields updated
+[≈] 7591: 1 fields updated
+[≈] 10006: 2 fields updated
+[≈] 23929: 3 fields updated
+[≈] 25083: 2 fields updated
+[≈] 21404: 1 fields updated
+[≈] -92442: 1 fields updated
+[≈] 17544: 2 fields updated
+[≈] 3319: 1 fields updated
+[≈] 24339: 1 fields updated
+[≈] 25940: 3 fields updated
+[≈] 22443: 3 fields updated
+[≈] 9165: 2 fields updated
+[≈] 15999: 1 fields updated
+[≈] 24129: 1 fields updated
+[≈] 14073: 1 fields updated
+[≈] 28363: 1 fields updated
+[≈] 18271: 1 fields updated
+[≈] 20238: 1 fields updated
+[≈] 12493: 2 fields updated
+[≈] 11528: 1 fields updated
+[≈] 11898: 2 fields updated
+[≈] 24053: 1 fields updated
+[≈] 14136: 3 fields updated
+[≈] 7452: 1 fields updated
+[≈] 4014: 1 fields updated
+[≈] 4447: 1 fields updated
+[≈] 10567: 2 fields updated
+[≈] 20232: 1 fields updated
+[≈] 7666: 1 fields updated
+[≈] 17334: 2 fields updated
+[≈] 14629: 1 fields updated
+[≈] 20972: 1 fields updated
+[≈] 11616: 1 fields updated
+[≈] 17308: 1 fields updated
+[≈] 19201: 2 fields updated
+[≈] 25816: 1 fields updated
+[≈] 13908: 2 fields updated
+[≈] 24125: 2 fields updated
+[≈] 15151: 3 fields updated
+[≈] 27890: 2 fields updated
+[≈] 18024: 2 fields updated
+[≈] 25089: 1 fields updated
+[≈] 21933: 1 fields updated
+[≈] 23889: 2 fields updated
+[≈] 2833: 1 fields updated
+[≈] 13079: 3 fields updated
+[≈] 22157: 2 fields updated
+[≈] 1816: 1 fields updated
+[≈] 7057: 1 fields updated
+[≈] 1113: 2 fields updated
+[≈] 2397: 1 fields updated
+[≈] 15970: 2 fields updated
+[≈] 10297: 1 fields updated
+[≈] 14216: 3 fields updated
+[≈] 21090: 1 fields updated
+[≈] 3157: 1 fields updated
+[≈] 14776: 1 fields updated
+[≈] 17623: 2 fields updated
+[≈] 28958: 3 fields updated
+[≈] 14349: 1 fields updated
+[≈] 5053: 1 fields updated
+[≈] 15721: 4 fields updated
+[≈] 25136: 1 fields updated
+[≈] 18280: 2 fields updated
+[≈] 9591: 1 fields updated
+[≈] 22119: 1 fields updated
+[≈] 18539: 1 fields updated
+[≈] 6148: 3 fields updated
+[≈] 27963: 2 fields updated
+[≈] 17521: 1 fields updated
+[≈] 28300: 2 fields updated
+[≈] 24546: 2 fields updated
+[≈] 28561: 1 fields updated
+[≈] 26297: 3 fields updated
+[≈] 7430: 1 fields updated
+[≈] 13652: 1 fields updated
+[≈] 13249: 1 fields updated
+[≈] 24602: 1 fields updated
+[≈] 22356: 4 fields updated
+[≈] 4054: 1 fields updated
+[≈] 23964: 1 fields updated
+[≈] 19926: 2 fields updated
+[≈] 5884: 1 fields updated
+[≈] 29075: 1 fields updated
+[≈] 3584: 1 fields updated
+[≈] 17517: 1 fields updated
+[≈] 23482: 1 fields updated
+[≈] 19328: 1 fields updated
+[≈] 11611: 1 fields updated
+[≈] 11446: 1 fields updated
+[≈] 21769: 1 fields updated
+[≈] 8395: 3 fields updated
+[≈] 25316: 3 fields updated
+[≈] 25803: 1 fields updated
+[≈] 13676: 1 fields updated
+[≈] 18708: 1 fields updated
+[≈] 21413: 2 fields updated
+[≈] 4269: 4 fields updated
+[≈] 3272: 2 fields updated
+[≈] 25437: 1 fields updated
+[≈] 11746: 2 fields updated
+[≈] 7579: 3 fields updated
+[≈] 29033: 4 fields updated
+[≈] 18782: 1 fields updated
+[≈] 14230: 1 fields updated
+[≈] 13765: 2 fields updated
+[≈] 24744: 1 fields updated
+[≈] 14352: 1 fields updated
+[≈] 28873: 2 fields updated
+[≈] 3920: 1 fields updated
+[≈] 23706: 2 fields updated
+[≈] 11113: 1 fields updated
+[≈] 28473: 5 fields updated
+[≈] 5166: 1 fields updated
+[≈] 25603: 3 fields updated
+[≈] 1386: 2 fields updated
+[≈] 12965: 1 fields updated
+[≈] 22129: 1 fields updated
+[≈] 11350: 2 fields updated
+[≈] 19844: 1 fields updated
+[≈] 26309: 2 fields updated
+[≈] 8888: 1 fields updated
+[≈] 3551: 2 fields updated
+[≈] 5826: 3 fields updated
+[≈] 21728: 2 fields updated
+[≈] 4888: 1 fields updated
+[≈] 11693: 1 fields updated
+[≈] 7117: 2 fields updated
+[≈] 15402: 1 fields updated
+[≈] 27595: 2 fields updated
+[≈] 1528: 1 fields updated
+[≈] 12943: 2 fields updated
+[≈] 27000: 2 fields updated
+[≈] 24979: 1 fields updated
+[≈] 28687: 3 fields updated
+[≈] 15074: 1 fields updated
+[≈] 1216: 1 fields updated
+[≈] 11260: 3 fields updated
+[≈] 9439: 1 fields updated
+[≈] 28991: 1 fields updated
+[≈] 18433: 1 fields updated
+[≈] 27398: 2 fields updated
+[≈] 28434: 3 fields updated
+[≈] 9018: 1 fields updated
+[≈] 1663: 1 fields updated
+[≈] 12186: 1 fields updated
+[≈] 13313: 2 fields updated
+[≈] 2287: 1 fields updated
+[≈] 20767: 1 fields updated
+[≈] 7885: 2 fields updated
+[≈] 28496: 2 fields updated
+[≈] 28698: 3 fields updated
+[≈] 15784: 1 fields updated
+[≈] 9325: 3 fields updated
+[≈] 19020: 2 fields updated
+[≈] 9306: 1 fields updated
+[≈] 4762: 1 fields updated
+[≈] 7994: 2 fields updated
+[≈] 16397: 1 fields updated
+[≈] 17847: 2 fields updated
+[≈] 6016: 1 fields updated
+[≈] 4642: 1 fields updated
+[≈] 4672: 2 fields updated
+[≈] 16409: 1 fields updated
+[≈] 4884: 1 fields updated
+[≈] 10759: 1 fields updated
+[≈] 26866: 2 fields updated
+[≈] 18251: 3 fields updated
+[≈] 20183: 1 fields updated
+[≈] 15814: 1 fields updated
+[≈] 19565: 1 fields updated
+[≈] 4606: 2 fields updated
+[≈] 21800: 3 fields updated
+[≈] 25260: 2 fields updated
+[≈] 19886: 1 fields updated
+[≈] 9049: 3 fields updated
+[≈] 28965: 1 fields updated
+[≈] 16907: 2 fields updated
+[≈] 26728: 1 fields updated
+[≈] 14899: 1 fields updated
+[≈] 17668: 2 fields updated
+[≈] 15620: 1 fields updated
+[≈] 10845: 1 fields updated
+[≈] 24762: 1 fields updated
+[≈] 1219: 1 fields updated
+[≈] 5636: 1 fields updated
+[≈] 4569: 2 fields updated
+[≈] 20217: 2 fields updated
+[≈] 16943: 3 fields updated
+[≈] 24473: 1 fields updated
+[≈] 24569: 2 fields updated
+[≈] 7562: 3 fields updated
+[≈] 14941: 1 fields updated
+[≈] 26709: 2 fields updated
+[≈] 11707: 2 fields updated
+[≈] 13490: 1 fields updated
+[≈] 7852: 2 fields updated
+[≈] 11955: 2 fields updated
+[≈] 17106: 2 fields updated
+[≈] 1735: 2 fields updated
+[≈] 17649: 1 fields updated
+[≈] 10213: 2 fields updated
+[≈] 27300: 1 fields updated
+[≈] 15069: 1 fields updated
+[≈] 25038: 4 fields updated
+[≈] 28287: 3 fields updated
+[≈] 5733: 3 fields updated
+[≈] 11649: 3 fields updated
+[≈] 21392: 2 fields updated
+[≈] 2461: 1 fields updated
+[≈] 21549: 1 fields updated
+[≈] 13417: 2 fields updated
+[≈] 6741: 3 fields updated
+[≈] 3526: 1 fields updated
+[≈] 12484: 2 fields updated
+[≈] 4849: 1 fields updated
+[≈] 22923: 1 fields updated
+[≈] 4436: 1 fields updated
+[≈] 28389: 2 fields updated
+[≈] 21416: 2 fields updated
+[≈] 19888: 2 fields updated
+[≈] 28909: 1 fields updated
+[≈] 15369: 1 fields updated
+[≈] 19269: 2 fields updated
+[≈] 18358: 1 fields updated
+[≈] 11924: 1 fields updated
+[≈] 24584: 1 fields updated
+[≈] 14812: 1 fields updated
+[≈] 22740: 1 fields updated
+[≈] 2165: 2 fields updated
+[≈] -92256: 1 fields updated
+[≈] 13882: 3 fields updated
+[≈] 9571: 1 fields updated
+[≈] 10020: 2 fields updated
+[≈] 13110: 1 fields updated
+[≈] 14252: 2 fields updated
+[≈] 8713: 4 fields updated
+[≈] 11588: 1 fields updated
+[≈] 24413: 2 fields updated
+[≈] 25743: 1 fields updated
+[≈] 16319: 1 fields updated
+[≈] 27989: 4 fields updated
+[≈] 26826: 2 fields updated
+[≈] 15664: 3 fields updated
+[≈] 16582: 1 fields updated
+[≈] 6979: 3 fields updated
+[≈] 26679: 3 fields updated
+[≈] 5964: 1 fields updated
+[≈] 24074: 1 fields updated
+[≈] 28631: 2 fields updated
+[≈] 19298: 2 fields updated
+[≈] 18967: 3 fields updated
+[≈] 14014: 2 fields updated
+[≈] 8287: 1 fields updated
+[≈] 26179: 5 fields updated
+[≈] 21266: 1 fields updated
+[≈] 3735: 2 fields updated
+[≈] 14416: 2 fields updated
+[≈] 12189: 1 fields updated
+[≈] 13428: 1 fields updated
+[≈] 7443: 1 fields updated
+[≈] 19972: 2 fields updated
+[≈] 28870: 2 fields updated
+[≈] 11248: 4 fields updated
+[≈] 23617: 1 fields updated
+[≈] 27488: 4 fields updated
+[≈] 12088: 1 fields updated
+[≈] 20021: 1 fields updated
+[≈] 21672: 1 fields updated
+[≈] 8188: 2 fields updated
+[≈] 9063: 2 fields updated
+[≈] 20165: 2 fields updated
+[≈] 27149: 2 fields updated
+[≈] 22763: 1 fields updated
+[≈] 21408: 1 fields updated
+[≈] 23714: 2 fields updated
+[≈] 10185: 1 fields updated
+[≈] 19715: 3 fields updated
+[≈] 23834: 2 fields updated
+[≈] 25324: 2 fields updated
+[≈] 18759: 1 fields updated
+[≈] 12585: 1 fields updated
+[≈] 24251: 1 fields updated
+[≈] 11826: 2 fields updated
+[≈] 15846: 1 fields updated
+[≈] 20834: 2 fields updated
+[≈] 25855: 1 fields updated
+[≈] 17901: 2 fields updated
+[≈] 26052: 1 fields updated
+[≈] 29368: 3 fields updated
+[≈] 5902: 1 fields updated
+[≈] 19574: 3 fields updated
+[≈] 12956: 4 fields updated
+[≈] 19693: 1 fields updated
+[≈] 9194: 3 fields updated
+[≈] 28894: 1 fields updated
+[≈] 14926: 1 fields updated
+[≈] 913: 2 fields updated
+[≈] 18978: 3 fields updated
+[≈] 17833: 3 fields updated
+[≈] 17149: 1 fields updated
+[≈] 24133: 1 fields updated
+[≈] 28875: 2 fields updated
+[≈] 7664: 3 fields updated
+[≈] 23319: 3 fields updated
+[≈] 24464: 2 fields updated
+[≈] 11812: 2 fields updated
+[≈] 20235: 1 fields updated
+[≈] 24275: 1 fields updated
+[≈] 26532: 2 fields updated
+[≈] 22089: 2 fields updated
+[≈] 10588: 2 fields updated
+[≈] 27456: 4 fields updated
+[≈] 15246: 1 fields updated
+[≈] 24720: 3 fields updated
+[≈] 22561: 2 fields updated
+[≈] 28902: 3 fields updated
+[≈] 8529: 2 fields updated
+[≈] 2052: 1 fields updated
+[≈] 26350: 1 fields updated
+[≈] 28025: 3 fields updated
+[≈] 9746: 2 fields updated
+[≈] 15697: 4 fields updated
+[≈] 12393: 2 fields updated
+[≈] 18399: 2 fields updated
+[≈] 19924: 2 fields updated
+[≈] 7675: 3 fields updated
+[≈] 5205: 2 fields updated
+[≈] 28590: 1 fields updated
+[≈] 4174: 2 fields updated
+[≈] 24520: 1 fields updated
+[≈] 7417: 1 fields updated
+[≈] 17433: 2 fields updated
+[≈] 23333: 2 fields updated
+[≈] 6877: 1 fields updated
+[≈] 22663: 3 fields updated
+[≈] 24809: 3 fields updated
+[≈] 24410: 1 fields updated
+[≈] 23273: 2 fields updated
+[≈] 25452: 1 fields updated
+[≈] 3489: 1 fields updated
+[≈] 6642: 1 fields updated
+[≈] 13124: 2 fields updated
+[≈] 5544: 2 fields updated
+[≈] 12419: 2 fields updated
+[≈] 23674: 1 fields updated
+[≈] 12730: 2 fields updated
+[≈] 16184: 3 fields updated
+[≈] 8817: 1 fields updated
+[≈] 8359: 2 fields updated
+[≈] 9579: 1 fields updated
+[≈] 15105: 1 fields updated
+[≈] 29239: 1 fields updated
+[≈] 8804: 1 fields updated
+[≈] 25280: 1 fields updated
+[≈] 3955: 1 fields updated
+[≈] 12995: 1 fields updated
+[≈] 16780: 1 fields updated
+[≈] 10559: 1 fields updated
+[≈] 27263: 4 fields updated
+[≈] 11600: 1 fields updated
+[≈] 23742: 3 fields updated
+[≈] 21872: 1 fields updated
+[≈] 17483: 1 fields updated
+[≈] 6035: 1 fields updated
+[≈] 7799: 2 fields updated
+[≈] 6525: 3 fields updated
+[≈] 22469: 1 fields updated
+[≈] 4372: 1 fields updated
+[≈] 28061: 2 fields updated
+[≈] 26596: 1 fields updated
+[≈] 20574: 2 fields updated
+[≈] 15487: 2 fields updated
+[≈] 17765: 1 fields updated
+[≈] 28828: 2 fields updated
+[≈] 22671: 1 fields updated
+[≈] 26423: 2 fields updated
+[≈] 4006: 1 fields updated
+[≈] 17448: 1 fields updated
+[≈] 8541: 3 fields updated
+[≈] 20684: 1 fields updated
+[≈] 17035: 2 fields updated
+[≈] 7768: 1 fields updated
+[≈] 3230: 1 fields updated
+[≈] 22063: 1 fields updated
+[≈] 20816: 1 fields updated
+[≈] 18839: 3 fields updated
+[≈] 12873: 1 fields updated
+[≈] 16774: 1 fields updated
+[≈] 4740: 1 fields updated
+[≈] 28382: 1 fields updated
+[≈] 21279: 2 fields updated
+[≈] 26548: 2 fields updated
+[≈] 16726: 1 fields updated
+[≈] 21372: 2 fields updated
+[≈] 11568: 1 fields updated
+[≈] 27029: 1 fields updated
+[≈] 24042: 1 fields updated
+[≈] 16219: 2 fields updated
+[≈] 24364: 1 fields updated
+[≈] 10053: 2 fields updated
+[≈] 8933: 4 fields updated
+[≈] 21115: 1 fields updated
+[≈] 8785: 1 fields updated
+[≈] 8372: 1 fields updated
+[≈] 29027: 1 fields updated
+[≈] 3186: 5 fields updated
+[≈] 14851: 2 fields updated
+[≈] 22317: 1 fields updated
+[≈] 1813: 2 fields updated
+[≈] 23241: 1 fields updated
+[≈] 27478: 4 fields updated
+[≈] 24804: 1 fields updated
+[≈] 6333: 2 fields updated
+[≈] 16364: 2 fields updated
+[≈] 26687: 1 fields updated
+[≈] 18207: 2 fields updated
+[≈] 5718: 1 fields updated
+[≈] 15393: 3 fields updated
+[≈] 4383: 1 fields updated
+[≈] 23120: 1 fields updated
+[≈] 16424: 3 fields updated
+[≈] 26100: 1 fields updated
+[≈] 12811: 4 fields updated
+[≈] 4674: 3 fields updated
+[≈] 7401: 2 fields updated
+[≈] 26072: 1 fields updated
+[≈] 5141: 1 fields updated
+[≈] 4483: 2 fields updated
+[≈] 29269: 2 fields updated
+[≈] 22597: 2 fields updated
+[≈] 29220: 1 fields updated
+[≈] 27458: 1 fields updated
+[≈] 6842: 2 fields updated
+[≈] 10679: 1 fields updated
+[≈] 15885: 2 fields updated
+[≈] 17386: 1 fields updated
+[≈] 13478: 1 fields updated
+[≈] 9983: 1 fields updated
+[≈] 17200: 1 fields updated
+[≈] 20473: 2 fields updated
+[≈] 16811: 1 fields updated
+[≈] 28499: 3 fields updated
+[≈] 10065: 1 fields updated
+[≈] 17286: 1 fields updated
+[≈] 19445: 2 fields updated
+[≈] 22794: 2 fields updated
+[≈] 3723: 1 fields updated
+[≈] 16636: 1 fields updated
+[≈] 24536: 3 fields updated
+[≈] 9190: 2 fields updated
+[≈] 24674: 1 fields updated
+[≈] 11889: 3 fields updated
+[≈] 23046: 2 fields updated
+[≈] 20205: 4 fields updated
+[≈] 13759: 1 fields updated
+[≈] 6417: 1 fields updated
+[≈] 25604: 1 fields updated
+[≈] 17370: 2 fields updated
+[≈] 5497: 2 fields updated
+[≈] 14162: 1 fields updated
+[≈] 26557: 2 fields updated
+[≈] 26524: 1 fields updated
+[≈] 12290: 2 fields updated
+[≈] 5748: 1 fields updated
+[≈] 24999: 2 fields updated
+[≈] 5231: 1 fields updated
+[≈] 5326: 1 fields updated
+[≈] 7150: 1 fields updated
+[≈] 24547: 2 fields updated
+[≈] 1420: 2 fields updated
+[≈] 5407: 1 fields updated
+[≈] 13023: 2 fields updated
+[≈] 29203: 2 fields updated
+[≈] 3195: 1 fields updated
+[≈] 28320: 2 fields updated
+[≈] 15364: 3 fields updated
+[≈] 12964: 1 fields updated
+[≈] 28103: 3 fields updated
+[≈] 12930: 2 fields updated
+[≈] 28481: 4 fields updated
+[≈] -92208: 2 fields updated
+[≈] 24753: 2 fields updated
+[≈] 20906: 1 fields updated
+[≈] 11686: 1 fields updated
+[≈] 11516: 1 fields updated
+[≈] 20041: 1 fields updated
+[≈] 27393: 3 fields updated
+[≈] 9776: 1 fields updated
+[≈] 23293: 1 fields updated
+[≈] 26693: 5 fields updated
+[≈] 3736: 1 fields updated
+[≈] 21995: 3 fields updated
+[≈] 25715: 4 fields updated
+[≈] 11990: 2 fields updated
+[≈] 21906: 3 fields updated
+[≈] 22332: 2 fields updated
+[≈] 18605: 2 fields updated
+[≈] 5968: 2 fields updated
+[≈] 24893: 1 fields updated
+[≈] 4090: 1 fields updated
+[≈] 28461: 1 fields updated
+[≈] 23213: 1 fields updated
+[≈] 6686: 1 fields updated
+[≈] 26314: 1 fields updated
+[≈] 9014: 3 fields updated
+[≈] 13794: 2 fields updated
+[≈] 12875: 1 fields updated
+[≈] 3836: 1 fields updated
+[≈] 6315: 1 fields updated
+[≈] 15890: 1 fields updated
+[≈] 5550: 3 fields updated
+[≈] 18545: 1 fields updated
+[≈] 10443: 1 fields updated
+[≈] 16922: 1 fields updated
+[≈] 10909: 2 fields updated
+[≈] 24306: 1 fields updated
+[≈] 16566: 1 fields updated
+[≈] 18291: 1 fields updated
+[≈] 17862: 1 fields updated
+[≈] 29094: 1 fields updated
+[≈] 17655: 1 fields updated
+[≈] 2327: 2 fields updated
+[≈] 28154: 2 fields updated
+[≈] 17406: 1 fields updated
+[≈] 28536: 2 fields updated
+[≈] 7702: 1 fields updated
+[≈] 2379: 1 fields updated
+[≈] 25057: 2 fields updated
+[≈] 3189: 1 fields updated
+[≈] 24352: 2 fields updated
+[≈] 15348: 1 fields updated
+[≈] 6260: 1 fields updated
+[≈] 29320: 5 fields updated
+[≈] 9440: 1 fields updated
+[≈] 23633: 2 fields updated
+[≈] 7989: 1 fields updated
+[≈] 13924: 1 fields updated
+[≈] 27423: 2 fields updated
+[≈] 18477: 1 fields updated
+[≈] 28221: 3 fields updated
+[≈] 6104: 3 fields updated
+[≈] 13112: 1 fields updated
+[≈] 7097: 2 fields updated
+[≈] 10946: 1 fields updated
+[≈] 9990: 1 fields updated
+[≈] 27377: 2 fields updated
+[≈] 5470: 1 fields updated
+[≈] 23493: 4 fields updated
+[≈] 20623: 1 fields updated
+[≈] 11840: 3 fields updated
+[≈] 24237: 1 fields updated
+[≈] 10436: 1 fields updated
+[≈] 24975: 1 fields updated
+[≈] 14293: 1 fields updated
+[≈] 29313: 1 fields updated
+[≈] 1327: 1 fields updated
+[≈] 10110: 2 fields updated
+[≈] 23583: 1 fields updated
+[≈] 8735: 1 fields updated
+[≈] 28639: 3 fields updated
+[≈] 23594: 3 fields updated
+[≈] 18584: 1 fields updated
+[≈] 989: 3 fields updated
+[≈] 28883: 1 fields updated
+[≈] 16193: 3 fields updated
+[≈] 8342: 1 fields updated
+[≈] 2842: 1 fields updated
+[≈] 17328: 3 fields updated
+[≈] 6940: 2 fields updated
+[≈] 24814: 1 fields updated
+[≈] 27734: 3 fields updated
+[≈] 27632: 2 fields updated
+[≈] 2305: 1 fields updated
+[≈] 26071: 2 fields updated
+[≈] 4670: 1 fields updated
+[≈] 3494: 2 fields updated
+[≈] 27213: 3 fields updated
+[≈] 10269: 1 fields updated
+[≈] 2249: 1 fields updated
+[≈] 15133: 2 fields updated
+[≈] 1052: 2 fields updated
+[≈] 9969: 1 fields updated
+[≈] 9315: 1 fields updated
+[≈] 25702: 3 fields updated
+[≈] 6931: 1 fields updated
+[≈] 1348: 1 fields updated
+[≈] 4660: 4 fields updated
+[≈] 14321: 4 fields updated
+[≈] 28330: 3 fields updated
+[≈] 11935: 1 fields updated
+[≈] 15023: 1 fields updated
+[≈] 8488: 2 fields updated
+[≈] 21536: 1 fields updated
+[≈] 9471: 2 fields updated
+[≈] 14583: 1 fields updated
+[≈] 7147: 3 fields updated
+[≈] 2756: 1 fields updated
+[≈] 22298: 1 fields updated
+[≈] 22700: 5 fields updated
+[≈] 17488: 1 fields updated
+[≈] 10535: 1 fields updated
+[≈] 24110: 1 fields updated
+[≈] 23382: 2 fields updated
+[≈] 21666: 1 fields updated
+[≈] 16372: 2 fields updated
+[≈] 18558: 1 fields updated
+[≈] 15432: 1 fields updated
+[≈] 24909: 1 fields updated
+[≈] 20533: 1 fields updated
+[≈] 21111: 1 fields updated
+[≈] 6605: 1 fields updated
+[≈] 9835: 3 fields updated
+[≈] 16558: 3 fields updated
+[≈] 28286: 1 fields updated
+[≈] 29261: 3 fields updated
+[≈] 22078: 1 fields updated
+[≈] 14580: 3 fields updated
+[≈] 8814: 3 fields updated
+[≈] 24635: 1 fields updated
+[≈] 11015: 1 fields updated
+[≈] 25484: 1 fields updated
+[≈] 19215: 1 fields updated
+[≈] 26653: 3 fields updated
+[≈] 26987: 1 fields updated
+[≈] 21276: 1 fields updated
+[≈] 23854: 2 fields updated
+[≈] 21959: 1 fields updated
+[≈] 16042: 1 fields updated
+[≈] 8945: 1 fields updated
+[≈] 11306: 1 fields updated
+[≈] 19808: 2 fields updated
+[≈] 24702: 1 fields updated
+[≈] 11283: 1 fields updated
+[≈] 16112: 1 fields updated
+[≈] 18952: 1 fields updated
+[≈] 29318: 1 fields updated
+[≈] 8289: 2 fields updated
+[≈] 4760: 1 fields updated
+[≈] 6194: 1 fields updated
+[≈] 7331: 1 fields updated
+[≈] 15247: 1 fields updated
+[≈] 21721: 1 fields updated
+[≈] 11953: 1 fields updated
+[≈] 8032: 1 fields updated
+[≈] 28504: 2 fields updated
+[≈] 15244: 4 fields updated
+[≈] 8874: 1 fields updated
+[≈] 27160: 2 fields updated
+[≈] 125144712: 3 fields updated
+[≈] 23238: 1 fields updated
+[≈] 29096: 3 fields updated
+[≈] 4388: 1 fields updated
+[≈] 14435: 1 fields updated
+[≈] 8438: 1 fields updated
+[≈] 15161: 1 fields updated
+[≈] 19867: 1 fields updated
+[≈] 19780: 1 fields updated
+[≈] 26037: 1 fields updated
+[≈] 12450: 2 fields updated
+[≈] 1095: 3 fields updated
+[≈] 23715: 1 fields updated
+[≈] 27170: 1 fields updated
+[≈] 12128: 1 fields updated
+[≈] 16279: 1 fields updated
+[≈] 18235: 2 fields updated
+[≈] 16163: 1 fields updated
+[≈] 14748: 2 fields updated
+[≈] 14081: 1 fields updated
+[≈] 24576: 1 fields updated
+[≈] 9236: 1 fields updated
+[≈] 16017: 1 fields updated
+[≈] 7906: 1 fields updated
+[≈] 15283: 1 fields updated
+[≈] 20596: 1 fields updated
+[≈] 18776: 3 fields updated
+[≈] 15557: 2 fields updated
+[≈] 28262: 5 fields updated
+[≈] 18973: 3 fields updated
+[≈] 27516: 1 fields updated
+[≈] 14131: 1 fields updated
+[≈] 11934: 3 fields updated
+[≈] 13344: 2 fields updated
+[≈] 5101: 1 fields updated
+[≈] 13150: 2 fields updated
+[≈] 22398: 1 fields updated
+[≈] 25774: 1 fields updated
+[≈] 14618: 1 fields updated
+[≈] 28353: 4 fields updated
+[≈] 18993: 3 fields updated
+[≈] 19985: 1 fields updated
+[≈] -92396: 1 fields updated
+[≈] 7416: 1 fields updated
+[≈] 21009: 1 fields updated
+[≈] 27380: 3 fields updated
+[≈] 4617: 1 fields updated
+[≈] 24305: 1 fields updated
+[≈] 9203: 1 fields updated
+[≈] 26900: 1 fields updated
+[≈] 6379: 1 fields updated
+[≈] 10984: 1 fields updated
+[≈] 20871: 1 fields updated
+[≈] 19744: 1 fields updated
+[≈] 25955: 4 fields updated
+[≈] 29267: 2 fields updated
+[≈] 26003: 1 fields updated
+[≈] 10715: 2 fields updated
+[≈] 17605: 3 fields updated
+[≈] 4605: 2 fields updated
+[≈] 25461: 1 fields updated
+[≈] 24670: 1 fields updated
+[≈] 18130: 1 fields updated
+[≈] 25346: 2 fields updated
+[≈] 19041: 1 fields updated
+[≈] 15895: 1 fields updated
+[≈] 14472: 2 fields updated
+[≈] 24206: 1 fields updated
+[≈] 13382: 1 fields updated
+[≈] 19423: 1 fields updated
+[≈] 25398: 1 fields updated
+[≈] 7785: 2 fields updated
+[≈] 7453: 3 fields updated
+[≈] 5201: 1 fields updated
+[≈] 24952: 1 fields updated
+[≈] 3035: 1 fields updated
+[≈] 16656: 1 fields updated
+[≈] 7370: 1 fields updated
+[≈] 10961: 1 fields updated
+[≈] 26089: 2 fields updated
+[≈] 7970: 1 fields updated
+[≈] 22420: 1 fields updated
+[≈] 27299: 1 fields updated
+[≈] 1532: 2 fields updated
+[≈] 23722: 2 fields updated
+[≈] 21434: 1 fields updated
+[≈] 14237: 2 fields updated
+[≈] 19788: 1 fields updated
+[≈] 10139: 1 fields updated
+[≈] 12924: 1 fields updated
+[≈] 18493: 1 fields updated
+[≈] 2480: 1 fields updated
+[≈] 3153: 1 fields updated
+[≈] 21160: 3 fields updated
+[≈] 13162: 2 fields updated
+[≈] 5258: 2 fields updated
+[≈] 16782: 2 fields updated
+[≈] 4215: 1 fields updated
+[≈] 4640: 5 fields updated
+[≈] 4474: 1 fields updated
+[≈] 9631: 2 fields updated
+[≈] 24877: 2 fields updated
+[≈] 24504: 4 fields updated
+[≈] 7750: 1 fields updated
+[≈] 4908: 4 fields updated
+[≈] 22110: 1 fields updated
+[≈] 27045: 1 fields updated
+[≈] 12200: 2 fields updated
+[≈] 26153: 3 fields updated
+[≈] -92299: 1 fields updated
+[≈] 21370: 1 fields updated
+[≈] 17246: 3 fields updated
+[≈] 3401: 3 fields updated
+[≈] 9635: 1 fields updated
+[≈] 10369: 1 fields updated
+[≈] 27233: 1 fields updated
+[≈] 27903: 2 fields updated
+[≈] 9150: 3 fields updated
+[≈] 25109: 1 fields updated
+[≈] 25133: 1 fields updated
+[≈] 14715: 1 fields updated
+[≈] 21723: 3 fields updated
+[≈] 10692: 1 fields updated
+[≈] 19480: 2 fields updated
+[≈] 25928: 2 fields updated
+[≈] 28801: 2 fields updated
+[≈] 21737: 1 fields updated
+[≈] 28290: 5 fields updated
+[≈] 8354: 4 fields updated
+[≈] 21038: 1 fields updated
+[≈] 28195: 1 fields updated
+[≈] 6309: 1 fields updated
+[≈] 27767: 3 fields updated
+[≈] 2724: 1 fields updated
+[≈] 10504: 1 fields updated
+[≈] 14482: 3 fields updated
+[≈] 18569: 2 fields updated
+[≈] 22419: 2 fields updated
+[≈] 26099: 1 fields updated
+[≈] 5948: 1 fields updated
+[≈] 4070: 1 fields updated
+[≈] 2992: 1 fields updated
+[≈] 17790: 1 fields updated
+[≈] 20658: 1 fields updated
+[≈] 10288: 1 fields updated
+[≈] 19039: 2 fields updated
+[≈] 16053: 1 fields updated
+[≈] 15614: 1 fields updated
+[≈] 13953: 1 fields updated
+[≈] 9542: 1 fields updated
+[≈] 27894: 2 fields updated
+[≈] 9593: 1 fields updated
+[≈] 9157: 1 fields updated
+[≈] 26195: 4 fields updated
+[≈] 11328: 1 fields updated
+[≈] 25993: 2 fields updated
+[≈] 29234: 2 fields updated
+[≈] 25682: 1 fields updated
+[≈] 25714: 1 fields updated
+[≈] 5690: 2 fields updated
+[≈] 26376: 1 fields updated
+[≈] 2010: 1 fields updated
+[≈] 28542: 3 fields updated
+[≈] 17021: 1 fields updated
+[≈] 15852: 3 fields updated
+[≈] 7570: 1 fields updated
+[≈] 18320: 2 fields updated
+[≈] 26079: 1 fields updated
+[≈] 6076: 1 fields updated
+[≈] 28581: 3 fields updated
+[≈] 21579: 1 fields updated
+[≈] 8582: 1 fields updated
+[≈] 21373: 1 fields updated
+[≈] 10465: 2 fields updated
+[≈] 11673: 1 fields updated
+[≈] 27246: 2 fields updated
+[≈] 26141: 1 fields updated
+[≈] 17666: 2 fields updated
+[≈] 16269: 2 fields updated
+[≈] 3051: 1 fields updated
+[≈] 14374: 3 fields updated
+[≈] 19869: 1 fields updated
+[≈] 1540: 2 fields updated
+[≈] 20717: 2 fields updated
+[≈] 28564: 1 fields updated
+[≈] 14705: 2 fields updated
+[≈] 13807: 2 fields updated
+[≈] 8827: 1 fields updated
+[≈] 11232: 1 fields updated
+[≈] 28722: 2 fields updated
+[≈] 26849: 3 fields updated
+[≈] 13466: 2 fields updated
+[≈] 20542: 3 fields updated
+[≈] 29352: 4 fields updated
+[≈] 11554: 1 fields updated
+[≈] 15404: 1 fields updated
+[≈] 27817: 2 fields updated
+[≈] 19680: 3 fields updated
+[≈] 12846: 1 fields updated
+[≈] 2247: 3 fields updated
+[≈] 25339: 1 fields updated
+[≈] 4239: 1 fields updated
+[≈] 20334: 1 fields updated
+[≈] 22569: 1 fields updated
+[≈] 7440: 2 fields updated
+[≈] 5549: 1 fields updated
+[≈] 21585: 3 fields updated
+[≈] 24427: 2 fields updated
+[≈] 27828: 2 fields updated
+[≈] 1355: 1 fields updated
+[≈] 29310: 1 fields updated
+[≈] 10005: 3 fields updated
+[≈] 11540: 1 fields updated
+[≈] 1772: 1 fields updated
+[≈] 24839: 3 fields updated
+[≈] 18554: 1 fields updated
+[≈] 13884: 1 fields updated
+[≈] 8327: 1 fields updated
+[≈] 26800: 1 fields updated
+[≈] 27432: 1 fields updated
+[≈] 7772: 1 fields updated
+[≈] 16301: 1 fields updated
+[≈] 27332: 3 fields updated
+[≈] 24512: 1 fields updated
+[≈] 26471: 2 fields updated
+[≈] 3408: 2 fields updated
+[≈] 18402: 3 fields updated
+[≈] 19292: 1 fields updated
+[≈] 12770: 1 fields updated
+[≈] 27331: 3 fields updated
+[≈] 8798: 1 fields updated
+[≈] 25581: 1 fields updated
+[≈] 977: 1 fields updated
+[≈] 4930: 1 fields updated
+[≈] 27312: 3 fields updated
+[≈] 14589: 1 fields updated
+[≈] 12504: 3 fields updated
+[≈] 5476: 2 fields updated
+[≈] 20301: 3 fields updated
+[≈] 18645: 2 fields updated
+[≈] 5638: 1 fields updated
+[≈] 27115: 1 fields updated
+[≈] 9217: 1 fields updated
+[≈] 16282: 1 fields updated
+[≈] 22858: 1 fields updated
+[≈] 4122: 2 fields updated
+[≈] 1782: 1 fields updated
+[≈] 10067: 1 fields updated
+[≈] 28837: 1 fields updated
+[≈] 16714: 1 fields updated
+[≈] 16968: 2 fields updated
+[≈] 2412: 2 fields updated
+[≈] 18879: 2 fields updated
+[≈] 28361: 2 fields updated
+[≈] 24142: 1 fields updated
+[≈] 14173: 1 fields updated
+[≈] 9045: 2 fields updated
+[≈] 15830: 1 fields updated
+[≈] 9285: 1 fields updated
+[≈] 21734: 1 fields updated
+[≈] 2501: 2 fields updated
+[≈] 16791: 1 fields updated
+[≈] 1799: 3 fields updated
+[≈] 18089: 3 fields updated
+[≈] 5246: 2 fields updated
+[≈] 8084: 1 fields updated
+[≈] 17768: 2 fields updated
+[≈] 23903: 1 fields updated
+[≈] 16561: 1 fields updated
+[≈] 24500: 2 fields updated
+[≈] 23830: 1 fields updated
+[≈] 25833: 1 fields updated
+[≈] 2727: 1 fields updated
+[≈] 19610: 1 fields updated
+[≈] 22972: 1 fields updated
+[≈] 1968: 1 fields updated
+[≈] 8016: 4 fields updated
+[≈] 18822: 1 fields updated
+[≈] 11330: 1 fields updated
+[≈] 23666: 2 fields updated
+[≈] 5765: 4 fields updated
+[≈] 8132: 2 fields updated
+[≈] 13386: 1 fields updated
+[≈] 4340: 1 fields updated
+[≈] 24040: 4 fields updated
+[≈] 22120: 3 fields updated
+[≈] 14290: 3 fields updated
+[≈] 16991: 1 fields updated
+[≈] 16226: 1 fields updated
+[≈] 23728: 4 fields updated
+[≈] 20915: 2 fields updated
+[≈] 14445: 1 fields updated
+[≈] 13580: 1 fields updated
+[≈] 20431: 1 fields updated
+[≈] 7922: 1 fields updated
+[≈] 19498: 1 fields updated
+[≈] 29242: 2 fields updated
+[≈] 26972: 2 fields updated
+[≈] 24315: 4 fields updated
+[≈] 28118: 1 fields updated
+[≈] 22563: 1 fields updated
+[≈] 28062: 2 fields updated
+[≈] 9978: 1 fields updated
+[≈] 11014: 3 fields updated
+[≈] 19909: 1 fields updated
+[≈] 27882: 1 fields updated
+[≈] 22970: 1 fields updated
+[≈] 3226: 2 fields updated
+[≈] 25861: 2 fields updated
+[≈] 21161: 1 fields updated
+[≈] 28507: 4 fields updated
+[≈] 4027: 3 fields updated
+[≈] 14152: 1 fields updated
+[≈] 10450: 1 fields updated
+[≈] 20274: 1 fields updated
+[≈] 18880: 1 fields updated
+[≈] 11333: 1 fields updated
+[≈] 25424: 2 fields updated
+[≈] 15170: 1 fields updated
+[≈] 24170: 1 fields updated
+[≈] 10201: 3 fields updated
+[≈] 13840: 2 fields updated
+[≈] 8631: 1 fields updated
+[≈] 10458: 2 fields updated
+[≈] 20892: 1 fields updated
+[≈] 5984: 3 fields updated
+[≈] 1385: 3 fields updated
+[≈] 12539: 1 fields updated
+[≈] 14236: 1 fields updated
+[≈] 25686: 4 fields updated
+[≈] 21389: 3 fields updated
+[≈] 27396: 3 fields updated
+[≈] 8129: 2 fields updated
+[≈] 8322: 1 fields updated
+[≈] 14667: 1 fields updated
+[≈] 25741: 2 fields updated
+[≈] 10697: 2 fields updated
+[≈] 25107: 3 fields updated
+[≈] 25545: 1 fields updated
+[≈] 23270: 3 fields updated
+[≈] 24195: 1 fields updated
+[≈] 1271: 2 fields updated
+[≈] 21984: 1 fields updated
+[≈] 23724: 2 fields updated
+[≈] 24024: 3 fields updated
+[≈] 3960: 1 fields updated
+[≈] 17093: 1 fields updated
+[≈] 5876: 2 fields updated
+[≈] 11075: 1 fields updated
+[≈] 23187: 2 fields updated
+[≈] 14857: 3 fields updated
+[≈] 27419: 2 fields updated
+[≈] 16830: 1 fields updated
+[≈] 11121: 1 fields updated
+[≈] 27865: 2 fields updated
+[≈] 27030: 1 fields updated
+[≈] 2640: 4 fields updated
+[≈] 7410: 2 fields updated
+[≈] 25315: 1 fields updated
+[≈] 9353: 2 fields updated
+[≈] 10356: 2 fields updated
+[≈] 15853: 1 fields updated
+[≈] 7038: 2 fields updated
+[≈] 17976: 1 fields updated
+[≈] 18354: 2 fields updated
+[≈] 11998: 2 fields updated
+[≈] 27931: 3 fields updated
+[≈] 27741: 3 fields updated
+[≈] 24707: 1 fields updated
+[≈] 4917: 3 fields updated
+[≈] 7042: 3 fields updated
+[≈] 13479: 3 fields updated
+[≈] 23361: 1 fields updated
+[≈] 28923: 2 fields updated
+[≈] 22159: 1 fields updated
+[≈] 16453: 4 fields updated
+[≈] 14353: 2 fields updated
+[≈] 7694: 1 fields updated
+[≈] 16149: 1 fields updated
+[≈] 19682: 2 fields updated
+[≈] 25729: 1 fields updated
+[≈] 19633: 4 fields updated
+[≈] 24048: 2 fields updated
+[≈] 18154: 1 fields updated
+[≈] 10995: 1 fields updated
+[≈] 14557: 1 fields updated
+[≈] 20718: 4 fields updated
+[≈] 24282: 1 fields updated
+[≈] 25974: 2 fields updated
+[≈] 22019: 1 fields updated
+[≈] 18996: 2 fields updated
+[≈] 17906: 1 fields updated
+[≈] 16075: 3 fields updated
+[≈] 23352: 3 fields updated
+[≈] 4934: 1 fields updated
+[≈] 14527: 1 fields updated
+[≈] 5301: 2 fields updated
+[≈] 25393: 2 fields updated
+[≈] 24554: 1 fields updated
+[≈] 24857: 2 fields updated
+[≈] 22704: 3 fields updated
+[≈] 16585: 2 fields updated
+[≈] 23766: 1 fields updated
+[≈] 8086: 2 fields updated
+[≈] 12747: 2 fields updated
+[≈] 21317: 2 fields updated
+[≈] 16574: 1 fields updated
+[≈] 8124: 1 fields updated
+[≈] 21727: 1 fields updated
+[≈] 22016: 3 fields updated
+[≈] 8298: 2 fields updated
+[≈] 25853: 1 fields updated
+[≈] 24951: 1 fields updated
+[≈] 28014: 4 fields updated
+[≈] 25068: 1 fields updated
+[≈] 25608: 3 fields updated
+[≈] 4192: 4 fields updated
+[≈] 3026: 1 fields updated
+[≈] 18223: 1 fields updated
+[≈] 10923: 2 fields updated
+[≈] 26957: 2 fields updated
+[≈] 25987: 1 fields updated
+[≈] 5062: 1 fields updated
+[≈] 28305: 1 fields updated
+[≈] 26537: 2 fields updated
+[≈] 28144: 3 fields updated
+[≈] 12171: 2 fields updated
+[≈] 25270: 2 fields updated
+[≈] 14682: 2 fields updated
+[≈] 1557: 3 fields updated
+[≈] 17131: 1 fields updated
+[≈] 10543: 1 fields updated
+[≈] 20772: 2 fields updated
+[≈] 20233: 2 fields updated
+[≈] 5325: 2 fields updated
+[≈] 14653: 1 fields updated
+[≈] 21498: 2 fields updated
+[≈] 24242: 1 fields updated
+[≈] 14696: 1 fields updated
+[≈] 26632: 3 fields updated
+[≈] 3869: 1 fields updated
+[≈] 19915: 1 fields updated
+[≈] 24420: 1 fields updated
+[≈] 28765: 3 fields updated
+[≈] 23632: 2 fields updated
+[≈] 23092: 1 fields updated
+[≈] 26375: 2 fields updated
+[≈] 17303: 1 fields updated
+[≈] 28426: 2 fields updated
+[≈] 22305: 3 fields updated
+[≈] 11114: 4 fields updated
+[≈] 12855: 2 fields updated
+[≈] 28761: 5 fields updated
+[≈] 25753: 2 fields updated
+[≈] 2278: 1 fields updated
+[≈] 21100: 3 fields updated
+[≈] 18313: 1 fields updated
+[≈] 7034: 2 fields updated
+[≈] 10011: 1 fields updated
+[≈] 27308: 1 fields updated
+[≈] 18486: 1 fields updated
+[≈] 14021: 3 fields updated
+[≈] 29053: 1 fields updated
+[≈] 6060: 3 fields updated
+[≈] 21338: 2 fields updated
+[≈] 29071: 3 fields updated
+[≈] 19796: 1 fields updated
+[≈] 1493: 2 fields updated
+[≈] 26611: 3 fields updated
+[≈] 8029: 1 fields updated
+[≈] 7708: 1 fields updated
+[≈] 11892: 1 fields updated
+[≈] 27467: 2 fields updated
+[≈] 5731: 2 fields updated
+[≈] 25718: 2 fields updated
+[≈] 2120: 1 fields updated
+[≈] 14533: 2 fields updated
+[≈] 29350: 1 fields updated
+[≈] 25145: 2 fields updated
+[≈] 24336: 1 fields updated
+[≈] 27889: 2 fields updated
+[≈] 18576: 1 fields updated
+[≈] 10858: 1 fields updated
+[≈] 11201: 1 fields updated
+[≈] 27287: 1 fields updated
+[≈] 23157: 4 fields updated
+[≈] 15467: 2 fields updated
+[≈] 21778: 2 fields updated
+[≈] 19676: 1 fields updated
+[≈] 10379: 1 fields updated
+[≈] 18460: 1 fields updated
+[≈] 16690: 1 fields updated
+[≈] 1934: 2 fields updated
+[≈] 10010: 2 fields updated
+[≈] 6280: 2 fields updated
+[≈] 10241: 3 fields updated
+[≈] 6314: 1 fields updated
+[≈] 18681: 1 fields updated
+[≈] 4304: 1 fields updated
+[≈] 2346: 1 fields updated
+[≈] 13875: 1 fields updated
+[≈] 14935: 1 fields updated
+[≈] 18980: 2 fields updated
+[≈] 24250: 1 fields updated
+[≈] 2051: 4 fields updated
+[≈] 15354: 1 fields updated
+[≈] 14879: 1 fields updated
+[≈] 23063: 1 fields updated
+[≈] 7975: 2 fields updated
+[≈] 17751: 2 fields updated
+[≈] 28390: 2 fields updated
+[≈] 13462: 1 fields updated
+[≈] 10887: 1 fields updated
+[≈] 24094: 2 fields updated
+[≈] 22397: 4 fields updated
+[≈] 8547: 1 fields updated
+[≈] 21594: 2 fields updated
+[≈] 9778: 1 fields updated
+[≈] 25671: 3 fields updated
+[≈] 20292: 3 fields updated
+[≈] 3042: 1 fields updated
+[≈] 14432: 3 fields updated
+[≈] 23182: 3 fields updated
+[≈] 6188: 1 fields updated
+[≈] 21554: 2 fields updated
+[≈] 24822: 1 fields updated
+[≈] 17752: 3 fields updated
+[≈] 11560: 3 fields updated
+[≈] 8263: 1 fields updated
+[≈] 24516: 1 fields updated
+[≈] 8410: 2 fields updated
+[≈] 17604: 2 fields updated
+[≈] 22790: 1 fields updated
+[≈] 7192: 1 fields updated
+[≈] 22955: 2 fields updated
+[≈] 25347: 1 fields updated
+[≈] 15687: 1 fields updated
+[≈] 26983: 2 fields updated
+[≈] 8657: 3 fields updated
+[≈] 7277: 1 fields updated
+[≈] 19975: 1 fields updated
+[≈] 27949: 2 fields updated
+[≈] 6387: 1 fields updated
+[≈] 6858: 1 fields updated
+[≈] 27023: 2 fields updated
+[≈] 26918: 1 fields updated
+[≈] 27192: 2 fields updated
+[≈] 28549: 3 fields updated
+[≈] 18385: 1 fields updated
+[≈] 28700: 3 fields updated
+[≈] 3927: 1 fields updated
+[≈] 11525: 1 fields updated
+[≈] -92426: 1 fields updated
+[≈] 26501: 1 fields updated
+[≈] 2326: 1 fields updated
+[≈] 13593: 2 fields updated
+[≈] 12181: 1 fields updated
+[≈] 22832: 3 fields updated
+[≈] 6577: 2 fields updated
+[≈] 2361: 2 fields updated
+[≈] 8643: 1 fields updated
+[≈] 14151: 1 fields updated
+[≈] 24858: 1 fields updated
+[≈] 6493: 1 fields updated
+[≈] 7962: 3 fields updated
+[≈] 17502: 1 fields updated
+[≈] 28060: 2 fields updated
+[≈] 11907: 2 fields updated
+[≈] 25198: 1 fields updated
+[≈] 18118: 1 fields updated
+[≈] 23877: 4 fields updated
+[≈] 14224: 1 fields updated
+[≈] 26962: 3 fields updated
+[≈] 13068: 2 fields updated
+[≈] 14404: 1 fields updated
+[≈] 15298: 4 fields updated
+[≈] 23450: 1 fields updated
+[≈] 8125: 5 fields updated
+[≈] 28653: 2 fields updated
+[≈] 8407: 1 fields updated
+[≈] 20640: 2 fields updated
+[≈] 14365: 1 fields updated
+[≈] 21168: 1 fields updated
+[≈] 9588: 2 fields updated
+[≈] 27277: 1 fields updated
+[≈] 18914: 2 fields updated
+[≈] 24899: 1 fields updated
+[≈] 20751: 2 fields updated
+[≈] 11461: 2 fields updated
+[≈] 15050: 1 fields updated
+[≈] 7972: 1 fields updated
+[≈] 21918: 1 fields updated
+[≈] 27764: 2 fields updated
+[≈] 25383: 1 fields updated
+[≈] 22795: 2 fields updated
+[≈] 3886: 1 fields updated
+[≈] 27452: 1 fields updated
+[≈] 28433: 2 fields updated
+[≈] 11910: 1 fields updated
+[≈] 20269: 1 fields updated
+[≈] 21736: 1 fields updated
+[≈] 17941: 1 fields updated
+[≈] 25157: 3 fields updated
+[≈] 14053: 1 fields updated
+[≈] 11438: 1 fields updated
+[≈] 10019: 1 fields updated
+[≈] 3174: 1 fields updated
+[≈] 25152: 1 fields updated
+[≈] 2456: 1 fields updated
+[≈] 5058: 4 fields updated
+[≈] 26407: 1 fields updated
+[≈] 25553: 1 fields updated
+[≈] 16500: 3 fields updated
+[≈] 12848: 2 fields updated
+[≈] 5098: 2 fields updated
+[≈] 9221: 2 fields updated
+[≈] 10661: 1 fields updated
+[≈] 5702: 3 fields updated
+[≈] 3585: 1 fields updated
+[≈] 8085: 3 fields updated
+[≈] 16902: 1 fields updated
+[≈] 26084: 2 fields updated
+[≈] 2684: 2 fields updated
+[≈] 28990: 1 fields updated
+[≈] 23158: 2 fields updated
+[≈] 24248: 1 fields updated
+[≈] 7816: 2 fields updated
+[≈] 21504: 2 fields updated
+[≈] 8301: 1 fields updated
+[≈] 26223: 1 fields updated
+[≈] 6641: 2 fields updated
+[≈] 11674: 1 fields updated
+[≈] 6545: 2 fields updated
+[≈] 28707: 2 fields updated
+[≈] 22914: 3 fields updated
+[≈] 13126: 1 fields updated
+[≈] 17251: 3 fields updated
+[≈] 8727: 1 fields updated
+[≈] 28655: 4 fields updated
+[≈] 22889: 3 fields updated
+[≈] 20100: 2 fields updated
+[≈] 12619: 1 fields updated
+[≈] 1650: 2 fields updated
+[≈] 23613: 1 fields updated
+[≈] 25530: 1 fields updated
+[≈] 20549: 1 fields updated
+[≈] 4329: 2 fields updated
+[≈] 27351: 4 fields updated
+[≈] 13984: 1 fields updated
+[≈] 8116: 1 fields updated
+[≈] 24268: 1 fields updated
+[≈] 26088: 2 fields updated
+[≈] 18821: 5 fields updated
+[≈] 18865: 1 fields updated
+[≈] 6957: 2 fields updated
+[≈] 21010: 1 fields updated
+[≈] 6160: 1 fields updated
+[≈] 12348: 1 fields updated
+[≈] 27711: 3 fields updated
+[≈] 19982: 2 fields updated
+[≈] 18046: 1 fields updated
+[≈] 8484: 3 fields updated
+[≈] 18770: 1 fields updated
+[≈] 23872: 2 fields updated
+[≈] 18833: 1 fields updated
+[≈] 1673: 1 fields updated
+[≈] 16781: 3 fields updated
+[≈] 27326: 2 fields updated
+[≈] 1392: 1 fields updated
+[≈] 16157: 1 fields updated
+[≈] 16123: 6 fields updated
+[≈] 1338: 3 fields updated
+[≈] 26171: 1 fields updated
+[≈] 23949: 1 fields updated
+[≈] 16694: 1 fields updated
+[≈] 10934: 1 fields updated
+[≈] 9767: 1 fields updated
+[≈] 17410: 1 fields updated
+[≈] 25494: 2 fields updated
+[≈] 25850: 2 fields updated
+[≈] 7883: 3 fields updated
+[≈] 19478: 1 fields updated
+[≈] 23134: 1 fields updated
+[≈] 7141: 1 fields updated
+[≈] 17890: 1 fields updated
+[≈] 13390: 1 fields updated
+[≈] 1838: 2 fields updated
+[≈] 7040: 1 fields updated
+[≈] 10078: 2 fields updated
+[≈] 8426: 2 fields updated
+[≈] 17170: 2 fields updated
+[≈] 11648: 1 fields updated
+[≈] 1548: 1 fields updated
+[≈] 7278: 1 fields updated
+[≈] 28403: 2 fields updated
+[≈] 9427: 3 fields updated
+[≈] 12563: 1 fields updated
+[≈] 27071: 1 fields updated
+[≈] 13144: 1 fields updated
+[≈] 13972: 1 fields updated
+[≈] 26975: 4 fields updated
+[≈] 17014: 3 fields updated
+[≈] 5536: 1 fields updated
+[≈] 4644: 4 fields updated
+[≈] 28409: 3 fields updated
+[≈] 10922: 2 fields updated
+[≈] 9715: 1 fields updated
+[≈] 28514: 3 fields updated
+[≈] 26750: 1 fields updated
+[≈] 28622: 3 fields updated
+[≈] 9685: 2 fields updated
+[≈] 16648: 2 fields updated
+[≈] 8003: 1 fields updated
+[≈] 23473: 2 fields updated
+[≈] 23462: 1 fields updated
+[≈] 11197: 1 fields updated
+[≈] 7986: 2 fields updated
+[≈] 27411: 3 fields updated
+[≈] 15442: 1 fields updated
+[≈] 7668: 1 fields updated
+[≈] 20019: 1 fields updated
+[≈] 15646: 2 fields updated
+[≈] 16675: 1 fields updated
+[≈] 11946: 1 fields updated
+[≈] 27724: 1 fields updated
+[≈] 2540: 1 fields updated
+[≈] 2646: 2 fields updated
+[≈] 11344: 1 fields updated
+[≈] 24887: 1 fields updated
+[≈] 21193: 2 fields updated
+[≈] 24225: 1 fields updated
+[≈] 18731: 1 fields updated
+[≈] 22828: 1 fields updated
+[≈] 19424: 1 fields updated
+[≈] 29082: 1 fields updated
+[≈] 21937: 3 fields updated
+[≈] 23745: 3 fields updated
+[≈] 10736: 1 fields updated
+[≈] 5959: 1 fields updated
+[≈] 3873: 1 fields updated
+[≈] 9189: 3 fields updated
+[≈] 19127: 3 fields updated
+[≈] 28227: 3 fields updated
+[≈] 16188: 1 fields updated
+[≈] 18987: 2 fields updated
+[≈] 12422: 2 fields updated
+[≈] 28365: 1 fields updated
+[≈] 3342: 1 fields updated
+[≈] 26815: 2 fields updated
+[≈] 7253: 2 fields updated
+[≈] 15573: 1 fields updated
+[≈] 1988: 1 fields updated
+[≈] 24429: 1 fields updated
+[≈] 25531: 1 fields updated
+[≈] 13510: 3 fields updated
+[≈] 19881: 2 fields updated
+[≈] 26403: 2 fields updated
+[≈] 20701: 3 fields updated
+[≈] 3270: 1 fields updated
+[≈] 20934: 2 fields updated
+[≈] 18814: 1 fields updated
+[≈] 25787: 5 fields updated
+[≈] 12568: 1 fields updated
+[≈] 23568: 1 fields updated
+[≈] 23989: 1 fields updated
+[≈] 15771: 1 fields updated
+[≈] 20558: 1 fields updated
+[≈] 24828: 1 fields updated
+[≈] 6482: 3 fields updated
+[≈] 8077: 1 fields updated
+[≈] 28843: 2 fields updated
+[≈] 27412: 2 fields updated
+[≈] 6307: 1 fields updated
+[≈] 24055: 3 fields updated
+[≈] -92401: 1 fields updated
+[≈] 8934: 2 fields updated
+[≈] 16178: 1 fields updated
+[≈] 24820: 1 fields updated
+[≈] 14412: 1 fields updated
+[≈] 28800: 1 fields updated
+[≈] 20707: 1 fields updated
+[≈] 13398: 1 fields updated
+[≈] 11043: 2 fields updated
+[≈] 14512: 1 fields updated
+[≈] 25032: 3 fields updated
+[≈] 19440: 1 fields updated
+[≈] 12196: 2 fields updated
+[≈] 11476: 1 fields updated
+[≈] 10370: 2 fields updated
+[≈] 28321: 2 fields updated
+[≈] 6193: 2 fields updated
+[≈] 6257: 1 fields updated
+[≈] 22695: 3 fields updated
+[≈] 19291: 2 fields updated
+[≈] 24953: 1 fields updated
+[≈] 16327: 1 fields updated
+[≈] 17659: 2 fields updated
+[≈] 23627: 2 fields updated
+[≈] 7489: 4 fields updated
+[≈] 15530: 1 fields updated
+[≈] 12689: 1 fields updated
+[≈] 22793: 1 fields updated
+[≈] 3359: 2 fields updated
+[≈] 24223: 1 fields updated
+[≈] 3286: 1 fields updated
+[≈] 25002: 2 fields updated
+[≈] 14296: 6 fields updated
+[≈] 15314: 1 fields updated
+[≈] 5995: 4 fields updated
+[≈] 12084: 1 fields updated
+[≈] 5140: 3 fields updated
+[≈] 3251: 2 fields updated
+[≈] 15927: 2 fields updated
+[≈] 10926: 1 fields updated
+[≈] 22017: 5 fields updated
+[≈] 17407: 1 fields updated
+[≈] 16787: 1 fields updated
+[≈] 18356: 1 fields updated
+[≈] 25177: 1 fields updated
+[≈] 8837: 1 fields updated
+[≈] 16608: 1 fields updated
+[≈] 3285: 1 fields updated
+[≈] 28904: 3 fields updated
+[≈] 7550: 1 fields updated
+[≈] 26048: 1 fields updated
+[≈] 1556: 1 fields updated
+[≈] 7206: 1 fields updated
+[≈] 14326: 1 fields updated
+[≈] 7595: 3 fields updated
+[≈] 24734: 3 fields updated
+[≈] 9180: 1 fields updated
+[≈] 13430: 1 fields updated
+[≈] 19411: 1 fields updated
+[≈] 20776: 1 fields updated
+[≈] 19820: 2 fields updated
+[≈] 6841: 2 fields updated
+[≈] 9395: 2 fields updated
+[≈] 9048: 2 fields updated
+[≈] 22698: 1 fields updated
+[≈] 28190: 1 fields updated
+[≈] 26397: 2 fields updated
+[≈] 18971: 1 fields updated
+[≈] 4946: 2 fields updated
+[≈] 27831: 2 fields updated
+[≈] 28567: 3 fields updated
+[≈] 3474: 1 fields updated
+[≈] 1459: 3 fields updated
+[≈] 13985: 2 fields updated
+[≈] 20104: 1 fields updated
+[≈] 13239: 1 fields updated
+[≈] 7613: 2 fields updated
+[≈] 28703: 2 fields updated
+[≈] 13237: 2 fields updated
+[≈] 26401: 3 fields updated
+[≈] 10262: 1 fields updated
+[≈] 20743: 1 fields updated
+[≈] 15720: 2 fields updated
+[≈] 6181: 1 fields updated
+[≈] 18284: 4 fields updated
+[≈] 6850: 1 fields updated
+[≈] 3798: 2 fields updated
+[≈] 12114: 2 fields updated
+[≈] 9943: 1 fields updated
+[≈] 3663: 2 fields updated
+[≈] 9968: 3 fields updated
+[≈] 9787: 1 fields updated
+[≈] 18432: 3 fields updated
+[≈] 25202: 1 fields updated
+[≈] -92389: 3 fields updated
+[≈] 23864: 1 fields updated
+[≈] 23937: 5 fields updated
+[≈] 7202: 1 fields updated
+[≈] 24038: 1 fields updated
+[≈] 17343: 1 fields updated
+[≈] 18075: 1 fields updated
+[≈] 3742: 1 fields updated
+[≈] 16124: 2 fields updated
+[≈] 25757: 3 fields updated
+[≈] 3839: 1 fields updated
+[≈] 25921: 2 fields updated
+[≈] 27124: 2 fields updated
+[≈] 25981: 2 fields updated
+[≈] 28324: 2 fields updated
+[≈] 9326: 2 fields updated
+[≈] 13782: 1 fields updated
+[≈] 11140: 3 fields updated
+[≈] 21345: 2 fields updated
+[≈] 15154: 2 fields updated
+[≈] 27544: 1 fields updated
+[≈] 18876: 4 fields updated
+[≈] 26092: 1 fields updated
+[≈] 5066: 1 fields updated
+[≈] 20694: 2 fields updated
+[≈] 14731: 1 fields updated
+[≈] 15155: 1 fields updated
+[≈] 20724: 1 fields updated
+[≈] 27536: 2 fields updated
+[≈] 15549: 1 fields updated
+[≈] 25886: 2 fields updated
+[≈] 20428: 2 fields updated
+[≈] 3105: 1 fields updated
+[≈] 14277: 1 fields updated
+[≈] 13649: 1 fields updated
+[≈] 9380: 1 fields updated
+[≈] 25392: 1 fields updated
+[≈] -94042: 4 fields updated
+[≈] 22971: 3 fields updated
+[≈] 18041: 1 fields updated
+[≈] 7680: 1 fields updated
+[≈] 26298: 1 fields updated
+[≈] 9748: 1 fields updated
+[≈] 28037: 2 fields updated
+[≈] 6394: 2 fields updated
+[≈] 15681: 1 fields updated
+[≈] 18463: 3 fields updated
+[≈] 22085: 2 fields updated
+[≈] 8377: 2 fields updated
+[≈] 3179: 2 fields updated
+[≈] 5603: 1 fields updated
+[≈] 6121: 1 fields updated
+[≈] 4200: 1 fields updated
+[≈] 24348: 2 fields updated
+[≈] 27683: 2 fields updated
+[≈] 17351: 1 fields updated
+[≈] 10434: 1 fields updated
+[≈] 27561: 2 fields updated
+[≈] 3576: 1 fields updated
+[≈] 26405: 2 fields updated
+[≈] 13628: 2 fields updated
+[≈] 19563: 1 fields updated
+[≈] 20668: 1 fields updated
+[≈] 6570: 1 fields updated
+[≈] 2416: 1 fields updated
+[≈] 3841: 2 fields updated
+[≈] 9269: 3 fields updated
+[≈] 6461: 3 fields updated
+[≈] 25719: 3 fields updated
+[≈] 20406: 1 fields updated
+[≈] 24926: 1 fields updated
+[≈] 19960: 1 fields updated
+[≈] 21116: 1 fields updated
+[≈] 8899: 2 fields updated
+[≈] 27602: 1 fields updated
+[≈] 3095: 1 fields updated
+[≈] 14438: 2 fields updated
+[≈] 5454: 1 fields updated
+[≈] 24551: 1 fields updated
+[≈] 8415: 2 fields updated
+[≈] 27979: 2 fields updated
+[≈] 7264: 1 fields updated
+[≈] 11041: 1 fields updated
+[≈] 15600: 1 fields updated
+[≈] 24548: 4 fields updated
+[≈] 15973: 4 fields updated
+[≈] 7101: 1 fields updated
+[≈] 7520: 1 fields updated
+[≈] 16778: 1 fields updated
+[≈] 29108: 3 fields updated
+[≈] 1495: 2 fields updated
+[≈] 7874: 1 fields updated
+[≈] 23313: 2 fields updated
+[≈] 13350: 1 fields updated
+[≈] 8255: 1 fields updated
+[≈] 3683: 1 fields updated
+[≈] 11133: 1 fields updated
+[≈] 24373: 2 fields updated
+[≈] 18863: 2 fields updated
+[≈] 12234: 1 fields updated
+[≈] 16551: 1 fields updated
+[≈] 16729: 4 fields updated
+[≈] 17701: 1 fields updated
+[≈] 15736: 1 fields updated
+[≈] 16336: 1 fields updated
+[≈] 21680: 1 fields updated
+[≈] 5358: 1 fields updated
+[≈] 27055: 1 fields updated
+[≈] 4472: 2 fields updated
+[≈] 13836: 2 fields updated
+[≈] 23679: 3 fields updated
+[≈] 25235: 1 fields updated
+[≈] 28998: 2 fields updated
+[≈] 22478: 2 fields updated
+[≈] 13866: 1 fields updated
+[≈] 20419: 3 fields updated
+[≈] 27500: 3 fields updated
+[≈] 4202: 1 fields updated
+[≈] 22658: 1 fields updated
+[≈] 10314: 2 fields updated
+[≈] 15833: 1 fields updated
+[≈] 2988: 3 fields updated
+[≈] 19339: 2 fields updated
+[≈] 17476: 2 fields updated
+[≈] 28699: 4 fields updated
+[≈] 25821: 2 fields updated
+[≈] 25989: 2 fields updated
+[≈] 19261: 1 fields updated
+[≈] 8897: 1 fields updated
+[≈] 13893: 1 fields updated
+[≈] 28986: 2 fields updated
+[≈] 26886: 2 fields updated
+[≈] 8961: 1 fields updated
+[≈] 7865: 1 fields updated
+[≈] 9309: 2 fields updated
+[≈] 3245: 2 fields updated
+[≈] 21151: 1 fields updated
+[≈] 18677: 1 fields updated
+[≈] 22626: 1 fields updated
+[≈] 21940: 1 fields updated
+[≈] 1989: 2 fields updated
+[≈] 12777: 1 fields updated
+[≈] 7720: 1 fields updated
+[≈] 7255: 1 fields updated
+[≈] 24530: 2 fields updated
+[≈] 14658: 3 fields updated
+[≈] 24555: 1 fields updated
+[≈] 22195: 1 fields updated
+[≈] 12409: 1 fields updated
+[≈] 15143: 1 fields updated
+[≈] 11052: 2 fields updated
+[≈] 21101: 1 fields updated
+[≈] 25121: 3 fields updated
+[≈] 13151: 2 fields updated
+[≈] -92382: 1 fields updated
+[≈] 19479: 1 fields updated
+[≈] 8821: 1 fields updated
+[≈] 22113: 2 fields updated
+[≈] 5643: 1 fields updated
+[≈] 6648: 1 fields updated
+[≈] 24232: 1 fields updated
+[≈] 6498: 1 fields updated
+[≈] 1927: 1 fields updated
+[≈] 21646: 1 fields updated
+[≈] 12878: 1 fields updated
+[≈] 5458: 3 fields updated
+[≈] 15198: 1 fields updated
+[≈] 9927: 2 fields updated
+[≈] 3984: 1 fields updated
+[≈] 21457: 2 fields updated
+[≈] 22668: 4 fields updated
+[≈] 28452: 4 fields updated
+[≈] 4481: 2 fields updated
+[≈] 28753: 1 fields updated
+[≈] 24997: 2 fields updated
+[≈] 12029: 2 fields updated
+[≈] 20381: 1 fields updated
+[≈] 9162: 2 fields updated
+[≈] 15827: 1 fields updated
+[≈] 15493: 1 fields updated
+[≈] 23786: 2 fields updated
+[≈] 7866: 1 fields updated
+[≈] 18947: 1 fields updated
+[≈] 23458: 2 fields updated
+[≈] 26564: 1 fields updated
+[≈] 8074: 1 fields updated
+[≈] 18665: 1 fields updated
+[≈] 2792: 1 fields updated
+[≈] 4787: 3 fields updated
+[≈] 23328: 1 fields updated
+[≈] 28960: 3 fields updated
+[≈] 27577: 2 fields updated
+[≈] 23511: 3 fields updated
+[≈] 26103: 1 fields updated
+[≈] 14573: 1 fields updated
+[≈] 7201: 2 fields updated
+[≈] 22012: 1 fields updated
+[≈] 1329: 4 fields updated
+[≈] 20317: 1 fields updated
+[≈] 15657: 1 fields updated
+[≈] 24534: 1 fields updated
+[≈] 1823: 3 fields updated
+[≈] 15954: 1 fields updated
+[≈] 28981: 1 fields updated
+[≈] 27248: 3 fields updated
+[≈] 14148: 1 fields updated
+[≈] 23009: 2 fields updated
+[≈] 2069: 1 fields updated
+[≈] 7208: 3 fields updated
+[≈] 6721: 3 fields updated
+[≈] 24649: 1 fields updated
+[≈] 10232: 1 fields updated
+[≈] 8639: 1 fields updated
+[≈] 21265: 3 fields updated
+[≈] 11913: 2 fields updated
+[≈] 18290: 1 fields updated
+[≈] 7478: 1 fields updated
+[≈] 13048: 1 fields updated
+[≈] 8392: 2 fields updated
+[≈] 7412: 1 fields updated
+[≈] 2909: 1 fields updated
+[≈] 7271: 1 fields updated
+[≈] 20677: 2 fields updated
+[≈] 27630: 2 fields updated
+[≈] 16849: 2 fields updated
+[≈] 4564: 3 fields updated
+[≈] 8185: 2 fields updated
+[≈] 14531: 1 fields updated
+[≈] 28530: 1 fields updated
+[≈] 11625: 1 fields updated
+[≈] 24766: 2 fields updated
+[≈] 23813: 5 fields updated
+[≈] 24377: 3 fields updated
+[≈] 25446: 3 fields updated
+[≈] 27004: 2 fields updated
+[≈] 23912: 1 fields updated
+[≈] 18003: 1 fields updated
+[≈] 2286: 2 fields updated
+[≈] 17952: 1 fields updated
+[≈] 12938: 1 fields updated
+[≈] 16190: 1 fields updated
+[≈] 921: 1 fields updated
+[≈] 6206: 1 fields updated
+[≈] 22975: 2 fields updated
+[≈] 13087: 1 fields updated
+[≈] 18944: 1 fields updated
+[≈] 27268: 3 fields updated
+[≈] 24243: 1 fields updated
+[≈] 12432: 1 fields updated
+[≈] 28407: 1 fields updated
+[≈] 4919: 2 fields updated
+[≈] 19804: 1 fields updated
+[≈] 22489: 1 fields updated
+[≈] 1396: 2 fields updated
+[≈] 1659: 2 fields updated
+[≈] 27690: 5 fields updated
+[≈] 26767: 5 fields updated
+[≈] 25657: 2 fields updated
+[≈] 28735: 1 fields updated
+[≈] 9401: 1 fields updated
+[≈] -95157: 1 fields updated
+[≈] 14754: 6 fields updated
+[≈] 27937: 1 fields updated
+[≈] 20957: 1 fields updated
+[≈] 2742: 2 fields updated
+[≈] 19634: 2 fields updated
+[≈] 27118: 2 fields updated
+[≈] 16845: 2 fields updated
+[≈] 21403: 1 fields updated
+[≈] 19990: 1 fields updated
+[≈] 14331: 2 fields updated
+[≈] 20182: 2 fields updated
+[≈] 26729: 2 fields updated
+[≈] 26248: 2 fields updated
+[≈] 26735: 1 fields updated
+[≈] 2239: 1 fields updated
+[≈] 22898: 1 fields updated
+[≈] 9235: 3 fields updated
+[≈] 26770: 4 fields updated
+[≈] 21900: 1 fields updated
+[≈] 26231: 4 fields updated
+[≈] 18042: 2 fields updated
+[≈] 14395: 1 fields updated
+[≈] 7899: 1 fields updated
+[≈] 14359: 1 fields updated
+[≈] 13876: 5 fields updated
+[≈] 18764: 1 fields updated
+[≈] 12283: 1 fields updated
+[≈] 4066: 1 fields updated
+[≈] 2216: 1 fields updated
+[≈] 5273: 2 fields updated
+[≈] 5747: 1 fields updated
+[≈] 11720: 1 fields updated
+[≈] 25852: 1 fields updated
+[≈] 24117: 1 fields updated
+[≈] 12436: 2 fields updated
+[≈] 19063: 1 fields updated
+[≈] 6190: 3 fields updated
+[≈] 6895: 1 fields updated
+[≈] 18932: 3 fields updated
+[≈] 26178: 1 fields updated
+[≈] 20377: 4 fields updated
+[≈] 1430: 1 fields updated
+[≈] 22570: 2 fields updated
+[≈] 23622: 1 fields updated
+[≈] 21521: 2 fields updated
+[≈] 26305: 1 fields updated
+[≈] 22474: 1 fields updated
+[≈] 4446: 1 fields updated
+[≈] 12365: 1 fields updated
+[≈] 10859: 1 fields updated
+[≈] 3452: 2 fields updated
+[≈] 23539: 4 fields updated
+[≈] 11767: 1 fields updated
+[≈] 29236: 2 fields updated
+[≈] 7365: 2 fields updated
+[≈] 20846: 1 fields updated
+[≈] 3279: 1 fields updated
+[≈] 16205: 1 fields updated
+[≈] 16510: 1 fields updated
+[≈] 28555: 2 fields updated
+[≈] 17773: 2 fields updated
+[≈] 1270: 1 fields updated
+[≈] 16506: 1 fields updated
+[≈] 18374: 1 fields updated
+[≈] 16126: 1 fields updated
+[≈] 13179: 1 fields updated
+[≈] 7742: 1 fields updated
+[≈] 18533: 2 fields updated
+[≈] 24070: 3 fields updated
+[≈] 25562: 1 fields updated
+[≈] 6294: 3 fields updated
+[≈] 20577: 1 fields updated
+[≈] 9323: 1 fields updated
+[≈] 7051: 1 fields updated
+[≈] 8199: 5 fields updated
+[≈] 6568: 1 fields updated
+[≈] 18459: 1 fields updated
+[≈] 20523: 3 fields updated
+[≈] 26358: 1 fields updated
+[≈] 28772: 1 fields updated
+[≈] -92227: 2 fields updated
+[≈] 20904: 1 fields updated
+[≈] 19571: 2 fields updated
+[≈] 21992: 1 fields updated
+[≈] 23155: 1 fields updated
+[≈] 6433: 2 fields updated
+[≈] 15047: 1 fields updated
+[≈] 27663: 1 fields updated
+[≈] 18138: 1 fields updated
+[≈] 22883: 2 fields updated
+[≈] 28660: 2 fields updated
+[≈] 29274: 1 fields updated
+[≈] 20974: 2 fields updated
+[≈] 3163: 4 fields updated
+[≈] 7214: 1 fields updated
+[≈] 9988: 2 fields updated
+[≈] 26049: 1 fields updated
+[≈] 17545: 1 fields updated
+[≈] 29265: 4 fields updated
+[≈] 20722: 2 fields updated
+[≈] -92173: 2 fields updated
+[≈] 5078: 4 fields updated
+[≈] 11176: 1 fields updated
+[≈] 20299: 2 fields updated
+[≈] 26976: 2 fields updated
+[≈] 28111: 1 fields updated
+[≈] 28023: 5 fields updated
+[≈] 8944: 1 fields updated
+[≈] -92304: 1 fields updated
+[≈] 26879: 2 fields updated
+[≈] 14917: 4 fields updated
+[≈] 7671: 1 fields updated
+[≈] 28131: 1 fields updated
+[≈] 7033: 1 fields updated
+[≈] 9667: 1 fields updated
+[≈] 6357: 4 fields updated
+[≈] 2302: 1 fields updated
+[≈] 21664: 2 fields updated
+[≈] 13641: 2 fields updated
+[≈] 7872: 1 fields updated
+[≈] 22115: 2 fields updated
+[≈] 24441: 2 fields updated
+[≈] 28171: 2 fields updated
+[≈] 14005: 1 fields updated
+[≈] 28228: 2 fields updated
+[≈] 28972: 1 fields updated
+[≈] 20060: 1 fields updated
+[≈] 17794: 1 fields updated
+[≈] 20502: 5 fields updated
+[≈] 24757: 1 fields updated
+[≈] 5277: 2 fields updated
+[≈] 8170: 1 fields updated
+[≈] 18198: 2 fields updated
+[≈] 26659: 3 fields updated
+[≈] 26012: 2 fields updated
+[≈] 8807: 1 fields updated
+[≈] 13874: 1 fields updated
+[≈] 27454: 1 fields updated
+[≈] 22033: 1 fields updated
+[≈] 24057: 1 fields updated
+[≈] 16175: 1 fields updated
+[≈] 4104: 1 fields updated
+[≈] 10744: 2 fields updated
+[≈] 7740: 2 fields updated
+[≈] 6516: 1 fields updated
+[≈] 15555: 2 fields updated
+[≈] 20166: 2 fields updated
+[≈] 15130: 1 fields updated
+[≈] 8189: 5 fields updated
+[≈] 25618: 4 fields updated
+[≈] 11660: 1 fields updated
+[≈] 26889: 1 fields updated
+[≈] 11481: 1 fields updated
+[≈] 16201: 1 fields updated
+[≈] 28618: 4 fields updated
+[≈] 17527: 3 fields updated
+[≈] 16503: 2 fields updated
+[≈] 23946: 1 fields updated
+[≈] 25063: 1 fields updated
+[≈] 28517: 4 fields updated
+[≈] 22614: 2 fields updated
+[≈] 22442: 1 fields updated
+[≈] 25233: 2 fields updated
+[≈] 23770: 3 fields updated
+[≈] 10517: 1 fields updated
+[≈] 20732: 2 fields updated
+[≈] 24061: 1 fields updated
+[≈] 24655: 1 fields updated
+[≈] 16334: 1 fields updated
+[≈] 10587: 3 fields updated
+[≈] 19548: 2 fields updated
+[≈] 8224: 2 fields updated
+[≈] 5760: 2 fields updated
+[≈] 6840: 1 fields updated
+[≈] 6336: 2 fields updated
+[≈] 22358: 1 fields updated
+[≈] 12908: 1 fields updated
+[≈] 10614: 2 fields updated
+[≈] 6590: 1 fields updated
+[≈] 13832: 3 fields updated
+[≈] 17598: 4 fields updated
+[≈] 27671: 2 fields updated
+[≈] 22299: 2 fields updated
+[≈] 21928: 1 fields updated
+[≈] 22757: 1 fields updated
+[≈] 7945: 1 fields updated
+[≈] 28571: 4 fields updated
+[≈] 25096: 2 fields updated
+[≈] 5874: 2 fields updated
+[≈] 9518: 1 fields updated
+[≈] 7249: 1 fields updated
+[≈] 10031: 2 fields updated
+[≈] 10244: 1 fields updated
+[≈] 23549: 2 fields updated
+[≈] 4546: 2 fields updated
+[≈] 8898: 3 fields updated
+[≈] 8774: 1 fields updated
+[≈] 15822: 1 fields updated
+[≈] 16918: 1 fields updated
+[≈] 27639: 2 fields updated
+[≈] 19630: 2 fields updated
+[≈] 11665: 1 fields updated
+[≈] 21073: 1 fields updated
+[≈] 23117: 1 fields updated
+[≈] 27130: 2 fields updated
+[≈] 13926: 1 fields updated
+[≈] 17101: 2 fields updated
+[≈] 25716: 4 fields updated
+[≈] 18134: 1 fields updated
+[≈] 28814: 2 fields updated
+[≈] 18076: 1 fields updated
+[≈] 22825: 2 fields updated
+[≈] 16581: 2 fields updated
+[≈] 24884: 1 fields updated
+[≈] 29334: 2 fields updated
+[≈] 18846: 1 fields updated
+[≈] 13572: 2 fields updated
+[≈] 21246: 1 fields updated
+[≈] 20077: 3 fields updated
+[≈] 8337: 1 fields updated
+[≈] 25016: 2 fields updated
+[≈] 19183: 2 fields updated
+[≈] 27052: 4 fields updated
+[≈] 29345: 3 fields updated
+[≈] 17741: 2 fields updated
+[≈] 1612: 2 fields updated
+[≈] 23373: 1 fields updated
+[≈] 3086: 1 fields updated
+[≈] 27573: 2 fields updated
+[≈] 7426: 2 fields updated
+[≈] 14087: 2 fields updated
+[≈] 7602: 1 fields updated
+[≈] 14620: 3 fields updated
+[≈] 11203: 1 fields updated
+[≈] 12850: 2 fields updated
+[≈] 1807: 3 fields updated
+[≈] 23861: 1 fields updated
+[≈] 27855: 2 fields updated
+[≈] 25923: 1 fields updated
+[≈] 28034: 4 fields updated
+[≈] 8557: 1 fields updated
+[≈] 27704: 3 fields updated
+[≈] 23725: 2 fields updated
+[≈] 20379: 2 fields updated
+[≈] 5539: 1 fields updated
+[≈] 8954: 2 fields updated
+[≈] 24350: 1 fields updated
+[≈] 27787: 3 fields updated
+[≈] 16252: 1 fields updated
+[≈] 7349: 2 fields updated
+[≈] 20714: 1 fields updated
+[≈] 8704: 1 fields updated
+[≈] 19177: 1 fields updated
+[≈] 14358: 1 fields updated
+[≈] 6153: 2 fields updated
+[≈] 1505: 1 fields updated
+[≈] 13804: 2 fields updated
+[≈] 22615: 2 fields updated
+[≈] 3436: 1 fields updated
+[≈] 13645: 4 fields updated
+[≈] 3540: 1 fields updated
+[≈] 28114: 4 fields updated
+[≈] 4445: 1 fields updated
+[≈] 18230: 2 fields updated
+[≈] 9816: 1 fields updated
+[≈] 4653: 1 fields updated
+[≈] 6223: 1 fields updated
+[≈] -95306: 2 fields updated
+[≈] 8114: 3 fields updated
+[≈] 2725: 1 fields updated
+[≈] 4878: 5 fields updated
+[≈] 17789: 1 fields updated
+[≈] 13863: 3 fields updated
+[≈] 6409: 1 fields updated
+[≈] 17171: 2 fields updated
+[≈] 25769: 1 fields updated
+[≈] 6403: 3 fields updated
+[≈] 7533: 5 fields updated
+[≈] 24749: 2 fields updated
+[≈] 28172: 3 fields updated
+[≈] 13364: 1 fields updated
+[≈] 28266: 3 fields updated
+[≈] 17519: 1 fields updated
+[≈] 21061: 1 fields updated
+[≈] 24148: 3 fields updated
+[≈] 29332: 1 fields updated
+[≈] 12768: 2 fields updated
+[≈] 26389: 1 fields updated
+[≈] 3820: 4 fields updated
+[≈] 28182: 1 fields updated
+[≈] 2981: 1 fields updated
+[≈] 3607: 3 fields updated
+[≈] 24310: 1 fields updated
+[≈] 15060: 3 fields updated
+[≈] 10944: 1 fields updated
+[≈] 9245: 5 fields updated
+[≈] 28253: 1 fields updated
+[≈] 26111: 1 fields updated
+[≈] 2418: 1 fields updated
+[≈] 13255: 2 fields updated
+[≈] 6234: 2 fields updated
+[≈] 24824: 1 fields updated
+[≈] 13862: 1 fields updated
+[≈] 27723: 1 fields updated
+[≈] 2581: 1 fields updated
+[≈] 9452: 2 fields updated
+[≈] 15896: 2 fields updated
+[≈] 24276: 2 fields updated
+[≈] 5868: 1 fields updated
+[≈] 16154: 2 fields updated
+[≈] 28786: 1 fields updated
+[≈] 21237: 3 fields updated
+[≈] 12011: 2 fields updated
+[≈] 18032: 1 fields updated
+[≈] -94172: 2 fields updated
+[≈] 20603: 1 fields updated
+[≈] 20764: 1 fields updated
+[≈] 26007: 1 fields updated
+[≈] -92248: 2 fields updated
+[≈] 24106: 1 fields updated
+[≈] 18440: 1 fields updated
+[≈] 4939: 1 fields updated
+[≈] 7270: 2 fields updated
+[≈] 12630: 1 fields updated
+[≈] 16080: 1 fields updated
+[≈] 18377: 2 fields updated
+[≈] 1188: 3 fields updated
+[≈] 27800: 1 fields updated
+[≈] 28269: 5 fields updated
+[≈] 21322: 3 fields updated
+[≈] 3165: 1 fields updated
+[≈] 27951: 1 fields updated
+[≈] 15801: 1 fields updated
+[≈] 14221: 1 fields updated
+[≈] 8183: 1 fields updated
+[≈] 26723: 2 fields updated
+[≈] 2810: 1 fields updated
+[≈] 26105: 1 fields updated
+[≈] 4022: 3 fields updated
+[≈] 17019: 1 fields updated
+[≈] 22887: 2 fields updated
+[≈] 15506: 1 fields updated
+[≈] -92117: 1 fields updated
+[≈] 16148: 2 fields updated
+[≈] 6911: 1 fields updated
+[≈] 25740: 2 fields updated
+[≈] 27489: 3 fields updated
+[≈] 21307: 1 fields updated
+[≈] 27062: 1 fields updated
+[≈] 16251: 4 fields updated
+[≈] 20926: 1 fields updated
+[≈] 15987: 2 fields updated
+[≈] 24301: 2 fields updated
+[≈] 14080: 3 fields updated
+[≈] 16602: 1 fields updated
+[≈] 27065: 3 fields updated
+[≈] 28878: 3 fields updated
+[≈] 5498: 1 fields updated
+[≈] 3493: 1 fields updated
+[≈] 11489: 1 fields updated
+[≈] 10337: 1 fields updated
+[≈] 2714: 2 fields updated
+[≈] 11064: 2 fields updated
+[≈] 16606: 1 fields updated
+[≈] -92252: 3 fields updated
+[≈] 19718: 3 fields updated
+[≈] 25839: 2 fields updated
+[≈] 13847: 1 fields updated
+[≈] 19521: 2 fields updated
+[≈] 11236: 1 fields updated
+[≈] 13958: 1 fields updated
+[≈] 10568: 1 fields updated
+[≈] 25290: 4 fields updated
+[≈] 24756: 2 fields updated
+[≈] 9322: 1 fields updated
+[≈] 22786: 1 fields updated
+[≈] 13762: 1 fields updated
+[≈] 25292: 3 fields updated
+[≈] 5842: 1 fields updated
+[≈] 29231: 1 fields updated
+[≈] 24654: 2 fields updated
+[≈] 25898: 1 fields updated
+[≈] 9788: 1 fields updated
+[≈] 11482: 1 fields updated
+[≈] 22944: 1 fields updated
+[≈] 28670: 1 fields updated
+[≈] 12871: 1 fields updated
+[≈] 26065: 2 fields updated
+[≈] 22091: 2 fields updated
+[≈] 23013: 1 fields updated
+[≈] 27712: 2 fields updated
+[≈] 19305: 2 fields updated
+[≈] 4717: 1 fields updated
+[≈] 10630: 1 fields updated
+[≈] 25281: 1 fields updated
+[≈] 17186: 1 fields updated
+[≈] 6163: 2 fields updated
+[≈] 16379: 3 fields updated
+[≈] 9869: 1 fields updated
+[≈] 28217: 2 fields updated
+[≈] 27830: 2 fields updated
+[≈] 18408: 2 fields updated
+[≈] 7232: 1 fields updated
+[≈] 9006: 1 fields updated
+[≈] 19327: 4 fields updated
+[≈] 7177: 1 fields updated
+[≈] 19644: 1 fields updated
+[≈] 8113: 2 fields updated
+[≈] 26150: 1 fields updated
+[≈] 15418: 2 fields updated
+[≈] 3745: 3 fields updated
+[≈] 5158: 1 fields updated
+[≈] 5662: 1 fields updated
+[≈] 20109: 2 fields updated
+[≈] 5806: 1 fields updated
+[≈] 28872: 2 fields updated
+[≈] 3563: 1 fields updated
+[≈] 11155: 1 fields updated
+[≈] 10870: 1 fields updated
+[≈] 15824: 2 fields updated
+[≈] 6579: 2 fields updated
+[≈] 12837: 1 fields updated
+[≈] 2676: 2 fields updated
+[≈] 16007: 1 fields updated
+[≈] 20921: 6 fields updated
+[≈] 5240: 2 fields updated
+[≈] 27944: 4 fields updated
+[≈] 25249: 1 fields updated
+[≈] 15480: 1 fields updated
+[≈] 22087: 2 fields updated
+[≈] 7973: 1 fields updated
+[≈] 26624: 3 fields updated
+[≈] 24787: 1 fields updated
+[≈] 10161: 1 fields updated
+[≈] 21686: 1 fields updated
+[≈] 18039: 1 fields updated
+[≈] 14068: 1 fields updated
+[≈] 29081: 1 fields updated
+[≈] 28173: 2 fields updated
+[≈] 25992: 2 fields updated
+[≈] 14012: 2 fields updated
+[≈] 16635: 2 fields updated
+[≈] 25312: 2 fields updated
+[≈] 6936: 2 fields updated
+[≈] 13726: 1 fields updated
+[≈] 2673: 1 fields updated
+[≈] 24562: 1 fields updated
+[≈] 20341: 3 fields updated
+[≈] 10947: 1 fields updated
+[≈] 26064: 1 fields updated
+[≈] 8313: 1 fields updated
+[≈] 3681: 1 fields updated
+[≈] 21805: 4 fields updated
+[≈] 17928: 1 fields updated
+[≈] 6848: 1 fields updated
+[≈] 25131: 1 fields updated
+[≈] 6518: 1 fields updated
+[≈] 15103: 3 fields updated
+[≈] 14883: 2 fields updated
+[≈] 25949: 5 fields updated
+[≈] 3603: 1 fields updated
+[≈] 9193: 1 fields updated
+[≈] 24696: 1 fields updated
+[≈] 27392: 1 fields updated
+[≈] 27042: 1 fields updated
+[≈] 12560: 1 fields updated
+[≈] 22363: 2 fields updated
+[≈] 7597: 3 fields updated
+[≈] 12674: 2 fields updated
+[≈] 24180: 1 fields updated
+[≈] 14978: 1 fields updated
+[≈] 8567: 1 fields updated
+[≈] 15390: 1 fields updated
+[≈] 24119: 2 fields updated
+[≈] 18963: 2 fields updated
+[≈] 6368: 2 fields updated
+[≈] 7238: 2 fields updated
+[≈] 23426: 2 fields updated
+[≈] 20790: 1 fields updated
+[≈] 9903: 1 fields updated
+[≈] 17745: 2 fields updated
+[≈] 23203: 1 fields updated
+[≈] 11234: 1 fields updated
+[≈] 7698: 3 fields updated
+[≈] 15336: 1 fields updated
+[≈] 9867: 1 fields updated
+[≈] 7127: 1 fields updated
+[≈] 28576: 1 fields updated
+[≈] 26805: 2 fields updated
+[≈] 16916: 2 fields updated
+[≈] 9008: 1 fields updated
+[≈] 13511: 2 fields updated
+[≈] 2512: 1 fields updated
+[≈] 5509: 2 fields updated
+[≈] 21429: 1 fields updated
+[≈] 24486: 3 fields updated
+[≈] 21864: 1 fields updated
+[≈] 13999: 3 fields updated
+[≈] 26854: 1 fields updated
+[≈] 5827: 1 fields updated
+[≈] 11363: 2 fields updated
+[≈] 28385: 2 fields updated
+[≈] 16513: 1 fields updated
+[≈] 6794: 2 fields updated
+[≈] 1566: 2 fields updated
+[≈] 19870: 2 fields updated
+[≈] 28263: 3 fields updated
+[≈] 24207: 3 fields updated
+[≈] 20344: 1 fields updated
+[≈] 18226: 3 fields updated
+[≈] 15791: 1 fields updated
+[≈] 11179: 2 fields updated
+[≈] 25046: 1 fields updated
+[≈] 14228: 2 fields updated
+[≈] 22691: 2 fields updated
+[≈] 5300: 1 fields updated
+[≈] 25014: 1 fields updated
+[≈] 26005: 2 fields updated
+[≈] 12776: 3 fields updated
+[≈] 10122: 1 fields updated
+[≈] 7733: 2 fields updated
+[≈] 26393: 1 fields updated
+[≈] 19757: 1 fields updated
+[≈] 9438: 5 fields updated
+[≈] 9738: 1 fields updated
+[≈] 16488: 3 fields updated
+[≈] 28177: 1 fields updated
+[≈] 21029: 1 fields updated
+[≈] 17264: 1 fields updated
+[≈] 23387: 1 fields updated
+[≈] 22165: 1 fields updated
+[≈] 13098: 2 fields updated
+[≈] 27611: 1 fields updated
+[≈] 4455: 1 fields updated
+[≈] 28297: 2 fields updated
+[≈] 18177: 1 fields updated
+[≈] 12322: 2 fields updated
+[≈] 24910: 1 fields updated
+[≈] 27705: 5 fields updated
+[≈] 24908: 1 fields updated
+[≈] 4305: 1 fields updated
+[≈] 16242: 1 fields updated
+[≈] 11789: 1 fields updated
+[≈] 14434: 2 fields updated
+[≈] 11457: 1 fields updated
+[≈] 1617: 1 fields updated
+[≈] 14357: 2 fields updated
+[≈] 9041: 3 fields updated
+[≈] 10114: 2 fields updated
+[≈] 19711: 1 fields updated
+[≈] 26595: 4 fields updated
+[≈] 19130: 3 fields updated
+[≈] 9678: 1 fields updated
+[≈] 14077: 2 fields updated
+[≈] 9102: 1 fields updated
+[≈] 27589: 4 fields updated
+[≈] 10203: 3 fields updated
+[≈] 27696: 1 fields updated
+[≈] 9027: 1 fields updated
+[≈] 5777: 1 fields updated
+[≈] 12147: 1 fields updated
+[≈] 12547: 1 fields updated
+[≈] 28237: 2 fields updated
+[≈] 17223: 1 fields updated
+[≈] 21938: 2 fields updated
+[≈] 8489: 3 fields updated
+[≈] 9749: 1 fields updated
+[≈] 12377: 1 fields updated
+[≈] 8262: 1 fields updated
+[≈] 3512: 1 fields updated
+[≈] 11268: 3 fields updated
+[≈] 29070: 4 fields updated
+[≈] 11285: 1 fields updated
+[≈] 5473: 3 fields updated
+[≈] 4323: 1 fields updated
+[≈] 25670: 3 fields updated
+[≈] 5001: 2 fields updated
+[≈] 29259: 1 fields updated
+[≈] 12512: 2 fields updated
+[≈] 3690: 3 fields updated
+[≈] 15845: 1 fields updated
+[≈] 19900: 1 fields updated
+[≈] 7786: 2 fields updated
+[≈] 26362: 2 fields updated
+[≈] 16478: 1 fields updated
+[≈] 22182: 3 fields updated
+[≈] 1763: 1 fields updated
+[≈] 26795: 2 fields updated
+[≈] 9772: 1 fields updated
+[≈] 17283: 1 fields updated
+[≈] 25954: 3 fields updated
+[≈] 24440: 1 fields updated
+[≈] 27823: 2 fields updated
+[≈] 28556: 1 fields updated
+[≈] 11592: 2 fields updated
+[≈] 11321: 1 fields updated
+[≈] 4068: 4 fields updated
+[≈] 4808: 2 fields updated
+[≈] 1269: 1 fields updated
+[≈] 7031: 1 fields updated
+[≈] 23236: 1 fields updated
+[≈] 28774: 3 fields updated
+[≈] 13993: 1 fields updated
+[≈] 27981: 1 fields updated
+[≈] 7475: 3 fields updated
+[≈] 22995: 2 fields updated
+[≈] 27515: 3 fields updated
+[≈] 13639: 2 fields updated
+[≈] 5315: 1 fields updated
+[≈] 6945: 2 fields updated
+[≈] 13458: 2 fields updated
+[≈] 26156: 4 fields updated
+[≈] 25538: 1 fields updated
+[≈] 3298: 1 fields updated
+[≈] 22998: 3 fields updated
+[≈] 4716: 2 fields updated
+[≈] 17266: 1 fields updated
+[≈] 12941: 1 fields updated
+[≈] 16115: 3 fields updated
+[≈] 21133: 1 fields updated
+[≈] 15258: 2 fields updated
+[≈] 12185: 3 fields updated
+[≈] 11044: 1 fields updated
+[≈] 24581: 1 fields updated
+[≈] 16352: 1 fields updated
+[≈] 6884: 1 fields updated
+[≈] 29357: 3 fields updated
+[≈] 6195: 1 fields updated
+[≈] 26453: 1 fields updated
+[≈] 22051: 1 fields updated
+[≈] 27993: 2 fields updated
+[≈] 5866: 3 fields updated
+[≈] 10633: 2 fields updated
+[≈] 29005: 1 fields updated
+[≈] 29040: 2 fields updated
+[≈] 24849: 3 fields updated
+[≈] 20946: 1 fields updated
+[≈] 27679: 1 fields updated
+[≈] 9820: 3 fields updated
+[≈] 7046: 1 fields updated
+[≈] 18956: 3 fields updated
+[≈] 27070: 5 fields updated
+[≈] 11180: 1 fields updated
+[≈] 10665: 1 fields updated
+[≈] 13766: 1 fields updated
+[≈] 14206: 2 fields updated
+[≈] 20351: 1 fields updated
+[≈] 25134: 1 fields updated
+[≈] 19134: 1 fields updated
+[≈] 13035: 3 fields updated
+[≈] 28893: 3 fields updated
+[≈] 24732: 2 fields updated
+[≈] 25755: 2 fields updated
+[≈] 11628: 2 fields updated
+[≈] 8819: 1 fields updated
+[≈] 14263: 1 fields updated
+[≈] 28854: 2 fields updated
+[≈] 27585: 4 fields updated
+[≈] 24631: 1 fields updated
+[≈] 28720: 1 fields updated
+[≈] 15029: 2 fields updated
+[≈] 25363: 1 fields updated
+[≈] 10600: 1 fields updated
+[≈] 23085: 1 fields updated
+[≈] 20983: 1 fields updated
+[≈] 14143: 1 fields updated
+[≈] 24071: 1 fields updated
+[≈] 10884: 1 fields updated
+[≈] 22678: 2 fields updated
+[≈] 8461: 2 fields updated
+[≈] 7296: 3 fields updated
+[≈] 28630: 2 fields updated
+[≈] 7569: 2 fields updated
+[≈] 27265: 3 fields updated
+[≈] 27858: 1 fields updated
+[≈] 17425: 3 fields updated
+[≈] 10803: 6 fields updated
+[≈] 24977: 1 fields updated
+[≈] 25435: 4 fields updated
+[≈] 6792: 2 fields updated
+[≈] 26475: 1 fields updated
+[≈] 28446: 1 fields updated
+[≈] 10942: 2 fields updated
+[≈] 27044: 1 fields updated
+[≈] 7348: 1 fields updated
+[≈] 8908: 3 fields updated
+[≈] 10253: 2 fields updated
+[≈] 28847: 3 fields updated
+[≈] 27347: 2 fields updated
+[≈] 5081: 1 fields updated
+[≈] 15997: 3 fields updated
+[≈] -92435: 3 fields updated
+[≈] 5870: 1 fields updated
+[≈] 28373: 1 fields updated
+[≈] 12481: 1 fields updated
+[≈] 11207: 1 fields updated
+[≈] 13140: 2 fields updated
+[≈] 22252: 3 fields updated
+[≈] 14600: 1 fields updated
+[≈] 7984: 2 fields updated
+[≈] 29218: 1 fields updated
+[≈] 24296: 1 fields updated
+[≈] 13338: 1 fields updated
+[≈] 16276: 2 fields updated
+[≈] 5646: 2 fields updated
+[≈] 20400: 1 fields updated
+[≈] 18601: 3 fields updated
+[≈] 14283: 3 fields updated
+[≈] 23911: 1 fields updated
+[≈] 24324: 2 fields updated
+[≈] 17785: 1 fields updated
+[≈] 24080: 1 fields updated
+[≈] 19352: 2 fields updated
+[≈] 8880: 1 fields updated
+[≈] 12427: 1 fields updated
+[≈] 20036: 2 fields updated
+[≈] 20012: 1 fields updated
+[≈] 5174: 3 fields updated
+[≈] 25486: 2 fields updated
+[≈] 28980: 2 fields updated
+[≈] 28327: 1 fields updated
+[≈] 26445: 3 fields updated
+[≈] 20353: 1 fields updated
+[≈] 3655: 1 fields updated
+[≈] 15335: 2 fields updated
+[≈] -92163: 2 fields updated
+[≈] 24682: 3 fields updated
+[≈] 26720: 1 fields updated
+[≈] 11145: 1 fields updated
+[≈] 24155: 1 fields updated
+[≈] 10726: 2 fields updated
+[≈] 5365: 1 fields updated
+[≈] 18213: 1 fields updated
+[≈] 23815: 1 fields updated
+[≈] 25309: 2 fields updated
+[≈] 9339: 1 fields updated
+[≈] 11492: 1 fields updated
+[≈] 8523: 2 fields updated
+[≈] 6032: 1 fields updated
+[≈] 5420: 1 fields updated
+[≈] 6481: 2 fields updated
+[≈] 5933: 2 fields updated
+[≈] 23981: 2 fields updated
+[≈] 19852: 1 fields updated
+[≈] 21678: 1 fields updated
+[≈] 15676: 1 fields updated
+[≈] 12360: 1 fields updated
+[≈] 9154: 1 fields updated
+[≈] 26522: 1 fields updated
+[≈] 22448: 1 fields updated
+[≈] 5961: 1 fields updated
+[≈] 19325: 3 fields updated
+[≈] 20855: 1 fields updated
+[≈] 6961: 2 fields updated
+[≈] 2283: 1 fields updated
+[≈] 25262: 3 fields updated
+[≈] 9911: 3 fields updated
+[≈] 21577: 1 fields updated
+[≈] 16980: 2 fields updated
+[≈] 28311: 2 fields updated
+[≈] 23102: 3 fields updated
+[≈] 4788: 1 fields updated
+[≈] 19502: 4 fields updated
+[≈] 20206: 1 fields updated
+[≈] 5673: 1 fields updated
+[≈] 11212: 1 fields updated
+[≈] 17415: 2 fields updated
+[≈] 8172: 4 fields updated
+[≈] 2686: 1 fields updated
+[≈] 13233: 1 fields updated
+[≈] 6429: 1 fields updated
+[≈] 23564: 2 fields updated
+[≈] 10468: 1 fields updated
+[≈] 10566: 1 fields updated
+[≈] 7320: 1 fields updated
+[≈] 26266: 3 fields updated
+[≈] 28194: 1 fields updated
+[≈] 9629: 1 fields updated
+[≈] 12032: 1 fields updated
+[≈] 8374: 1 fields updated
+[≈] 15849: 2 fields updated
+[≈] 28546: 1 fields updated
+[≈] 27523: 1 fields updated
+[≈] 2733: 1 fields updated
+[≈] 14578: 2 fields updated
+[≈] 15242: 3 fields updated
+[≈] 23305: 2 fields updated
+[≈] 19072: 1 fields updated
+[≈] 13042: 1 fields updated
+[≈] 9059: 1 fields updated
+[≈] 16031: 1 fields updated
+[≈] 24317: 1 fields updated
+[≈] 12721: 1 fields updated
+[≈] 17986: 1 fields updated
+[≈] 27721: 3 fields updated
+[≈] 5275: 1 fields updated
+[≈] 21291: 2 fields updated
+[≈] 23121: 1 fields updated
+[≈] 27976: 4 fields updated
+[≈] 7283: 1 fields updated
+[≈] 20630: 1 fields updated
+[≈] 9601: 1 fields updated
+[≈] 27181: 3 fields updated
+[≈] 15913: 1 fields updated
+[≈] 25706: 3 fields updated
+[≈] 9206: 1 fields updated
+[≈] 3743: 4 fields updated
+[≈] 9750: 1 fields updated
+[≈] 4814: 1 fields updated
+[≈] 11017: 2 fields updated
+[≈] 26665: 3 fields updated
+[≈] 24710: 1 fields updated
+[≈] 1531: 1 fields updated
+[≈] 27386: 2 fields updated
+[≈] 11222: 2 fields updated
+[≈] 21318: 4 fields updated
+[≈] 7983: 1 fields updated
+[≈] 25536: 1 fields updated
+[≈] 21729: 2 fields updated
+[≈] 10237: 2 fields updated
+[≈] 20490: 3 fields updated
+[≈] 1704: 3 fields updated
+[≈] 3640: 1 fields updated
+[≈] 25621: 1 fields updated
+[≈] 9163: 3 fields updated
+[≈] 21041: 1 fields updated
+[≈] 24811: 2 fields updated
+[≈] 14944: 2 fields updated
+[≈] 17353: 1 fields updated
+[≈] 20057: 1 fields updated
+[≈] 23685: 1 fields updated
+[≈] 9381: 1 fields updated
+[≈] 23222: 1 fields updated
+[≈] 27014: 1 fields updated
+[≈] 6325: 1 fields updated
+[≈] 14442: 1 fields updated
+[≈] 17108: 2 fields updated
+[≈] 23190: 1 fields updated
+[≈] 26633: 1 fields updated
+[≈] 3860: 2 fields updated
+[≈] 5952: 1 fields updated
+[≈] 21907: 2 fields updated
+[≈] 13191: 2 fields updated
+[≈] 4293: 1 fields updated
+[≈] 12239: 1 fields updated
+[≈] 26588: 1 fields updated
+[≈] 24603: 1 fields updated
+[≈] 29312: 1 fields updated
+[≈] -92286: 2 fields updated
+[≈] 3972: 1 fields updated
+[≈] 11933: 1 fields updated
+[≈] 23738: 1 fields updated
+[≈] 8540: 2 fields updated
+[≈] 28028: 2 fields updated
+[≈] 9420: 2 fields updated
+[≈] 8670: 1 fields updated
+[≈] 7648: 1 fields updated
+[≈] 24379: 1 fields updated
+[≈] 19809: 3 fields updated
+[≈] 27637: 4 fields updated
+[≈] 16383: 1 fields updated
+[≈] 13662: 2 fields updated
+[≈] 23020: 3 fields updated
+[≈] 28218: 3 fields updated
+[≈] 22831: 4 fields updated
+[≈] 23968: 2 fields updated
+[≈] 26158: 1 fields updated
+[≈] 18056: 1 fields updated
+[≈] 11620: 1 fields updated
+[≈] 25526: 1 fields updated
+[≈] 14304: 1 fields updated
+[≈] 7294: 3 fields updated
+[≈] 15263: 2 fields updated
+[≈] 25680: 1 fields updated
+[≈] 25007: 1 fields updated
+[≈] 24923: 1 fields updated
+[≈] 17850: 1 fields updated
+[≈] 19608: 1 fields updated
+[≈] 4067: 1 fields updated
+[≈] 29017: 4 fields updated
+[≈] 15628: 2 fields updated
+[≈] 19768: 1 fields updated
+[≈] 13971: 1 fields updated
+[≈] 25078: 3 fields updated
+[≈] 20833: 1 fields updated
+[≈] 13254: 3 fields updated
+[≈] 10083: 1 fields updated
+[≈] 24105: 1 fields updated
+[≈] 20210: 2 fields updated
+[≈] 4652: 1 fields updated
+[≈] 8558: 2 fields updated
+[≈] 15710: 1 fields updated
+[≈] 12918: 1 fields updated
+[≈] 28731: 1 fields updated
+[≈] 25248: 3 fields updated
+[≈] 20103: 2 fields updated
+[≈] 3100: 3 fields updated
+[≈] 4962: 2 fields updated
+[≈] 19927: 2 fields updated
+[≈] 29272: 2 fields updated
+[≈] 14361: 3 fields updated
+[≈] 24703: 2 fields updated
+[≈] 2222: 1 fields updated
+[≈] 18662: 1 fields updated
+[≈] 13416: 2 fields updated
+[≈] 22617: 1 fields updated
+[≈] 1174: 1 fields updated
+[≈] 3419: 1 fields updated
+[≈] 17596: 1 fields updated
+[≈] 23130: 3 fields updated
+[≈] 13743: 2 fields updated
+[≈] 3834: 2 fields updated
+[≈] 10364: 2 fields updated
+[≈] 18972: 2 fields updated
+[≈] 14674: 1 fields updated
+[≈] 3407: 2 fields updated
+[≈] 27689: 1 fields updated
+[≈] 14204: 2 fields updated
+[≈] 16947: 3 fields updated
+[≈] 9459: 1 fields updated
+[≈] 13991: 1 fields updated
+[≈] 17729: 3 fields updated
+[≈] 7211: 1 fields updated
+[≈] 18669: 3 fields updated
+[≈] 21913: 2 fields updated
+[≈] 15498: 1 fields updated
+[≈] 28495: 1 fields updated
+[≈] 25167: 1 fields updated
+[≈] 17146: 1 fields updated
+[≈] 7992: 1 fields updated
+[≈] -92177: 1 fields updated
+[≈] 8803: 2 fields updated
+[≈] 23971: 1 fields updated
+[≈] 13358: 1 fields updated
+[≈] 28408: 5 fields updated
+[≈] 27074: 4 fields updated
+[≈] 15936: 1 fields updated
+[≈] 12490: 1 fields updated
+[≈] 7469: 1 fields updated
+[≈] 12421: 2 fields updated
+[≈] 16310: 2 fields updated
+[≈] 5991: 1 fields updated
+[≈] 24775: 1 fields updated
+[≈] 21327: 1 fields updated
+[≈] 25174: 1 fields updated
+[≈] 2644: 1 fields updated
+[≈] 7615: 2 fields updated
+[≈] 21391: 2 fields updated
+[≈] 23870: 1 fields updated
+[≈] 6412: 1 fields updated
+[≈] 12482: 1 fields updated
+[≈] 7029: 1 fields updated
+[≈] 24290: 3 fields updated
+[≈] 5696: 4 fields updated
+[≈] 15683: 2 fields updated
+[≈] 27848: 1 fields updated
+[≈] 5625: 1 fields updated
+[≈] 19416: 1 fields updated
+[≈] 6131: 2 fields updated
+[≈] 16254: 1 fields updated
+[≈] 8432: 1 fields updated
+[≈] 25973: 3 fields updated
+[≈] 25979: 2 fields updated
+[≈] 6135: 1 fields updated
+[≈] 8675: 1 fields updated
+[≈] 13788: 1 fields updated
+[≈] 14523: 3 fields updated
+[≈] 26470: 3 fields updated
+[≈] 7152: 1 fields updated
+[≈] 3859: 1 fields updated
+[≈] 14124: 1 fields updated
+[≈] 4387: 2 fields updated
+[≈] 5817: 2 fields updated
+[≈] 19330: 1 fields updated
+[≈] 24208: 2 fields updated
+[≈] 12247: 2 fields updated
+[≈] 27129: 3 fields updated
+[≈] 28360: 4 fields updated
+[≈] 8142: 1 fields updated
+[≈] 6305: 2 fields updated
+[≈] 28487: 1 fields updated
+[≈] 10302: 4 fields updated
+[≈] 21793: 1 fields updated
+[≈] 14477: 1 fields updated
+[≈] 14380: 1 fields updated
+[≈] 28889: 2 fields updated
+[≈] 11800: 1 fields updated
+[≈] 27738: 4 fields updated
+[≈] 27780: 1 fields updated
+[≈] 4439: 2 fields updated
+[≈] 18401: 1 fields updated
+[≈] 24176: 2 fields updated
+[≈] 29316: 1 fields updated
+[≈] 24141: 1 fields updated
+[≈] 2396: 1 fields updated
+[≈] 14355: 1 fields updated
+[≈] 23376: 1 fields updated
+[≈] 15541: 1 fields updated
+[≈] 8269: 1 fields updated
+[≈] 6049: 1 fields updated
+[≈] 11599: 1 fields updated
+[≈] 28423: 5 fields updated
+[≈] 16204: 1 fields updated
+[≈] 25926: 2 fields updated
+[≈] 17491: 3 fields updated
+[≈] 1971: 2 fields updated
+[≈] 26715: 1 fields updated
+[≈] 18088: 1 fields updated
+[≈] 1282: 1 fields updated
+[≈] 13983: 2 fields updated
+[≈] 26142: 2 fields updated
+[≈] 3591: 1 fields updated
+[≈] 24065: 3 fields updated
+[≈] 21791: 1 fields updated
+[≈] 11237: 1 fields updated
+[≈] 11904: 1 fields updated
+[≈] 22622: 3 fields updated
+[≈] 16668: 1 fields updated
+[≈] 16794: 2 fields updated
+[≈] 28540: 3 fields updated
+[≈] 28684: 3 fields updated
+[≈] 5242: 3 fields updated
+[≈] 11723: 1 fields updated
+[≈] 8687: 1 fields updated
+[≈] 24630: 1 fields updated
+[≈] 19641: 2 fields updated
+[≈] 24378: 1 fields updated
+[≈] 27443: 2 fields updated
+[≈] 28371: 2 fields updated
+[≈] 5986: 3 fields updated
+[≈] 21259: 5 fields updated
+[≈] 8339: 1 fields updated
+[≈] 1892: 1 fields updated
+[≈] 20617: 1 fields updated
+[≈] 8026: 1 fields updated
+[≈] 7510: 1 fields updated
+[≈] 5335: 1 fields updated
+[≈] 10268: 2 fields updated
+[≈] 10911: 1 fields updated
+[≈] 23272: 2 fields updated
+[≈] 5095: 3 fields updated
+[≈] 899: 1 fields updated
+[≈] 9385: 1 fields updated
+[≈] 21924: 2 fields updated
+[≈] 24565: 2 fields updated
+[≈] 11118: 1 fields updated
+[≈] 22238: 3 fields updated
+[≈] 7875: 1 fields updated
+[≈] 22044: 1 fields updated
+[≈] 27791: 1 fields updated
+[≈] 19009: 4 fields updated
+[≈] 21374: 1 fields updated
+[≈] 26018: 3 fields updated
+[≈] 13889: 3 fields updated
+[≈] 22471: 1 fields updated
+[≈] 12046: 1 fields updated
+[≈] 10987: 2 fields updated
+[≈] 9705: 1 fields updated
+[≈] 21450: 1 fields updated
+[≈] 19439: 3 fields updated
+[≈] 12662: 2 fields updated
+[≈] 9795: 1 fields updated
+[≈] 16895: 1 fields updated
+[≈] 24020: 2 fields updated
+[≈] 2841: 1 fields updated
+[≈] 25377: 1 fields updated
+[≈] 28150: 2 fields updated
+[≈] 26645: 2 fields updated
+[≈] 6650: 2 fields updated
+[≈] 19841: 4 fields updated
+[≈] 23887: 2 fields updated
+[≈] 26891: 3 fields updated
+[≈] 2514: 1 fields updated
+[≈] 18174: 1 fields updated
+[≈] 15424: 4 fields updated
+[≈] 10763: 1 fields updated
+[≈] 27655: 2 fields updated
+[≈] 8495: 1 fields updated
+[≈] 4545: 2 fields updated
+[≈] 13592: 1 fields updated
+[≈] 27919: 2 fields updated
+[≈] 23787: 2 fields updated
+[≈] 28235: 2 fields updated
+[≈] 6282: 3 fields updated
+[≈] 24741: 2 fields updated
+[≈] 27904: 4 fields updated
+[≈] 17490: 2 fields updated
+[≈] 24337: 2 fields updated
+[≈] 10454: 1 fields updated
+[≈] 15452: 1 fields updated
+[≈] 26699: 3 fields updated
+[≈] 14664: 1 fields updated
+[≈] 13809: 2 fields updated
+[≈] 8875: 1 fields updated
+[≈] 2113: 4 fields updated
+[≈] 1446: 1 fields updated
+[≈] 25688: 1 fields updated
+[≈] 15522: 2 fields updated
+[≈] 23233: 1 fields updated
+[≈] 23198: 2 fields updated
+[≈] 17222: 1 fields updated
+[≈] 1801: 2 fields updated
+[≈] 15330: 1 fields updated
+[≈] 29364: 2 fields updated
+[≈] 9842: 2 fields updated
+[≈] 22683: 2 fields updated
+[≈] 24786: 1 fields updated
+[≈] 4071: 2 fields updated
+[≈] 20278: 3 fields updated
+[≈] 27531: 2 fields updated
+[≈] 2072: 2 fields updated
+[≈] 27470: 3 fields updated
+[≈] 24357: 1 fields updated
+[≈] 10444: 1 fields updated
+[≈] 1871: 1 fields updated
+[≈] 2747: 2 fields updated
+[≈] -92409: 1 fields updated
+[≈] 1283: 1 fields updated
+[≈] 10754: 1 fields updated
+[≈] 2310: 2 fields updated
+[≈] 7167: 2 fields updated
+[≈] 26137: 1 fields updated
+[≈] 2535: 2 fields updated
+[≈] 23119: 1 fields updated
+[≈] 14024: 1 fields updated
+[≈] 3194: 2 fields updated
+[≈] 16168: 2 fields updated
+[≈] 29330: 3 fields updated
+[≈] 18424: 1 fields updated
+[≈] 24613: 1 fields updated
+[≈] 10172: 1 fields updated
+[≈] 4077: 1 fields updated
+[≈] 11887: 3 fields updated
+[≈] 23801: 1 fields updated
+[≈] 14528: 2 fields updated
+[≈] 8336: 1 fields updated
+[≈] 7289: 2 fields updated
+[≈] 28281: 2 fields updated
+[≈] 23891: 1 fields updated
+[≈] 8028: 2 fields updated
+[≈] 26322: 3 fields updated
+[≈] 20333: 3 fields updated
+[≈] 25147: 1 fields updated
+[≈] 19376: 1 fields updated
+[≈] 6051: 1 fields updated
+[≈] 14459: 2 fields updated
+[≈] 14423: 1 fields updated
+[≈] 18222: 1 fields updated
+[≈] 11228: 1 fields updated
+[≈] 23243: 1 fields updated
+[≈] 8914: 1 fields updated
+[≈] 8429: 1 fields updated
+[≈] 12634: 1 fields updated
+[≈] 14616: 1 fields updated
+[≈] 23459: 2 fields updated
+[≈] 20993: 1 fields updated
+[≈] 24416: 1 fields updated
+[≈] 20818: 1 fields updated
+[≈] 16605: 2 fields updated
+[≈] 15110: 1 fields updated
+[≈] 16244: 4 fields updated
+[≈] 8267: 3 fields updated
+[≈] 24490: 1 fields updated
+[≈] 26777: 1 fields updated
+[≈] 22072: 4 fields updated
+[≈] 10133: 1 fields updated
+[≈] 28148: 1 fields updated
+[≈] 24636: 1 fields updated
+[≈] 19925: 1 fields updated
+[≈] 4920: 3 fields updated
+[≈] 19279: 1 fields updated
+[≈] 10531: 2 fields updated
+[≈] 29226: 3 fields updated
+[≈] 19232: 2 fields updated
+[≈] 10283: 1 fields updated
+[≈] 11198: 2 fields updated
+[≈] 6496: 1 fields updated
+[≈] 27584: 1 fields updated
+[≈] 20131: 1 fields updated
+[≈] 27793: 3 fields updated
+[≈] 12684: 4 fields updated
+[≈] 3218: 1 fields updated
+[≈] 25505: 1 fields updated
+[≈] 16867: 1 fields updated
+[≈] 15381: 3 fields updated
+[≈] 12816: 1 fields updated
+[≈] 18334: 1 fields updated
+[≈] 16576: 1 fields updated
+[≈] 10093: 1 fields updated
+[≈] 19272: 2 fields updated
+[≈] 24059: 3 fields updated
+[≈] 12310: 2 fields updated
+[≈] 6204: 1 fields updated
+[≈] 20325: 2 fields updated
+[≈] 11002: 1 fields updated
+[≈] 16633: 1 fields updated
+[≈] 7276: 1 fields updated
+[≈] 18775: 2 fields updated
+[≈] 21848: 1 fields updated
+[≈] 7187: 3 fields updated
+[≈] 28712: 1 fields updated
+[≈] 21982: 2 fields updated
+[≈] 11595: 1 fields updated
+[≈] 8049: 1 fields updated
+[≈] 7130: 1 fields updated
+[≈] 5815: 3 fields updated
+[≈] 19237: 2 fields updated
+[≈] 19847: 1 fields updated
+[≈] 28825: 3 fields updated
+[≈] 22867: 3 fields updated
+[≈] 20250: 1 fields updated
+[≈] 4798: 2 fields updated
+[≈] 17750: 2 fields updated
+[≈] 22076: 1 fields updated
+[≈] 23199: 1 fields updated
+[≈] 13212: 1 fields updated
+[≈] 6094: 1 fields updated
+[≈] 7248: 3 fields updated
+[≈] 7572: 4 fields updated
+[≈] 26749: 3 fields updated
+[≈] 18192: 2 fields updated
+[≈] 2207: 2 fields updated
+[≈] 5172: 3 fields updated
+[≈] 17787: 1 fields updated
+[≈] 27487: 1 fields updated
+[≈] 16835: 1 fields updated
+[≈] 6423: 1 fields updated
+[≈] 12944: 1 fields updated
+[≈] 7375: 3 fields updated
+[≈] 14897: 1 fields updated
+[≈] 15617: 1 fields updated
+[≈] 4431: 1 fields updated
+[≈] 23570: 2 fields updated
+[≈] 12405: 1 fields updated
+[≈] 27958: 2 fields updated
+[≈] 28906: 3 fields updated
+[≈] 7070: 1 fields updated
+[≈] 1030: 1 fields updated
+[≈] 23075: 2 fields updated
+[≈] 3932: 1 fields updated
+[≈] 5500: 2 fields updated
+[≈] 12371: 1 fields updated
+[≈] 12797: 2 fields updated
+[≈] 25146: 1 fields updated
+[≈] 21934: 1 fields updated
+[≈] 6265: 2 fields updated
+[≈] 28671: 3 fields updated
+[≈] 4236: 1 fields updated
+[≈] 27031: 3 fields updated
+[≈] 19613: 1 fields updated
+[≈] 25722: 1 fields updated
+[≈] 12812: 1 fields updated
+[≈] 21904: 1 fields updated
+[≈] 29292: 1 fields updated
+[≈] 12632: 4 fields updated
+[≈] 24015: 1 fields updated
+[≈] 25256: 1 fields updated
+[≈] 14375: 3 fields updated
+[≈] 13812: 5 fields updated
+[≈] 26481: 1 fields updated
+[≈] 24495: 1 fields updated
+[≈] 21875: 3 fields updated
+[≈] 3229: 1 fields updated
+[≈] 26202: 1 fields updated
+[≈] 21809: 2 fields updated
+[≈] 26569: 2 fields updated
+[≈] 24939: 2 fields updated
+[≈] 15184: 3 fields updated
+[≈] 19665: 1 fields updated
+[≈] 4726: 2 fields updated
+[≈] 8955: 1 fields updated
+[≈] 1455: 2 fields updated
+[≈] 11042: 2 fields updated
+[≈] 25101: 1 fields updated
+[≈] 28838: 2 fields updated
+[≈] 14881: 2 fields updated
+[≈] 27429: 2 fields updated
+[≈] 28333: 2 fields updated
+[≈] 27408: 2 fields updated
+[≈] 19528: 2 fields updated
+[≈] 5165: 2 fields updated
+[≈] 25336: 1 fields updated
+[≈] 19700: 1 fields updated
+[≈] 14854: 1 fields updated
+[≈] 24177: 1 fields updated
+[≈] 4132: 1 fields updated
+[≈] 26801: 4 fields updated
+[≈] 17080: 1 fields updated
+[≈] 25568: 1 fields updated
+[≈] 5970: 1 fields updated
+[≈] 22071: 1 fields updated
+[≈] 16900: 1 fields updated
+[≈] 3269: 1 fields updated
+[≈] 5406: 1 fields updated
+[≈] 11969: 3 fields updated
+[≈] 27145: 1 fields updated
+[≈] 10649: 1 fields updated
+[≈] 26207: 1 fields updated
+[≈] 12473: 1 fields updated
+[≈] 15939: 1 fields updated
+[≈] 27790: 2 fields updated
+[≈] 11358: 2 fields updated
+[≈] 15929: 1 fields updated
+[≈] 14539: 2 fields updated
+[≈] 14924: 1 fields updated
+[≈] 13005: 1 fields updated
+[≈] 18981: 2 fields updated
+[≈] 2960: 2 fields updated
+[≈] 8278: 2 fields updated
+[≈] 9424: 2 fields updated
+[≈] 8433: 2 fields updated
+[≈] 25321: 1 fields updated
+[≈] 24089: 1 fields updated
+[≈] 4977: 3 fields updated
+[≈] 4140: 3 fields updated
+[≈] 7386: 3 fields updated
+[≈] 28100: 2 fields updated
+[≈] -92258: 2 fields updated
+[≈] 20532: 2 fields updated
+[≈] 29021: 4 fields updated
+[≈] 5247: 1 fields updated
+[≈] 11593: 3 fields updated
+[≈] 28225: 5 fields updated
+[≈] 26880: 1 fields updated
+[≈] 15222: 2 fields updated
+[≈] 12300: 4 fields updated
+[≈] 20114: 4 fields updated
+[≈] 8870: 3 fields updated
+[≈] 12255: 1 fields updated
+[≈] 17167: 1 fields updated
+[≈] 27998: 1 fields updated
+[≈] 26939: 2 fields updated
+[≈] 9312: 2 fields updated
+[≈] 6913: 1 fields updated
+[≈] 24890: 1 fields updated
+[≈] 9626: 1 fields updated
+[≈] 29297: 1 fields updated
+[≈] 18651: 1 fields updated
+[≈] 28739: 2 fields updated
+[≈] 27330: 4 fields updated
+[≈] 8210: 1 fields updated
+[≈] 27016: 1 fields updated
+[≈] 9226: 1 fields updated
+[≈] 28520: 2 fields updated
+[≈] 22738: 2 fields updated
+[≈] 19307: 1 fields updated
+[≈] 18624: 2 fields updated
+[≈] 7149: 2 fields updated
+[≈] 22189: 1 fields updated
+[≈] 8243: 4 fields updated
+[≈] 6030: 1 fields updated
+[≈] 14889: 1 fields updated
+[≈] 18997: 1 fields updated
+[≈] 21851: 2 fields updated
+[≈] 19823: 2 fields updated
+[≈] 5684: 5 fields updated
+[≈] 19133: 2 fields updated
+[≈] 21210: 1 fields updated
+[≈] 11368: 1 fields updated
+[≈] 27191: 4 fields updated
+[≈] 14011: 1 fields updated
+[≈] 1512: 1 fields updated
+[≈] 24143: 1 fields updated
+[≈] 6277: 2 fields updated
+[≈] 12118: 1 fields updated
+[≈] 28696: 1 fields updated
+[≈] 18206: 1 fields updated
+[≈] 11587: 1 fields updated
+[≈] 11539: 2 fields updated
+[≈] 19164: 1 fields updated
+[≈] 27103: 2 fields updated
+[≈] 23226: 1 fields updated
+[≈] 16293: 1 fields updated
+[≈] 8564: 2 fields updated
+[≈] 15224: 2 fields updated
+[≈] 14212: 1 fields updated
+[≈] 14475: 1 fields updated
+[≈] 24391: 2 fields updated
+[≈] 21520: 1 fields updated
+[≈] 10127: 1 fields updated
+[≈] 20967: 2 fields updated
+[≈] 12418: 1 fields updated
+[≈] 24190: 1 fields updated
+[≈] 13761: 2 fields updated
+[≈] 23970: 2 fields updated
+[≈] -93278: 1 fields updated
+[≈] 18825: 1 fields updated
+[≈] 22957: 1 fields updated
+[≈] 17027: 3 fields updated
+[≈] 18458: 1 fields updated
+[≈] 24706: 3 fields updated
+[≈] 21046: 2 fields updated
+[≈] 28793: 1 fields updated
+[≈] 24077: 1 fields updated
+[≈] 28351: 1 fields updated
+[≈] 17423: 1 fields updated
+[≈] 17721: 3 fields updated
+[≈] 25294: 1 fields updated
+[≈] 4820: 2 fields updated
+[≈] 20168: 2 fields updated
+[≈] 20148: 1 fields updated
+[≈] 18783: 2 fields updated
+[≈] 6359: 3 fields updated
+[≈] 10939: 3 fields updated
+[≈] 13498: 5 fields updated
+[≈] 9121: 2 fields updated
+[≈] 4851: 1 fields updated
+[≈] 22735: 2 fields updated
+[≈] 13053: 2 fields updated
+[≈] 10880: 3 fields updated
+[≈] 21621: 3 fields updated
+[≈] 2859: 2 fields updated
+[≈] 24407: 2 fields updated
+[≈] 16218: 1 fields updated
+[≈] 19112: 1 fields updated
+[≈] 24578: 1 fields updated
+[≈] 23914: 1 fields updated
+[≈] 20171: 3 fields updated
+[≈] 7341: 1 fields updated
+[≈] 8644: 1 fields updated
+[≈] 13849: 3 fields updated
+[≈] 25114: 1 fields updated
+[≈] 27952: 2 fields updated
+[≈] 10748: 1 fields updated
+[≈] 13278: 4 fields updated
+[≈] 13402: 1 fields updated
+[≈] 24632: 1 fields updated
+[≈] 6753: 1 fields updated
+[≈] 27501: 2 fields updated
+[≈] 6038: 1 fields updated
+[≈] 24085: 2 fields updated
+[≈] 25508: 1 fields updated
+[≈] 28092: 2 fields updated
+[≈] 9627: 1 fields updated
+[≈] 17162: 2 fields updated
+[≈] 2672: 1 fields updated
+[≈] 15204: 2 fields updated
+[≈] 11978: 2 fields updated
+[≈] 27538: 3 fields updated
+[≈] 10143: 3 fields updated
+[≈] 5540: 1 fields updated
+[≈] 3799: 2 fields updated
+[≈] 11224: 3 fields updated
+[≈] 12014: 2 fields updated
+[≈] 26438: 1 fields updated
+[≈] 6904: 3 fields updated
+[≈] 25118: 1 fields updated
+[≈] 28727: 2 fields updated
+[≈] 12851: 2 fields updated
+[≈] 23915: 2 fields updated
+[≈] 10992: 4 fields updated
+[≈] 6799: 2 fields updated
+[≈] 27869: 2 fields updated
+[≈] 953: 1 fields updated
+[≈] 25094: 1 fields updated
+[≈] 28314: 1 fields updated
+[≈] 9100: 1 fields updated
+[≈] 20430: 2 fields updated
+[≈] 20058: 3 fields updated
+[≈] 11545: 2 fields updated
+[≈] 7825: 1 fields updated
+[≈] 8093: 1 fields updated
+[≈] 1642: 3 fields updated
+[≈] 19995: 2 fields updated
+[≈] 18025: 1 fields updated
+[≈] 14508: 3 fields updated
+[≈] 6909: 2 fields updated
+[≈] 25518: 1 fields updated
+[≈] 19284: 1 fields updated
+[≈] 14586: 2 fields updated
+[≈] 27230: 4 fields updated
+[≈] 17964: 1 fields updated
+[≈] 13272: 1 fields updated
+[≈] 23735: 5 fields updated
+[≈] 22913: 1 fields updated
+[≈] 16121: 2 fields updated
+[≈] 13669: 2 fields updated
+[≈] 26708: 5 fields updated
+[≈] 7242: 1 fields updated
+[≈] 7631: 2 fields updated
+[≈] 8590: 2 fields updated
+[≈] 15601: 1 fields updated
+[≈] 16338: 4 fields updated
+[≈] 16129: 2 fields updated
+[≈] 3940: 2 fields updated
+[≈] 6954: 1 fields updated
+[≈] 27837: 3 fields updated
+[≈] 27498: 2 fields updated
+[≈] 28231: 1 fields updated
+[≈] 5825: 1 fields updated
+[≈] 25154: 1 fields updated
+[≈] 23662: 3 fields updated
+[≈] 2444: 2 fields updated
+[≈] 20847: 1 fields updated
+[≈] 12077: 2 fields updated
+[≈] 21462: 1 fields updated
+[≈] 26997: 3 fields updated
+[≈] 21171: 2 fields updated
+[≈] 23308: 1 fields updated
+[≈] 10663: 2 fields updated
+[≈] 23256: 1 fields updated
+[≈] 19405: 1 fields updated
+[≈] 5253: 1 fields updated
+[≈] -94078: 1 fields updated
+[≈] 21169: 2 fields updated
+[≈] 18737: 1 fields updated
+[≈] 25535: 2 fields updated
+[≈] 7988: 1 fields updated
+[≈] 19147: 2 fields updated
+[≈] 7532: 4 fields updated
+[≈] 13349: 4 fields updated
+[≈] 29086: 1 fields updated
+[≈] 13725: 1 fields updated
+[≈] 28548: 1 fields updated
+[≈] 3853: 1 fields updated
+[≈] 21436: 1 fields updated
+[≈] 28796: 3 fields updated
+[≈] 9115: 1 fields updated
+[≈] 6494: 2 fields updated
+[≈] 4252: 1 fields updated
+[≈] 3085: 1 fields updated
+[≈] 14059: 1 fields updated
+[≈] 4302: 3 fields updated
+[≈] 20931: 1 fields updated
+[≈] 2772: 1 fields updated
+[≈] 26280: 1 fields updated
+[≈] 28307: 1 fields updated
+[≈] 28799: 3 fields updated
+[≈] 28039: 2 fields updated
+[≈] 6827: 1 fields updated
+[≈] 14999: 1 fields updated
+[≈] 4742: 1 fields updated
+[≈] 23588: 3 fields updated
+[≈] 2715: 3 fields updated
+[≈] 18367: 3 fields updated
+[≈] 7838: 2 fields updated
+[≈] 15303: 2 fields updated
+[≈] 4234: 1 fields updated
+[≈] 24742: 3 fields updated
+[≈] 6436: 1 fields updated
+[≈] 17194: 2 fields updated
+[≈] 5168: 1 fields updated
+[≈] 25031: 3 fields updated
+[≈] 10648: 1 fields updated
+[≈] 13688: 2 fields updated
+[≈] 10257: 1 fields updated
+[≈] 27627: 1 fields updated
+[≈] 3827: 2 fields updated
+[≈] 28232: 1 fields updated
+[≈] 26860: 1 fields updated
+[≈] 23285: 1 fields updated
+[≈] 13540: 2 fields updated
+[≈] 12566: 3 fields updated
+[≈] 3670: 2 fields updated
+[≈] 26968: 2 fields updated
+[≈] 21820: 1 fields updated
+[≈] 16227: 1 fields updated
+[≈] 24213: 1 fields updated
+[≈] 5486: 1 fields updated
+[≈] 27860: 1 fields updated
+[≈] 28770: 2 fields updated
+[≈] 28935: 1 fields updated
+[≈] 15319: 2 fields updated
+[≈] 10940: 1 fields updated
+[≈] 22679: 2 fields updated
+[≈] 24181: 3 fields updated
+[≈] 20625: 1 fields updated
+[≈] 28197: 2 fields updated
+[≈] 1614: 1 fields updated
+[≈] 18796: 1 fields updated
+[≈] 5836: 1 fields updated
+[≈] 20136: 2 fields updated
+[≈] 5942: 2 fields updated
+[≈] 19311: 3 fields updated
+[≈] 7090: 2 fields updated
+[≈] 8651: 3 fields updated
+[≈] 19419: 6 fields updated
+[≈] 29088: 2 fields updated
+[≈] 25883: 3 fields updated
+[≈] 28429: 4 fields updated
+[≈] 9497: 2 fields updated
+[≈] 19510: 1 fields updated
+[≈] 10045: 1 fields updated
+[≈] 13250: 2 fields updated
+[≈] 4602: 1 fields updated
+[≈] 7966: 2 fields updated
+[≈] 15068: 2 fields updated
+[≈] 22202: 3 fields updated
+[≈] 11074: 2 fields updated
+[≈] 22504: 1 fields updated
+[≈] 20555: 1 fields updated
+[≈] 21562: 2 fields updated
+[≈] 18216: 2 fields updated
+[≈] 19344: 2 fields updated
+[≈] 5121: 2 fields updated
+[≈] 5438: 2 fields updated
+[≈] 5675: 3 fields updated
+[≈] 9462: 1 fields updated
+[≈] 16018: 2 fields updated
+[≈] 15468: 1 fields updated
+[≈] 14403: 2 fields updated
+[≈] 24151: 1 fields updated
+[≈] 29031: 3 fields updated
+[≈] 14623: 1 fields updated
+[≈] 1121: 2 fields updated
+[≈] 4638: 1 fields updated
+[≈] 25965: 1 fields updated
+[≈] 25919: 1 fields updated
+[≈] 23982: 1 fields updated
+[≈] 8264: 2 fields updated
+[≈] 26434: 1 fields updated
+[≈] 25625: 2 fields updated
+[≈] 3926: 2 fields updated
+[≈] 10200: 2 fields updated
+[≈] 15981: 2 fields updated
+[≈] 6140: 4 fields updated
+[≈] 11238: 1 fields updated
+[≈] 3877: 2 fields updated
+[≈] 26400: 1 fields updated
+[≈] 7584: 1 fields updated
+[≈] 10442: 1 fields updated
+[≈] 23871: 1 fields updated
+[≈] 7985: 1 fields updated
+[≈] 11366: 1 fields updated
+[≈] 19791: 1 fields updated
+[≈] 25073: 6 fields updated
+[≈] 15917: 1 fields updated
+[≈] 23147: 2 fields updated
+[≈] 6381: 1 fields updated
+[≈] 12164: 1 fields updated
+[≈] 21601: 2 fields updated
+[≈] 11296: 1 fields updated
+[≈] 6178: 2 fields updated
+[≈] 28309: 3 fields updated
+[≈] 22857: 1 fields updated
+[≈] 17678: 1 fields updated
+[≈] 12457: 1 fields updated
+[≈] 28418: 3 fields updated
+[≈] 7855: 1 fields updated
+[≈] 13286: 3 fields updated
+[≈] 7911: 3 fields updated
+[≈] 22643: 1 fields updated
+[≈] 6329: 4 fields updated
+[≈] 22552: 2 fields updated
+[≈] 10511: 4 fields updated
+[≈] 16842: 1 fields updated
+[≈] 28319: 2 fields updated
+[≈] 26285: 2 fields updated
+[≈] 8550: 1 fields updated
+[≈] 22131: 1 fields updated
+[≈] 25225: 3 fields updated
+[≈] 24601: 1 fields updated
+[≈] 28471: 4 fields updated
+[≈] 17525: 1 fields updated
+[≈] 15944: 3 fields updated
+[≈] 14244: 1 fields updated
+[≈] 27098: 4 fields updated
+[≈] 1483: 1 fields updated
+[≈] 21256: 2 fields updated
+[≈] 28871: 1 fields updated
+[≈] 24135: 1 fields updated
+[≈] 7423: 1 fields updated
+[≈] 15028: 1 fields updated
+[≈] 17695: 2 fields updated
+[≈] 18133: 2 fields updated
+[≈] 7563: 3 fields updated
+[≈] 15602: 2 fields updated
+[≈] 21888: 1 fields updated
+[≈] 20273: 1 fields updated
+[≈] 18864: 1 fields updated
+[≈] 18970: 2 fields updated
+[≈] 19896: 2 fields updated
+[≈] 2349: 1 fields updated
+[≈] 3271: 2 fields updated
+[≈] 13453: 1 fields updated
+[≈] 28283: 1 fields updated
+[≈] 19976: 4 fields updated
+[≈] 24672: 2 fields updated
+[≈] 21998: 1 fields updated
+[≈] 10486: 1 fields updated
+[≈] 4259: 1 fields updated
+[≈] 22102: 1 fields updated
+[≈] 12297: 3 fields updated
+[≈] 20738: 1 fields updated
+[≈] 22454: 1 fields updated
+[≈] 15108: 1 fields updated
+[≈] 15968: 2 fields updated
+[≈] 26313: 2 fields updated
+[≈] 10956: 1 fields updated
+[≈] 24326: 1 fields updated
+[≈] 6780: 3 fields updated
+[≈] 14185: 3 fields updated
+[≈] 5700: 1 fields updated
+[≈] 23455: 1 fields updated
+[≈] 15666: 1 fields updated
+[≈] 28342: 4 fields updated
+[≈] 6764: 2 fields updated
+[≈] 21272: 1 fields updated
+[≈] 27659: 1 fields updated
+[≈] 25449: 4 fields updated
+[≈] 22562: 2 fields updated
+[≈] 24637: 2 fields updated
+[≈] 4655: 2 fields updated
+[≈] 3588: 2 fields updated
+[≈] 19106: 1 fields updated
+[≈] 24970: 1 fields updated
+[≈] 25655: 1 fields updated
+[≈] 24723: 1 fields updated
+[≈] 9632: 2 fields updated
+[≈] 10766: 2 fields updated
+[≈] 27619: 2 fields updated
+[≈] 23876: 2 fields updated
+[≈] 16540: 1 fields updated
+[≈] 28863: 1 fields updated
+[≈] 23324: 1 fields updated
+[≈] 18957: 1 fields updated
+[≈] 7930: 1 fields updated
+[≈] 15860: 2 fields updated
+[≈] 4039: 1 fields updated
+[≈] 26535: 2 fields updated
+[≈] 26802: 1 fields updated
+[≈] 17317: 1 fields updated
+[≈] 22984: 1 fields updated
+[≈] 16495: 2 fields updated
+[≈] 6747: 2 fields updated
+[≈] 13647: 1 fields updated
+[≈] 17123: 1 fields updated
+[≈] 19733: 2 fields updated
+[≈] 23998: 2 fields updated
+[≈] 27757: 1 fields updated
+[≈] 28915: 2 fields updated
+[≈] 6920: 2 fields updated
+[≈] 22816: 1 fields updated
+[≈] 27863: 2 fields updated
+[≈] 11059: 1 fields updated
+[≈] 16950: 1 fields updated
+[≈] 2345: 1 fields updated
+[≈] 18069: 1 fields updated
+[≈] 27986: 1 fields updated
+[≈] 7151: 1 fields updated
+[≈] 26083: 3 fields updated
+[≈] 11945: 3 fields updated
+[≈] 3243: 2 fields updated
+[≈] 25495: 1 fields updated
+[≈] 9640: 3 fields updated
+[≈] 12506: 1 fields updated
+[≈] 25635: 4 fields updated
+[≈] 12370: 3 fields updated
+[≈] 8939: 1 fields updated
+[≈] 5237: 2 fields updated
+[≈] 26232: 3 fields updated
+[≈] 27553: 2 fields updated
+[≈] 28752: 1 fields updated
+[≈] 9253: 1 fields updated
+[≈] 21751: 2 fields updated
+[≈] 23146: 2 fields updated
+[≈] 15225: 1 fields updated
+[≈] 17648: 1 fields updated
+[≈] 3668: 1 fields updated
+[≈] 17690: 2 fields updated
+[≈] 22860: 1 fields updated
+[≈] 25160: 1 fields updated
+[≈] 11878: 1 fields updated
+[≈] 6633: 3 fields updated
+[≈] 14698: 3 fields updated
+[≈] 3677: 2 fields updated
+[≈] 14914: 2 fields updated
+[≈] 20248: 1 fields updated
+[≈] 5252: 1 fields updated
+[≈] 21170: 1 fields updated
+[≈] 18244: 1 fields updated
+[≈] 2406: 1 fields updated
+[≈] 24902: 1 fields updated
+[≈] 2047: 3 fields updated
+[≈] 17922: 1 fields updated
+[≈] 19614: 1 fields updated
+[≈] 24245: 1 fields updated
+[≈] 21476: 2 fields updated
+[≈] 15475: 1 fields updated
+[≈] 28787: 3 fields updated
+[≈] 26807: 4 fields updated
+[≈] 3326: 3 fields updated
+[≈] 11156: 1 fields updated
+[≈] 20917: 2 fields updated
+[≈] 25476: 1 fields updated
+[≈] 23691: 1 fields updated
+[≈] 25941: 2 fields updated
+[≈] 21581: 2 fields updated
+[≈] 8292: 2 fields updated
+[≈] 15619: 1 fields updated
+[≈] 26922: 1 fields updated
+[≈] 27147: 1 fields updated
+[≈] 18196: 2 fields updated
+[≈] 6286: 2 fields updated
+[≈] 18790: 3 fields updated
+[≈] 15248: 1 fields updated
+[≈] 1427: 1 fields updated
+[≈] 1325: 2 fields updated
+[≈] 5869: 3 fields updated
+[≈] 4170: 1 fields updated
+[≈] 23076: 1 fields updated
+[≈] 16881: 6 fields updated
+[≈] 23428: 1 fields updated
+[≈] 26176: 1 fields updated
+[≈] 7867: 1 fields updated
+[≈] 17278: 3 fields updated
+[≈] 17961: 1 fields updated
+[≈] 16350: 2 fields updated
+[≈] 4257: 2 fields updated
+[≈] 26414: 1 fields updated
+[≈] 5129: 1 fields updated
+[≈] 14890: 3 fields updated
+[≈] 11116: 1 fields updated
+[≈] 4520: 3 fields updated
+[≈] 7435: 3 fields updated
+[≈] 17770: 1 fields updated
+[≈] 15951: 3 fields updated
+[≈] 6142: 1 fields updated
+[≈] 25353: 4 fields updated
+[≈] 11552: 2 fields updated
+[≈] 8881: 1 fields updated
+[≈] 19084: 1 fields updated
+[≈] 5052: 1 fields updated
+[≈] 18921: 1 fields updated
+[≈] 22919: 2 fields updated
+[≈] 5713: 3 fields updated
+[≈] 15843: 3 fields updated
+[≈] 15435: 2 fields updated
+[≈] 20412: 2 fields updated
+[≈] -92383: 2 fields updated
+[≈] 7088: 2 fields updated
+[≈] 13547: 1 fields updated
+[≈] 13787: 1 fields updated
+[≈] 12728: 1 fields updated
+[≈] 5627: 4 fields updated
+[≈] 15513: 1 fields updated
+[≈] 2114: 2 fields updated
+[≈] 9291: 2 fields updated
+[≈] 11602: 1 fields updated
+[≈] 5436: 2 fields updated
+[≈] 14381: 2 fields updated
+[≈] 10466: 1 fields updated
+[≈] 8019: 1 fields updated
+[≈] 4953: 1 fields updated
+[≈] 13214: 1 fields updated
+[≈] 24813: 1 fields updated
+[≈] 5020: 2 fields updated
+[≈] 27425: 2 fields updated
+[≈] 23668: 3 fields updated
+[≈] 13694: 2 fields updated
+[≈] 9508: 1 fields updated
+[≈] 1543: 4 fields updated
+[≈] 3388: 3 fields updated
+[≈] 11453: 1 fields updated
+[≈] 15469: 3 fields updated
+[≈] 9613: 1 fields updated
+[≈] 2055: 2 fields updated
+[≈] 7338: 1 fields updated
+[≈] 22321: 1 fields updated
+[≈] 4832: 5 fields updated
+[≈] 28091: 2 fields updated
+[≈] 5222: 2 fields updated
+[≈] 25691: 1 fields updated
+[≈] 11135: 1 fields updated
+[≈] 3861: 2 fields updated
+[≈] 22386: 2 fields updated
+[≈] 23060: 1 fields updated
+[≈] 28916: 2 fields updated
+[≈] 18203: 2 fields updated
+[≈] 28733: 2 fields updated
+[≈] 5786: 1 fields updated
+[≈] 23855: 2 fields updated
+[≈] 25372: 2 fields updated
+[≈] 10598: 1 fields updated
+[≈] 26739: 2 fields updated
+[≈] 18127: 1 fields updated
+[≈] 21702: 1 fields updated
+[≈] 14202: 1 fields updated
+[≈] 20471: 1 fields updated
+[≈] 22780: 1 fields updated
+[≈] 22151: 1 fields updated
+[≈] 15087: 1 fields updated
+[≈] 18034: 1 fields updated
+[≈] 9185: 1 fields updated
+[≈] 24700: 1 fields updated
+[≈] 10192: 1 fields updated
+[≈] 20781: 1 fields updated
+[≈] 23572: 1 fields updated
+[≈] 18798: 2 fields updated
+[≈] 11338: 1 fields updated
+[≈] 13089: 1 fields updated
+[≈] 19824: 1 fields updated
+[≈] 23599: 2 fields updated
+[≈] 20132: 2 fields updated
+[≈] 28550: 4 fields updated
+[≈] 2952: 1 fields updated
+[≈] 6654: 1 fields updated
+[≈] 13082: 2 fields updated
+[≈] 13120: 1 fields updated
+[≈] 15847: 1 fields updated
+[≈] 26985: 2 fields updated
+[≈] 4572: 1 fields updated
+[≈] 23675: 3 fields updated
+[≈] 14520: 1 fields updated
+[≈] 2105: 1 fields updated
+[≈] 4994: 1 fields updated
+[≈] 7687: 1 fields updated
+[≈] 4768: 3 fields updated
+[≈] 1436: 4 fields updated
+[≈] 5193: 2 fields updated
+[≈] 17687: 1 fields updated
+[≈] 11971: 1 fields updated
+[≈] 25607: 1 fields updated
+[≈] 28979: 1 fields updated
+[≈] 2318: 2 fields updated
+[≈] 28725: 1 fields updated
+[≈] 26352: 1 fields updated
+[≈] 3031: 2 fields updated
+[≈] 24676: 3 fields updated
+[≈] 3307: 1 fields updated
+[≈] 25488: 1 fields updated
+[≈] 23907: 1 fields updated
+[≈] 27309: 3 fields updated
+[≈] 17689: 3 fields updated
+[≈] 14755: 1 fields updated
+[≈] 10291: 1 fields updated
+[≈] 5131: 1 fields updated
+[≈] 21333: 1 fields updated
+[≈] 26721: 2 fields updated
+[≈] 10842: 1 fields updated
+[≈] 27317: 1 fields updated
+[≈] 24488: 2 fields updated
+[≈] 26610: 2 fields updated
+[≈] 22077: 3 fields updated
+[≈] 23098: 1 fields updated
+[≈] 16940: 1 fields updated
+[≈] 15727: 2 fields updated
+[≈] 19244: 1 fields updated
+[≈] 10624: 2 fields updated
+[≈] 26623: 3 fields updated
+[≈] 23629: 1 fields updated
+[≈] 26631: 3 fields updated
+[≈] 27739: 1 fields updated
+[≈] 10512: 1 fields updated
+[≈] 4043: 3 fields updated
+[≈] 15041: 3 fields updated
+[≈] 24542: 2 fields updated
+[≈] 18636: 2 fields updated
+[≈] 19615: 1 fields updated
+[≈] 28937: 1 fields updated
+[≈] 8766: 1 fields updated
+[≈] 15564: 1 fields updated
+[≈] 26736: 2 fields updated
+[≈] 20483: 2 fields updated
+[≈] 25948: 1 fields updated
+[≈] 27950: 1 fields updated
+[≈] 25754: 3 fields updated
+[≈] 25373: 1 fields updated
+[≈] 6112: 2 fields updated
+[≈] 25823: 2 fields updated
+[≈] 25326: 2 fields updated
+[≈] 28076: 1 fields updated
+[≈] 8175: 1 fields updated
+[≈] 8691: 3 fields updated
+[≈] 18861: 1 fields updated
+[≈] 18936: 2 fields updated
+[≈] 14121: 1 fields updated
+[≈] 5441: 2 fields updated
+[≈] 9698: 1 fields updated
+[≈] 1588: 1 fields updated
+[≈] 17679: 2 fields updated
+[≈] 7722: 1 fields updated
+[≈] -92254: 2 fields updated
+[≈] 7354: 1 fields updated
+[≈] 25265: 2 fields updated
+[≈] 917: 3 fields updated
+[≈] 9454: 1 fields updated
+[≈] 18285: 2 fields updated
+[≈] 11414: 1 fields updated
+[≈] 15116: 2 fields updated
+[≈] 6022: 1 fields updated
+[≈] 12361: 2 fields updated
+[≈] 24763: 1 fields updated
+[≈] 20611: 1 fields updated
+[≈] 5418: 1 fields updated
+[≈] 24617: 1 fields updated
+[≈] 12953: 1 fields updated
+[≈] 28159: 2 fields updated
+[≈] 11546: 2 fields updated
+[≈] 4687: 2 fields updated
+[≈] 29331: 3 fields updated
+[≈] 29103: 1 fields updated
+[≈] 961: 1 fields updated
+[≈] 16029: 2 fields updated
+[≈] 6025: 1 fields updated
+[≈] 23543: 1 fields updated
+[≈] 6348: 1 fields updated
+[≈] 22251: 4 fields updated
+[≈] 29346: 3 fields updated
+[≈] 15878: 4 fields updated
+[≈] 6007: 1 fields updated
+[≈] 22160: 1 fields updated
+[≈] 28851: 3 fields updated
+[≈] 4433: 3 fields updated
+[≈] 6865: 1 fields updated
+[≈] 26273: 2 fields updated
+[≈] 15147: 2 fields updated
+[≈] 26121: 2 fields updated
+[≈] 19492: 1 fields updated
+[≈] 6889: 3 fields updated
+[≈] 6973: 1 fields updated
+[≈] 8127: 1 fields updated
+[≈] 3868: 1 fields updated
+[≈] 23721: 1 fields updated
+[≈] 26936: 2 fields updated
+[≈] 5039: 1 fields updated
+[≈] 13489: 3 fields updated
+[≈] 18219: 2 fields updated
+[≈] 9866: 1 fields updated
+[≈] 13366: 1 fields updated
+[≈] 23789: 1 fields updated
+[≈] 18143: 1 fields updated
+[≈] 19375: 2 fields updated
+[≈] 17049: 1 fields updated
+[≈] 4613: 2 fields updated
+[≈] 16672: 1 fields updated
+[≈] 25115: 1 fields updated
+[≈] 25397: 1 fields updated
+[≈] 20427: 3 fields updated
+[≈] 1919: 2 fields updated
+[≈] 27143: 2 fields updated
+[≈] 13397: 1 fields updated
+[≈] 15167: 1 fields updated
+[≈] 18922: 1 fields updated
+[≈] 10967: 3 fields updated
+[≈] 15921: 3 fields updated
+[≈] 8647: 2 fields updated
+[≈] 21062: 2 fields updated
+[≈] 14660: 1 fields updated
+[≈] 13553: 1 fields updated
+[≈] 8863: 2 fields updated
+[≈] 6720: 1 fields updated
+[≈] 27856: 1 fields updated
+[≈] 10642: 1 fields updated
+[≈] 26396: 1 fields updated
+[≈] 29285: 2 fields updated
+[≈] 27447: 1 fields updated
+[≈] 10384: 2 fields updated
+[≈] 26881: 2 fields updated
+[≈] 25870: 2 fields updated
+[≈] 18862: 3 fields updated
+[≈] 7456: 2 fields updated
+[≈] 20954: 2 fields updated
+[≈] 12169: 1 fields updated
+[≈] 9255: 1 fields updated
+[≈] 21213: 3 fields updated
+[≈] 25900: 2 fields updated
+[≈] 2483: 1 fields updated
+[≈] 23892: 2 fields updated
+[≈] 2834: 3 fields updated
+[≈] 25357: 1 fields updated
+[≈] 9148: 1 fields updated
+[≈] 13429: 1 fields updated
+[≈] 13655: 1 fields updated
+[≈] 23898: 1 fields updated
+[≈] 16465: 1 fields updated
+[≈] 5405: 1 fields updated
+[≈] 24448: 3 fields updated
+[≈] 6269: 1 fields updated
+[≈] 10639: 1 fields updated
+[≈] 6571: 1 fields updated
+[≈] 14458: 1 fields updated
+[≈] 10394: 2 fields updated
+[≈] 2074: 1 fields updated
+[≈] 26706: 1 fields updated
+[≈] 22079: 2 fields updated
+[≈] 18977: 2 fields updated
+[≈] 14129: 1 fields updated
+[≈] 23526: 2 fields updated
+[≈] 25329: 1 fields updated
+[≈] 25395: 4 fields updated
+[≈] 17137: 2 fields updated
+[≈] 3810: 2 fields updated
+[≈] 22922: 2 fields updated
+[≈] 8840: 1 fields updated
+[≈] 26189: 3 fields updated
+[≈] 28627: 1 fields updated
+[≈] 10162: 1 fields updated
+[≈] 2601: 1 fields updated
+[≈] 24679: 1 fields updated
+[≈] 18231: 1 fields updated
+[≈] 6246: 1 fields updated
+[≈] 14500: 1 fields updated
+[≈] 9088: 2 fields updated
+[≈] 28427: 3 fields updated
+[≈] 10569: 1 fields updated
+[≈] 2650: 1 fields updated
+[≈] 26068: 2 fields updated
+[≈] 18268: 2 fields updated
+[≈] 25284: 1 fields updated
+[≈] 6557: 3 fields updated
+[≈] 10552: 1 fields updated
+[≈] 9564: 3 fields updated
+[≈] 10720: 1 fields updated
+[≈] 4590: 3 fields updated
+[≈] 13066: 1 fields updated
+[≈] 19663: 3 fields updated
+[≈] 1963: 2 fields updated
+[≈] 28862: 1 fields updated
+[≈] 13329: 2 fields updated
+[≈] 14039: 1 fields updated
+[≈] 21867: 2 fields updated
+[≈] 8117: 1 fields updated
+[≈] 9160: 1 fields updated
+[≈] 17712: 2 fields updated
+[≈] 27610: 3 fields updated
+[≈] 12524: 2 fields updated
+[≈] 28276: 4 fields updated
+[≈] 26244: 1 fields updated
+[≈] 6306: 2 fields updated
+[≈] 26311: 2 fields updated
+[≈] 28749: 1 fields updated
+[≈] 9384: 1 fields updated
+[≈] 11760: 1 fields updated
+[≈] 29105: 3 fields updated
+[≈] 4730: 3 fields updated
+[≈] 9054: 1 fields updated
+[≈] 12327: 2 fields updated
+[≈] 4695: 2 fields updated
+[≈] 8584: 1 fields updated
+[≈] 13555: 1 fields updated
+[≈] 27362: 1 fields updated
+[≈] 23299: 2 fields updated
+[≈] 22572: 1 fields updated
+[≈] 20815: 3 fields updated
+[≈] 5309: 2 fields updated
+[≈] 25978: 1 fields updated
+[≈] 5992: 1 fields updated
+[≈] 11153: 1 fields updated
+[≈] 22526: 1 fields updated
+[≈] 25724: 1 fields updated
+[≈] 20798: 2 fields updated
+[≈] 21880: 1 fields updated
+[≈] 11435: 2 fields updated
+[≈] 12135: 1 fields updated
+[≈] 28379: 2 fields updated
+[≈] 27345: 2 fields updated
+[≈] 9905: 2 fields updated
+[≈] 12794: 2 fields updated
+[-] 102414156: romdhani intissar
+[-] 12214404: Saadallah Zeineb
+[-] 123134943: Boussoffara  Safa
+[-] 125144715: JARRAY Cheker
+[-] 22112344: AMRI Feriel
+[-] 1030124122: HAJJAJI Malik
+[-] 102414182: romdhani intissar
+[-] 14135430: MRAIHI BRAHIM
+[-] 98111355: Bouhlel  Amira
+[-] 10414357: Khattech Soufia
+[-] 2210110: Abid Wissal
+[-] 130112149: Battoum Zineb
+[-] 110154017: BENSOLTAN Houssem
+[-] 12991241: GATTI Sirine
+[-] 313134114: ZAHI Besma
+[-] -92297: ZAZ BEN AISSA Taoufik
+[-] 1020122035: souhailA Souahil
+[-] 84132858: Hafsa Alaeddine
+[-] 98111619: Bouhlel  Amira
+[-] 1: TestPaiement TSITest
+[-] 1228144126: karmi karmi
+[-] 21131259: Zayed Souhaila
+[-] 0: JEDIDI Walid
+[-] 25122459: daoud rihab
+[-] 103182753: El abed  Amira 
+[-] 23114149: ben hamed nourhene
+[-] 126102753: DALI Ala eddine
+[-] 25104017: Kchaou Rahma
+[-] 1882614: Selmi Meriam
+[-] 227162624: BEJAOUI Emna
+[-] 126101056: Zarrouk Zeineb 
+[-] 2594034: Trabelsi Ons

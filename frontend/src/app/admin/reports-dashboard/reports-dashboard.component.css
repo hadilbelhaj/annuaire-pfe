@@ -1,0 +1,71 @@
+/* reports-dashboard.component.css */
+:host {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .card {
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .card-header.bg-primary {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb) !important;
+  }
+  
+  .btn-primary {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary:hover:not(:disabled) {
+    background: linear-gradient(135deg, #3f44a3, #7a7fd6);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-primary:disabled {
+    background: #6c757d;
+    opacity: 0.65;
+  }
+  
+  .list-group-item-action:hover {
+    background-color: rgba(78, 84, 200, 0.05);
+  }
+  
+  .list-group-item-action.active {
+    border-left: 4px solid #4e54c8;
+    background-color: rgba(78, 84, 200, 0.1) !important;
+    font-weight: 500;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: rgba(78, 84, 200, 0.1);
+    color: #4e54c8;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(78, 84, 200, 0.2);
+  }
+  
+  .form-select:focus, .form-control:focus {
+    border-color: #4e54c8;
+    box-shadow: 0 0 0 0.25rem rgba(78, 84, 200, 0.25);
+  }
+  
+  /* Animation for loading state */
+  @keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.6; }
+    100% { opacity: 1; }
+  }
+  
+  .bi-hourglass-split {
+    animation: pulse 1.5s infinite;
+  }

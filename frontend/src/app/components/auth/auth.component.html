@@ -1,0 +1,94 @@
+
+<div class="min-h-screen bg-[#f6f5f7] flex justify-center items-center flex-col font-['Montserrat'] -mt-5 mb-12">
+    <div [class]="'bg-white rounded-lg shadow-2xl relative overflow-hidden w-[768px] max-w-full min-h-[480px] ' + (isRightPanelActive ? 'right-panel-active' : '')"
+         #container>
+      <div *ngIf="isRightPanelActive" 
+      class="absolute top-0 h-full transition-all duration-600 ease-in-out left-0 w-1/2 z-10"
+      [ngClass]="{ 'transform translate-x-full opacity-100 z-20': isRightPanelActive,
+                   'opacity-0': !isRightPanelActive }">
+        <form [formGroup]="signUpForm" class="bg-white flex items-center justify-center flex-col px-12 h-full text-center">
+          <h1 class="font-bold m-0">Create Account</h1>
+          <div class="my-5">
+            <a *ngFor="let social of socialIcons" 
+               [href]="social.link" 
+               class="border border-[#DDDDDD] rounded-full inline-flex justify-center items-center m-0 h-10 w-10 mx-1">
+              <i [class]="social.icon"></i>
+            </a>
+          </div>
+          <span class="text-xs">or use your email for registration</span>
+          <input type="text" formControlName="username" placeholder="Username" 
+          class="bg-[#eee] border-none py-3 px-4 my-2 w-full"/>
+          <input type="email" formControlName="email" placeholder="Email" 
+                 class="bg-[#eee] border-none py-3 px-4 my-2 w-full"/>
+          <input type="password" formControlName="password" placeholder="Password" 
+                 class="bg-[#eee] border-none py-3 px-4 my-2 w-full"/>
+          <button (click)="onSignUp()" 
+                  class="rounded-[20px] border border-[#00b4d8] bg-[#00b4d8] text-white text-xs font-bold py-3 px-11 uppercase tracking-wider transition duration-80 ease-in hover:opacity-90 active:scale-95">
+            Sign Up
+          </button>
+        </form>
+      </div>
+  
+      <!-- Sign In Container -->
+      <div *ngIf="!isRightPanelActive"  class="absolute top-0 h-full transition-all duration-600 ease-in-out left-0 w-1/2 z-10"
+           [ngClass]="{ 'transform translate-x-full': isRightPanelActive }">
+        <form [formGroup]="signInForm" class="bg-white flex items-center justify-center flex-col px-12 h-full text-center">
+          <h1 class="font-bold m-0">Sign in</h1>
+          <div class="my-5">
+            <a *ngFor="let social of socialIcons" 
+               [href]="social.link" 
+               class="border border-[#DDDDDD] rounded-full inline-flex justify-center items-center m-0 h-10 w-10 mx-1">
+              <i [class]="social.icon"></i>
+            </a>
+          </div>
+          <span class="text-xs">or use your account</span>
+          <input type="text" formControlName="email" placeholder="email" 
+       class="bg-[#eee] border-none py-3 px-4 my-2 w-full"/>
+          <input type="password" formControlName="password" placeholder="Password" 
+                 class="bg-[#eee] border-none py-3 px-4 my-2 w-full"/>
+                 <a [routerLink]="['/resetPasswordemail']" class="text-sm text-[#333] no-underline my-4">Forgot your password?</a>
+          <button (click)="onSignIn()" 
+                  class="rounded-[20px] border border-[#00b4d8] bg-[#00b4d8] text-white text-xs font-bold py-3 px-11 uppercase tracking-wider transition duration-80 ease-in hover:opacity-90 active:scale-95">
+            Sign In
+          </button>
+        </form>
+      </div>
+  
+      <!-- Overlay Container -->
+      <div class="absolute top-0 left-1/2 w-1/2 h-full overflow-hidden transition transform duration-600 ease-in-out z-30"
+           [ngClass]="{ '-translate-x-full': isRightPanelActive }">
+        <div class="bg-gradient-to-r from-[#00b4d8] to-[#03045e] bg-no-repeat bg-cover bg-center text-white relative -left-full h-full w-[200%] transform transition duration-600 ease-in-out"
+             [ngClass]="{ 'translate-x-1/2': isRightPanelActive }">
+          
+          <!-- Overlay Left -->
+          <div class="absolute flex items-center justify-center flex-col px-10 text-center top-0 h-full w-1/2"
+               [ngClass]="{ 'translate-x-0': isRightPanelActive, '-translate-x-1/5': !isRightPanelActive }">
+            <h1 class="font-bold m-0">Welcome Back!</h1>
+            <p class="text-sm font-thin leading-5 tracking-wider my-5 mx-0">
+              To keep connected with us please login with your personal info
+            </p>
+            <button (click)="togglePanel(false)" 
+                    class="rounded-[20px] border border-white bg-transparent text-white text-xs font-bold py-3 px-11 uppercase tracking-wider transition duration-80 ease-in hover:bg-[#90e0ef] hover:text-[#00b4d8] active:scale-95">
+              Sign In
+            </button>
+          </div>
+          <div class="absolute right-0 flex items-center justify-center flex-col px-10 text-center top-0 h-full w-1/2"
+               [ngClass]="{ 'translate-x-1/5': isRightPanelActive }">
+            <h1 class="font-bold m-0">Hello, Friend!</h1>
+            <p class="text-sm font-thin leading-5 tracking-wider my-5 mx-0">
+              Enter your personal details and start journey with us
+            </p>
+            <button (click)="togglePanel(true)" 
+                    class="rounded-[20px] border border-white bg-transparent text-white text-xs font-bold py-3 px-11 uppercase tracking-wider transition duration-80 ease-in hover:bg-[#90e0ef] hover:text-[#00b4d8] active:scale-95">
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Footer -->
+    <footer class="bg-[#222] text-white text-sm fixed bottom-0 left-0 right-0 text-center z-50">
+      <p class="text-center">© 2023 Annuaire Médical. Tous droits réservés.</p>
+    </footer>
+</div>

@@ -1,0 +1,29 @@
+.translate-x-half {
+    transform: translateX(50%);
+  }
+  
+  .translate-x-one-fifth {
+    transform: translateX(20%);
+  }
+  
+  .-translate-x-half {
+    transform: translateX(-50%);
+  }
+  
+  .-translate-x-one-fifth {
+    transform: translateX(-20%);
+  }
+  .right-panel-active .sign-up-container {
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+  }
+  
+  .right-panel-active .overlay-container {
+    transform: translateX(-100%);
+  }
+  
+  .right-panel-active .overlay {
+    transform: translateX(50%);
+  }
+  

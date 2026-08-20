@@ -1,0 +1,55 @@
+<div class="overflow-x-auto">
+    <table class="min-w-full bg-white divide-y divide-gray-200 shadow-sm rounded-lg">
+      <thead class="bg-indigo-50">
+        <tr>
+          <th class="px-6 py-3 text-left text-xs font-medium text-indigo-700 uppercase tracking-wider">Adherent</th>
+          <th class="px-6 py-3 text-left text-xs font-medium text-indigo-700 uppercase tracking-wider">Doctor</th>
+          <th class="px-6 py-3 text-left text-xs font-medium text-indigo-700 uppercase tracking-wider">Date</th>
+          <th class="px-6 py-3 text-left text-xs font-medium text-indigo-700 uppercase tracking-wider">Amount</th>
+          <th class="px-6 py-3 text-left text-xs font-medium text-indigo-700 uppercase tracking-wider">Alerts</th>
+          <th class="px-6 py-3 text-left text-xs font-medium text-indigo-700 uppercase tracking-wider">Actions</th>
+        </tr>
+      </thead>
+      <tbody class="bg-white divide-y divide-gray-100">
+        <tr *ngFor="let result of results" 
+            [ngClass]="{'bg-gray-50': result.alerts!.length > 0}"
+            class="hover:bg-gray-50 transition-colors duration-150">
+          <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{{ result.adherantName }}</td>
+          <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700">{{ result.doctorName }}</td>
+          <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700">{{ result.movementDate | date }}</td>
+          <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{{ result.amount }}DT</td>
+          <td class="px-6 py-4 whitespace-nowrap">
+            <span 
+              *ngIf="result.alerts?.length"
+              class="px-3 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-indigo-100 text-indigo-800">
+              {{ result.alerts?.length }}
+            </span>
+            <span 
+              *ngIf="!result.alerts?.length"
+              class="px-3 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text-gray-700">
+              0
+            </span>
+          </td>
+          <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
+            <button
+              (click)="viewDetails.emit(result)"
+              class="px-3 py-1 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            >
+              Details
+            </button>
+          </td>
+        </tr>
+        <tr *ngIf="!results?.length">
+          <td colspan="6" class="px-6 py-10 text-center text-gray-500">
+            <div class="flex flex-col items-center">
+              <svg class="w-12 h-12 text-gray-300 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M12 20a8 8 0 100-16 8 8 0 000 16z"></path>
+              </svg>
+              <p class="text-lg font-medium text-gray-600">No records found</p>
+              <p class="text-sm text-gray-400">Try changing your search criteria</p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

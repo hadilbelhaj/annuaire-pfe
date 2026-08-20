@@ -1,0 +1,11 @@
+# Spring Boot (Maven) build folder
+backend/target/
+Python-model/venv
+
+# Angular build artifacts and dependencies
+frontend/dist/
+frontend/node_modules/
+
+# VS Code settings and OS files
+.vscode/
+.DS_Store

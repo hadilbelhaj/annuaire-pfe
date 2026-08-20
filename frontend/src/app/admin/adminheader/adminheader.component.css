@@ -1,0 +1,9 @@
+/* Add any custom styles you need here */
+:host {
+    display: block;
+  }
+  
+  /* Optional: Add a subtle gradient to the header */
+  header {
+    background: linear-gradient(to right, #4338ca, #5e54c8);
+  }

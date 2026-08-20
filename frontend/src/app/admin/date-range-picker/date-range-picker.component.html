@@ -1,0 +1,38 @@
+<div class="bg-white rounded-lg shadow p-4">
+    <h3 class="text-lg font-medium mb-3">Filter by Date Range</h3>
+    <form [formGroup]="dateRangeForm" (ngSubmit)="onSubmit()" class="space-y-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Start Date</label>
+          <input 
+            type="date" 
+            formControlName="startDate"
+            class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+          >
+          <div *ngIf="startDateControl.touched && startDateControl.invalid" class="mt-1 text-sm text-red-600">
+            Start date is required
+          </div>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">End Date</label>
+          <input 
+            type="date" 
+            formControlName="endDate"
+            class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+          >
+          <div *ngIf="endDateControl.touched && endDateControl.invalid" class="mt-1 text-sm text-red-600">
+            End date is required
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-end">
+        <button 
+          type="submit" 
+          [disabled]="dateRangeForm.invalid"
+          class="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:bg-indigo-300"
+        >
+          Apply Filter
+        </button>
+      </div>
+    </form>
+  </div>

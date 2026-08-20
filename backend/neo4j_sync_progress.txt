@@ -1,0 +1,7 @@
+schemaSetup=true
+adherentsCompleted=true
+doctorsCompleted=true
+claimsCompleted=false
+processedAdherents=5000
+processedDoctors=27987
+processedClaims=77000

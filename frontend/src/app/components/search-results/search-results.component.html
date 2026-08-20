@@ -1,0 +1,24 @@
+<!-- Main container component -->
+<app-header></app-header>
+
+<main class="container mx-auto px-4 py-8">
+  
+  <!-- Search Bar -->
+  <app-search></app-search>
+
+  <!-- Grid Layout Container -->
+  <div class="mt-8">
+    <div class="flex flex-row">
+      <!-- Left Column - Search Results -->
+      <div class="w-3/5 pr-4">
+        <app-professional-list></app-professional-list>
+      </div>
+
+      <!-- Right Column - Map -->
+      <div class="w-2/5">
+        <app-map></app-map>
+      </div>
+    </div>
+  </div>
+</main>
+

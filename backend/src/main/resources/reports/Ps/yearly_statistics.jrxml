@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd"
+              name="yearly_statistics"
+              pageWidth="595"
+              pageHeight="842"
+              columnWidth="535"
+              leftMargin="30"
+              rightMargin="30"
+              topMargin="20"
+              bottomMargin="20">
+
+    <style name="Title" fontSize="26" isBold="true" pdfFontName="Helvetica-Bold"/>
+    <style name="SubTitle" fontSize="16" isBold="true" pdfFontName="Helvetica-Bold"/>
+    <style name="SectionHeader" fontSize="14" isBold="true" pdfFontName="Helvetica-Bold"/>
+    <style name="Label" fontSize="11" isBold="true" pdfFontName="Helvetica-Bold"/>
+    <style name="Value" fontSize="11" pdfFontName="Helvetica"/>
+    <style name="Table_Header" fontSize="12" isBold="true" pdfFontName="Helvetica-Bold" backcolor="#E0E0E0"/>
+    <style name="Table_Row" fontSize="11" pdfFontName="Helvetica" backcolor="#FFFFFF"/>
+    <style name="Table_Row_Alt" fontSize="11" pdfFontName="Helvetica" backcolor="#F5F5F5"/>
+    <style name="Table_Alternate_Row" mode="Opaque">
+    <conditionalStyle>
+        <conditionExpression><![CDATA[$V{REPORT_COUNT} % 2 == 0]]></conditionExpression>
+        <style backcolor="#F8F8F8"/>
+    </conditionalStyle>
+    </style>
+    <!-- Define datasets for collections -->
+    <subDataset name="SpecialtyDataset">
+        <field name="specialty" class="java.lang.String"/>
+        <field name="count" class="java.lang.Long"/>
+    </subDataset>
+      <subDataset name="PrestationTypeDataset" uuid="12345678-1234-1234-1234-123456789abc">
+    <field name="prestationType" class="java.lang.String"/>
+    <field name="count" class="java.lang.Long"/>
+</subDataset>
+
+<subDataset name="ActePSDataset" uuid="23456789-2345-2345-2345-234567890123">
+    <field name="actePS" class="java.lang.String"/>
+    <field name="count" class="java.lang.Long"/>
+</subDataset>
+
+<subDataset name="FinancialAnalysisDataset" uuid="34567890-3456-3456-3456-345678901234">
+    <field name="prestationType" class="java.lang.String"/>
+    <field name="amount" class="java.math.BigDecimal"/>
+</subDataset>
+    
+    <subDataset name="TopProfessionalsDataset">
+        <field name="id" class="java.lang.Long"/>
+        <field name="name" class="java.lang.String"/>
+        <field name="specialty" class="java.lang.String"/>
+        <field name="region" class="java.lang.String"/>
+        <field name="patientCount" class="java.lang.Integer"/>
+        <field name="totalAmount" class="java.math.BigDecimal"/>
+        <field name="averageAmount" class="java.math.BigDecimal"/>
+    </subDataset>
+    <!-- Parameters defined in JasperReportService -->
+    <parameter name="statisticsQrCode" class="java.io.InputStream"/>
+    <parameter name="specialtyChartImage" class="java.io.InputStream"/>
+    <parameter name="reportTitle" class="java.lang.String"/>
+     <parameter name="topProfessionalsDataSource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+    <parameter name="period" class="java.lang.String"/>
+    <parameter name="periodType" class="java.lang.String"/>
+    <parameter name="totalMonetaryValue" class="java.math.BigDecimal"/>
+    <parameter name="averageTransactionAmount" class="java.math.BigDecimal"/>
+    <parameter name="highestActivityRegion" class="java.lang.String"/>
+    <parameter name="lowestActivityRegion" class="java.lang.String"/>
+    <parameter name="growthPercentage" class="java.math.BigDecimal"/>
+    <parameter name="generatedAt" class="java.lang.String"/>
+    <parameter name="topProfessionalByPatientCountName" class="java.lang.String"/>
+    <parameter name="topProfessionalByTransactionAmountName" class="java.lang.String"/>
+    <parameter name="topProfessionalByAverageValueName" class="java.lang.String"/>
+    <parameter name="specialtyDataSource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+    <parameter name="prestationTypeChartImage" class="java.io.InputStream"/>
+<parameter name="actePSChartImage" class="java.io.InputStream"/>
+<parameter name="financialAnalysisChartImage" class="java.io.InputStream"/>
+<parameter name="prestationTypeDataSource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+<parameter name="actePSDataSource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+<parameter name="financialAnalysisDataSource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+   
+
+    <!-- Field definitions for specialty counts -->
+    <field name="specialty" class="java.lang.String"/>
+    <field name="count" class="java.lang.Long"/>
+
+    <title>
+        <band height="100" splitType="Immediate">
+            <textField>
+                <reportElement style="Title" x="0" y="10" width="535" height="40"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle"/>
+                <textFieldExpression><![CDATA[$P{reportTitle}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement style="Value" x="0" y="60" width="535" height="20"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle"/>
+                <textFieldExpression><![CDATA["Report Generated: " + $P{generatedAt}]]></textFieldExpression>
+            </textField>
+            <line>
+                <reportElement x="0" y="90" width="535" height="1"/>
+            </line>
+        </band>
+    </title>
+
+    <detail>
+        <band height="800" splitType="Immediate">
+            <!-- Key Metrics Section -->
+            <staticText>
+                <reportElement style="SectionHeader" x="0" y="10" width="535" height="25"/>
+                <textElement verticalAlignment="Middle"/>
+                <text><![CDATA[Key Metrics]]></text>
+            </staticText>
+            
+            <staticText>
+                <reportElement style="Label" x="20" y="40" width="240" height="20"/>
+                <textElement verticalAlignment="Middle"/>
+                <text><![CDATA[Total Monetary Value:]]></text>
+            </staticText>
+            <textField pattern="TND #,##0.00">
+                <reportElement style="Value" x="260" y="40" width="275" height="20"/>
+                <textElement verticalAlignment="Middle"/>
+                <textFieldExpression><![CDATA[$P{totalMonetaryValue}]]></textFieldExpression>
+            </textField>
+            
+            <staticText>
+                <reportElement style="Label" x="20" y="60" width="240" height="20"/>
+                <textElement verticalAlignment="Middle"/>
+                <text><![CDATA[Average Transaction Amount:]]></text>
+            </staticText>
+            <textField pattern="TND #,##0.00">
+                <reportElement style="Value" x="260" y="60" width="275" height="20"/>
+                <textElement verticalAlignment="Middle"/>
+                <textFieldExpression><![CDATA[$P{averageTransactionAmount}]]></textFieldExpression>
+            </textField>
+            
+            <staticText>
+                <reportElement style="Label" x="20" y="80" width="240" height="20"/>
+                <textElement verticalAlignment="Middle"/>
+                <text><![CDATA[Year-over-Year Growth:]]></text>
+            </staticText>
+            <textField pattern="#,##0.00%">
+                <reportElement style="Value" x="260" y="80" width="275" height="20"/>
+                <textElement verticalAlignment="Middle"/>
+                <textFieldExpression><![CDATA[$P{growthPercentage}.divide(java.math.BigDecimal.valueOf(100))]]></textFieldExpression>
+            </textField>
+            
+            <staticText>
+                <reportElement style="Label" x="20" y="100" width="240" height="20"/>
+                <textElement verticalAlignment="Middle"/>
+                <text><![CDATA[Highest Activity Region:]]></text>
+            </staticText>
+            <textField>
+                <reportElement style="Value" x="260" y="100" width="275" height="20"/>
+                <textElement verticalAlignment="Middle"/>
+                <textFieldExpression><![CDATA[$P{highestActivityRegion}]]></textFieldExpression>
+            </textField>
+            
+            <staticText>
+                <reportElement style="Label" x="20" y="120" width="240" height="20"/>
+                <textElement verticalAlignment="Middle"/>
+                <text><![CDATA[Lowest Activity Region:]]></text>
+            </staticText>
+            <textField>
+                <reportElement style="Value" x="260" y="120" width="275" height="20"/>
+                <textElement verticalAlignment="Middle"/>
+                <textFieldExpression><![CDATA[$P{lowestActivityRegion}]]></textFieldExpression>
+            </textField>
+            
+            <!-- Top Performing Professionals Section -->
+            <staticText>
+                <reportElement style="SectionHeader" x="0" y="160" width="535" height="25"/>
+                <textElement verticalAlignment="Middle"/>
+                <text><![CDATA[Top Performing Healthcare Professionals]]></text>
+            </staticText>
+            
+            <staticText>
+                <reportElement style="Label" x="20" y="190" width="240" height="20"/>
+                <textElement verticalAlignment="Middle"/>
+                <text><![CDATA[Top Professional by Patient Count:]]></text>
+            </staticText>
+            <textField>
+                <reportElement style="Value" x="260" y="190" width="275" height="20"/>
+                <textElement verticalAlignment="Middle"/>
+                <textFieldExpression><![CDATA[$P{topProfessionalByPatientCountName}]]></textFieldExpression>
+            </textField>
+            
+            <staticText>
+                <reportElement style="Label" x="20" y="210" width="240" height="20"/>
+                <textElement verticalAlignment="Middle"/>
+                <text><![CDATA[Top Professional by Transaction Amount:]]></text>
+            </staticText>
+            <textField>
+                <reportElement style="Value" x="260" y="210" width="275" height="20"/>
+                <textElement verticalAlignment="Middle"/>
+                <textFieldExpression><![CDATA[$P{topProfessionalByTransactionAmountName}]]></textFieldExpression>
+            </textField>
+            
+            <staticText>
+                <reportElement style="Label" x="20" y="230" width="240" height="20"/>
+                <textElement verticalAlignment="Middle"/>
+                <text><![CDATA[Top Professional by Average Value:]]></text>
+            </staticText>
+            <textField>
+                <reportElement style="Value" x="260" y="230" width="275" height="20"/>
+                <textElement verticalAlignment="Middle"/>
+                <textFieldExpression><![CDATA[$P{topProfessionalByAverageValueName}]]></textFieldExpression>
+            </textField>
+            
+            <!-- Specialty Transaction Volumes Section -->
+            <staticText>
+                <reportElement style="SectionHeader" x="0" y="270" width="535" height="25"/>
+                <textElement verticalAlignment="Middle"/>
+                <text><![CDATA[Specialty Transaction Volumes]]></text>
+            </staticText>
+            <image>
+                <reportElement x="20" y="300" width="520" height="350"/>
+                <imageExpression><![CDATA[$P{specialtyChartImage}]]></imageExpression>
+            </image>  
+            <break>
+                <reportElement x="0" y="560" width="1" height="1"/>
+            </break>      
+            <!-- Top Professionals Table -->
+            <staticText>
+                <reportElement style="SectionHeader"  x="0" y="610" width="535" height="25"/>
+                <textElement verticalAlignment="Middle"/>
+                <text><![CDATA[Top 10 Healthcare Professionals]]></text>
+            </staticText>
+            
+            <componentElement>
+            <reportElement x="0" y="640" width="535" height="150"/>
+            <c:table xmlns:c="http://jasperreports.sourceforge.net/jasperreports/components" 
+                    xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components 
+                    http://jasperreports.sourceforge.net/xsd/components.xsd">
+                <datasetRun subDataset="TopProfessionalsDataset">
+                    <dataSourceExpression><![CDATA[$P{topProfessionalsDataSource}]]></dataSourceExpression>
+                </datasetRun>
+                
+                <!-- Column definitions with improved styling and proportions -->
+                <c:column width="150">
+                    <c:columnHeader height="35">
+                        <frame>
+                            <reportElement style="Table_Header" mode="Opaque" backcolor="#0066CC" x="0" y="0" width="150" height="35"/>
+                            <staticText>
+                                <reportElement x="5" y="0" width="140" height="35" forecolor="#FFFFFF"/>
+                                <textElement verticalAlignment="Middle">
+                                    <font size="11" isBold="true"/>
+                                </textElement>
+                                <text><![CDATA[Healthcare Professional]]></text>
+                            </staticText>
+                        </frame>
+                    </c:columnHeader>
+                    <c:detailCell height="25" style="Table_Alternate_Row">
+                        <frame>
+                            <reportElement style="Table_Row" x="0" y="0" width="150" height="25"/>
+                            <textField>
+                                <reportElement x="5" y="0" width="140" height="25"/>
+                                <textElement verticalAlignment="Middle">
+                                    <font size="10"/>
+                                </textElement>
+                                <textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+                            </textField>
+                        </frame>
+                    </c:detailCell>
+                </c:column>
+                
+                <c:column width="100">
+                    <c:columnHeader height="35">
+                        <frame>
+                            <reportElement style="Table_Header" mode="Opaque" backcolor="#0066CC" x="0" y="0" width="100" height="35"/>
+                            <staticText>
+                                <reportElement x="5" y="0" width="90" height="35" forecolor="#FFFFFF"/>
+                                <textElement verticalAlignment="Middle">
+                                    <font size="11" isBold="true"/>
+                                </textElement>
+                                <text><![CDATA[Specialty]]></text>
+                            </staticText>
+                        </frame>
+                    </c:columnHeader>
+                    <c:detailCell height="25" style="Table_Alternate_Row">
+                        <frame>
+                            <reportElement style="Table_Row" x="0" y="0" width="100" height="25"/>
+                            <textField>
+                                <reportElement x="5" y="0" width="90" height="25"/>
+                                <textElement verticalAlignment="Middle">
+                                    <font size="10"/>
+                                </textElement>
+                                <textFieldExpression><![CDATA[$F{specialty}]]></textFieldExpression>
+                            </textField>
+                        </frame>
+                    </c:detailCell>
+                </c:column>
+                
+                <c:column width="85">
+                    <c:columnHeader height="35">
+                        <frame>
+                            <reportElement style="Table_Header" mode="Opaque" backcolor="#0066CC" x="0" y="0" width="85" height="35"/>
+                            <staticText>
+                                <reportElement x="5" y="0" width="75" height="35" forecolor="#FFFFFF"/>
+                                <textElement verticalAlignment="Middle">
+                                    <font size="11" isBold="true"/>
+                                </textElement>
+                                <text><![CDATA[Region]]></text>
+                            </staticText>
+                        </frame>
+                    </c:columnHeader>
+                    <c:detailCell height="25" style="Table_Alternate_Row">
+                        <frame>
+                            <reportElement style="Table_Row" x="0" y="0" width="85" height="25"/>
+                            <textField>
+                                <reportElement x="5" y="0" width="75" height="25"/>
+                                <textElement verticalAlignment="Middle">
+                                    <font size="10"/>
+                                </textElement>
+                                <textFieldExpression><![CDATA[$F{region}]]></textFieldExpression>
+                            </textField>
+                        </frame>
+                    </c:detailCell>
+                </c:column>
+                
+                <c:column width="60">
+                    <c:columnHeader height="35">
+                        <frame>
+                            <reportElement style="Table_Header" mode="Opaque" backcolor="#0066CC" x="0" y="0" width="60" height="35"/>
+                            <staticText>
+                                <reportElement x="5" y="0" width="50" height="35" forecolor="#FFFFFF"/>
+                                <textElement verticalAlignment="Middle">
+                                    <font size="11" isBold="true"/>
+                                </textElement>
+                                <text><![CDATA[Patients]]></text>
+                            </staticText>
+                        </frame>
+                    </c:columnHeader>
+                    <c:detailCell height="25" style="Table_Alternate_Row">
+                        <frame>
+                            <reportElement style="Table_Row" x="0" y="0" width="60" height="25"/>
+                            <textField>
+                                <reportElement x="5" y="0" width="50" height="25"/>
+                                <textElement verticalAlignment="Middle" textAlignment="Right">
+                                    <font size="10"/>
+                                </textElement>
+                                <textFieldExpression><![CDATA[$F{patientCount}]]></textFieldExpression>
+                            </textField>
+                        </frame>
+                    </c:detailCell>
+                </c:column>
+                
+                <c:column width="70">
+                    <c:columnHeader height="35">
+                        <frame>
+                            <reportElement style="Table_Header" mode="Opaque" backcolor="#0066CC" x="0" y="0" width="70" height="35"/>
+                            <staticText>
+                                <reportElement x="5" y="0" width="60" height="35" forecolor="#FFFFFF"/>
+                                <textElement verticalAlignment="Middle">
+                                    <font size="11" isBold="true"/>
+                                </textElement>
+                                <text><![CDATA[Total Value]]></text>
+                            </staticText>
+                        </frame>
+                    </c:columnHeader>
+                    <c:detailCell height="25" style="Table_Alternate_Row">
+                        <frame>
+                            <reportElement style="Table_Row" x="0" y="0" width="70" height="25"/>
+                            <textField pattern="TND #,##0.00">
+                                <reportElement x="5" y="0" width="60" height="25"/>
+                                <textElement verticalAlignment="Middle" textAlignment="Right">
+                                    <font size="10"/>
+                                </textElement>
+                                <textFieldExpression><![CDATA[$F{totalAmount}]]></textFieldExpression>
+                            </textField>
+                        </frame>
+                    </c:detailCell>
+                </c:column>
+                
+                <c:column width="70">
+                    <c:columnHeader height="35">
+                        <frame>
+                            <reportElement style="Table_Header" mode="Opaque" backcolor="#0066CC" x="0" y="0" width="70" height="35"/>
+                            <staticText>
+                                <reportElement x="5" y="0" width="60" height="35" forecolor="#FFFFFF"/>
+                                <textElement verticalAlignment="Middle">
+                                    <font size="11" isBold="true"/>
+                                </textElement>
+                                <text><![CDATA[Avg Value]]></text>
+                            </staticText>
+                        </frame>
+                    </c:columnHeader>
+                    <c:detailCell height="25" style="Table_Alternate_Row">
+                        <frame>
+                            <reportElement style="Table_Row" x="0" y="0" width="70" height="25"/>
+                            <textField pattern="TND #,##0.00">
+                                <reportElement x="5" y="0" width="60" height="25"/>
+                                <textElement verticalAlignment="Middle" textAlignment="Right">
+                                    <font size="10"/>
+                                </textElement>
+                                <textFieldExpression><![CDATA[$F{averageAmount}]]></textFieldExpression>
+                            </textField>
+                        </frame>
+                    </c:detailCell>
+                </c:column>
+            </c:table>
+        </componentElement>
+        </band>
+          <band height="650">
+            <staticText>
+                <reportElement style="SectionHeader" x="0" y="20" width="535" height="30"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle"/>
+                <text><![CDATA[Prestation Type Analysis]]></text>
+            </staticText>
+            
+            <staticText>
+                <reportElement x="20" y="60" width="515" height="40"/>
+                <textElement>
+                    <font size="11"/>
+                </textElement>
+                <text><![CDATA[This section shows the distribution of different prestation types handled by healthcare professionals during the reporting period, helping identify the most common service categories.]]></text>
+            </staticText>
+            
+            <image>
+                 <reportElement x="17" y="110" width="500" height="450"/>
+                <imageExpression><![CDATA[$P{prestationTypeChartImage}]]></imageExpression>
+            </image>
+        </band>
+        <!-- Add this after the closing band tag of the prestation type section -->
+<band height="5">
+    <break>
+        <reportElement x="0" y="0" width="1" height="1"/>
+    </break>
+</band>
+
+<!-- ActePS Distribution Chart -->
+<band height="650">
+    <staticText>
+        <reportElement style="SectionHeader" x="0" y="20" width="535" height="30"/>
+        <textElement textAlignment="Center" verticalAlignment="Middle"/>
+        <text><![CDATA[ActePS Distribution Analysis]]></text>
+    </staticText>
+    
+    <staticText>
+        <reportElement x="20" y="60" width="515" height="40"/>
+        <textElement>
+            <font size="11"/>
+        </textElement>
+        <text><![CDATA[This section shows the distribution of different ActePS transactions handled by healthcare professionals during the reporting period, helping identify the most common procedure codes.]]></text>
+    </staticText>
+    
+    <image>
+        <reportElement x="17" y="110" width="500" height="450"/>
+        <imageExpression><![CDATA[$P{actePSChartImage}]]></imageExpression>
+    </image>
+</band>
+
+<!-- Add page break -->
+<band height="5">
+    <break>
+        <reportElement x="0" y="0" width="1" height="1"/>
+    </break>
+</band>
+
+<!-- Financial Analysis Chart -->
+<band height="650">
+    <staticText>
+        <reportElement style="SectionHeader" x="0" y="20" width="535" height="30"/>
+        <textElement textAlignment="Center" verticalAlignment="Middle"/>
+        <text><![CDATA[Revenue Analysis by Prestation Type]]></text>
+    </staticText>
+    
+    <staticText>
+        <reportElement x="20" y="60" width="515" height="40"/>
+        <textElement>
+            <font size="11"/>
+        </textElement>
+        <text><![CDATA[This section shows the revenue distribution across different prestation types, helping identify the highest revenue-generating service categories during the reporting period.]]></text>
+    </staticText>
+    
+    <image>
+        <reportElement x="17" y="110" width="500" height="450"/>
+        <imageExpression><![CDATA[$P{financialAnalysisChartImage}]]></imageExpression>
+    </image>
+</band>
+<band height="150">
+    <staticText>
+        <reportElement style="Label" x="0" y="20" width="535" height="30"/>
+        <textElement textAlignment="Right" verticalAlignment="Middle">
+            <font size="10" isBold="true"/>
+        </textElement>
+        <text><![CDATA[Scan for report verification:]]></text>
+    </staticText>
+    
+    <image>
+        <reportElement x="435" y="50" width="100" height="100"/>
+        <imageExpression><![CDATA[$P{statisticsQrCode}]]></imageExpression>
+    </image>
+</band>
+    </detail>
+</jasperReport>

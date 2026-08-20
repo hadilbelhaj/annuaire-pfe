@@ -1,0 +1,140 @@
+<!-- Success Message -->
+<div *ngIf="submitSuccess" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 backdrop-blur-sm z-50">
+  <div class="max-w-lg w-full mx-auto p-10 bg-gradient-to-br from-white to-gray-50 rounded-2xl shadow-xl">
+    <div class="text-center">
+      <!-- Success icon -->
+      <div class="mx-auto flex items-center justify-center h-24 w-24 rounded-full bg-green-50 mb-8">
+        <svg class="h-14 w-14 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+        </svg>
+      </div>
+      
+      <!-- Success message -->
+      <h2 class="text-3xl font-bold text-gray-900 mb-3">Success!</h2>
+      <p class="text-xl text-gray-600 mb-10">Your suggestion was submitted successfully.</p>
+      
+      <!-- Button -->
+      <button 
+        (click)="goToHomePage()" 
+        class="w-full flex items-center justify-center px-6 py-4 text-base font-medium rounded-xl text-white bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-all duration-300 shadow-lg"
+      >
+        <svg class="h-5 w-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+        </svg>
+        Return to Home Page
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Form Content (only shown when not success) -->
+<div *ngIf="!submitSuccess" class="relative">
+  <!-- Back arrow positioned at the far left -->
+  <a href="/" class="fixed top-8 left-8 inline-flex items-center text-indigo-600 hover:text-indigo-800 group transition-all duration-200">
+    <svg class="h-5 w-5 mr-2 transform group-hover:-translate-x-1 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+      <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+    </svg>
+    <span class="font-medium">Back to Home Page</span>
+  </a>
+  
+  <div class="max-w-3xl mx-auto py-12 px-6">
+    <div class="mb-12">
+      <h2 class="text-3xl font-bold text-gray-900 mb-4">Suggest a New Feature</h2>
+      <div class="h-1 w-20 bg-indigo-600 rounded"></div>
+    </div>
+  
+  <p class="mb-8 text-lg text-gray-600">
+    Help us improve our healthcare platform! Submit your ideas for new features or enhancements that would make our platform more useful.
+  </p>
+  
+  <div *ngIf="formError" class="flex items-center space-x-3 bg-red-50 border-l-4 border-red-500 text-red-700 p-5 mb-8 rounded-r" role="alert">
+    <svg class="h-6 w-6 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+    </svg>
+    <p>{{ formError }}</p>
+  </div>
+  
+  <form [formGroup]="suggestionForm" (ngSubmit)="onSubmit()" class="space-y-8">
+    <div>
+      <label for="title" class="block text-sm font-medium text-gray-700 mb-2">Title</label>
+      <input 
+        type="text" 
+        id="title" 
+        formControlName="title" 
+        class="w-full px-4 py-3 rounded-xl border-0 shadow-sm ring-1 ring-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-200"
+        placeholder="Brief title for your suggestion"
+      >
+      <div *ngIf="submitted && f['title'].errors" class="text-red-500 text-sm mt-2">
+        <div *ngIf="f['title'].errors['required']">Title is required</div>
+        <div *ngIf="f['title'].errors['minlength']">Title must be at least 5 characters</div>
+        <div *ngIf="f['title'].errors['maxlength']">Title cannot exceed 100 characters</div>
+      </div>
+    </div>
+    
+    <div>
+      <label for="category" class="block text-sm font-medium text-gray-700 mb-2">Category</label>
+      <div class="relative">
+        <select 
+          id="category" 
+          formControlName="category" 
+          class="w-full px-4 py-3 rounded-xl border-0 shadow-sm ring-1 ring-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 appearance-none transition duration-200"
+        >
+          <option *ngFor="let category of categories" [value]="category">{{ category }}</option>
+        </select>
+        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-gray-500">
+          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+          </svg>
+        </div>
+      </div>
+      <div *ngIf="submitted && f['category'].errors" class="text-red-500 text-sm mt-2">
+        <div *ngIf="f['category'].errors['required']">Category is required</div>
+      </div>
+    </div>
+    
+    <div>
+      <label for="description" class="block text-sm font-medium text-gray-700 mb-2">Description</label>
+      <textarea 
+        id="description" 
+        formControlName="description" 
+        rows="7" 
+        class="w-full px-4 py-3 rounded-xl border-0 shadow-sm ring-1 ring-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-200"
+        placeholder="Detailed description of your suggestion. Please be specific about what you'd like to see and how it would benefit users."
+      ></textarea>
+      <div class="flex justify-between items-center mt-2">
+        <div *ngIf="submitted && f['description'].errors" class="text-red-500 text-sm">
+          <div *ngIf="f['description'].errors['required']">Description is required</div>
+          <div *ngIf="f['description'].errors['minlength']">Description must be at least 20 characters</div>
+          <div *ngIf="f['description'].errors['maxlength']">Description cannot exceed 1000 characters</div>
+        </div>
+        <div class="text-sm text-gray-500" *ngIf="f['description'].value">
+          {{ f['description'].value.length }}/1000 characters
+        </div>
+      </div>
+    </div>
+    
+    <div class="flex items-center justify-between pt-6">
+      <button 
+        type="button" 
+        (click)="reset()" 
+        class="px-5 py-3 rounded-xl shadow-sm text-sm font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition duration-200"
+      >
+        Reset
+      </button>
+      <button 
+        type="submit" 
+        [disabled]="isSubmitting" 
+        class="px-8 py-3 rounded-xl shadow-md text-sm font-medium text-white bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:opacity-50 transition duration-300"
+      >
+        <span *ngIf="isSubmitting" class="flex items-center">
+          <svg class="animate-spin -ml-1 mr-2 h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+          </svg>
+          Submitting...
+        </span>
+        <span *ngIf="!isSubmitting">Submit Suggestion</span>
+      </button>
+    </div>
+  </form>
+</div>
